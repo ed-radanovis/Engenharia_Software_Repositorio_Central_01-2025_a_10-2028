@@ -1,13 +1,5 @@
 <DOCUMENT filename="README.md">
 
-<div align="center">
-
-### Linguagens Dominadas no Curso
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ed-radanovis&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=7c3aed&hide=html,css,scss)
-
-</div>
-
 # Repositório Central
 
 ## Bacharelado Engenharia de Software
@@ -17,6 +9,18 @@
 <p align="center">
 <img src="/github/logo_finalizado-red.jpg" min-width="100px" width="150 min-height="100px" height=150x" alt="logo bootcamp">
 </p>
+
+---
+
+<div align="center">
+
+#### Most Used Languages
+
+<br>
+
+![Linguagens](https://img.shields.io/badge/Python-35,40%25-3776AB?logo=python)&nbsp;&nbsp;&nbsp;&nbsp;![Linguagens](https://img.shields.io/badge/JavaScript-9,50%25-F7DF1E?logo=javascript)&nbsp;&nbsp;&nbsp;&nbsp;![Linguagens](https://img.shields.io/badge/HTML-14,20%25-E34F26?logo=html5)&nbsp;&nbsp;&nbsp;&nbsp;![Linguagens](https://img.shields.io/badge/CSS-33,40%25-1572B6?logo=css3)&nbsp;&nbsp;&nbsp;&nbsp;![C](https://img.shields.io/badge/C-7,50%25-00427E?logo=c&logoColor=white)
+
+</div>
 
 ---
 
