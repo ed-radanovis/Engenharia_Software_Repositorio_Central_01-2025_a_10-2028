@@ -7,7 +7,7 @@
 ---
 
 <p align="center">
-<img src="/github/logo_finalizado-red.jpg" min-width="100px" width="150 min-height="100px" height=150x" alt="logo bootcamp">
+<img src="/github/logo_finalizado-red.jpg" min-width="100px" width="150 min-height="100px" height=150x" alt="logo Anhaguera">
 </p>
 
 ---
@@ -283,7 +283,7 @@ O conteúdo tem finalidade educativa e de construção de portfólio. Fique à v
   <tr>
     <td align="center">
       <a href="https://edwebdev.vercel.app/">
-        <img src="/github/fundo_linkedin_atual_4_11-25.png" width="1000px" height="200px" alt="Sua foto"/><br>
+        <img src="/github/fundo_linkedin_atual_4_11-25.png" width="1000px" height="200px" alt="Logo EWD Apex"/><br>
         <sub><b>Ed Web Dev</b></sub><br>
       </a>
     </td>

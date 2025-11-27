@@ -47,6 +47,19 @@ Clique aqui para testar... obrigado pelo seu interesse!
 
 ---
 
+### 📚 Pré-requisitos
+
+- [ ] Antes de iniciar este projeto, você deve ter conhecimento básico nas seguintes áreas:
+      <br>
+
+- **HTML Básico :** Estrutura semântica de páginas web, tags fundamentais (`<header>` , `<nav>` , `<ul>` , `<li>`), e atributos.
+- **CSS Intermediário :** Seletores, box model, Flexbox/Grid, media queries, e propriedades de animação / transição.
+- **JavaScript Essencial :** Manipulação do DOM, eventos (click, mouseover), funções, e condicionais.
+- **Design Responsivo :** Conceitos de breakpoints, mobile-first, e adaptação a diferentes tamanhos de tela.
+- **Acessibilidade Web :** Noções básicas de ARIA attributes e navegação por teclado.
+
+---
+
 ### ✨ Ajustes e melhorias
 
 O proposta da atividade foi totalmente concluída, o que Inclui a HomePage e AboutPage.
@@ -56,6 +69,8 @@ O proposta da atividade foi totalmente concluída, o que Inclui a HomePage e Abo
 ---
 
 ### 🛠️ Tecnologias Utilizadas
+
+A Atvidade foi desenvolvida utilizando:
 
 - [x] **Frontend**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5)](https://developer.mozilla.org/en-US/docs/Web/HTML) &nbsp;&nbsp;[<img src="https://raw.githubusercontent.com/ed-radanovis/Soft-App-Memes-Machine-DIO-11-2022/refs/heads/master/assets/github/mini_logo_css.png" width="16px" alt="CSS Icon">![CSS](https://img.shields.io/badge/-CSS-333333?style=flat&logo=CSS3&logoColor=1572B6)](https://developer.mozilla.org/en-US/docs/Web/CSS)&nbsp;&nbsp;[![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
       <br>
@@ -69,91 +84,104 @@ O proposta da atividade foi totalmente concluída, o que Inclui a HomePage e Abo
 - [x] **Planejamento e Edição**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Figma](https://img.shields.io/badge/-Figma-333333?style=flat&logo=figma&logoColor=007ACC)](https://figma.com/)&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/ed-radanovis/Soft-App-Memes-Machine-DIO-11-2022/6c046ddb9cd516f3cea41a8abbb1318fc3e6d8d1/assets/github/mini_logo_vscode.png" width="21px" alt="VS Code Icon">[![Visual Studio Code](https://img.shields.io/badge/-Visual_Studio_Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC)](https://code.visualstudio.com/)
       <br>
 
-#### ⚙️ Steps for the project
+#### ⚙️ Etapas do projeto
 
-✔️ - Planning: The project was structured with a focus on a functional mini app, **avoiding complex dependencies**, while prioritizing a clean, **maintainable** codebase.<br>
-✔️ - Configure the environment:
+✔️ - Planejamento: O projeto foi estruturado com foco em um miniaplicativo funcional, **evitando dependências complexas** e priorizando um código limpo e **de fácil manutenção**.<br>
+✔️ - Configurar o ambiente:
 
-- [ ] If you choose, clone the repository:
+- [ ] Se desejar, clone o repositório:
 
 ```bash
-git clone https://github.com/ed-radanovis/Eng_Software_U3-A2_05-2025.git
+
+📝 Nota => Método recomendado - para clonar apenas este diretório e não todo o repositório :
+
+git clone --depth 1 --filter=blob:none --sparse https://github.com/ed-radanovis/Engenharia_Software_Repositorio_Central_01-2025_a_10-2028.git
+cd Engenharia_Software_Repositorio_Central_01-2025_a_10-2028
+git sparse-checkout set "1º_semestre/1º-Desenvolvimento_Responsivo_disciplina_isolada/atividades/Frontend_com_Framework_HTML_CSS_JS"
 ```
 
-- [ ] Navigate to the project folder: `cd Eng_Software_U3-A2_05-2025` or the folder you created and named.
+- [ ] Navegue até a pasta do projeto: `cd Frontend_com_Framework_HTML_CSS_JS` ou a pasta que você criou e nomeou.
 
 ---
 
 #### 🖥️ Frontend
 
-✔️ - Navigate to the root of the project: where ` index.html, src/css/, src/js/,` and `src/images/ ` are located.<br>
-✔️ - Make sure the dependencies are available:
+✔️ - Navegue até a raiz do projeto: onde estão localizados os arquivos `index.html`, `src/css/`, `src/js/` e `src/images/`.<br>
+✔️ - Certifique-se de que as dependências estejam disponíveis:
 
-- [x] &nbsp;&nbsp;&nbsp;Download external libraries like `typed.js` , ` jquery` , `jquery-easing` , `ionicons` as linked in the `<head> ` of index.html.
-- [x] &nbsp;&nbsp;&nbsp;Make sure the src/images/ folder contains the required resources (e.g. background.png, logo.png, mascot.png, etc).
+- [x] &nbsp;&nbsp;&nbsp;Baixe bibliotecas externas como `typed.js`, `jquery`, `jquery-easing` e `ionicons`, conforme os links no cabeçalho (`<head>`) do arquivo `index.html`.
 
-✔️ - Open the `index.html` file directly in the browser or host it via `GitHub Pages`. <br>
+- [x] &nbsp;&nbsp;&nbsp;Certifique-se de que a pasta `src/images/` contenha os recursos necessários (por exemplo, `background.png`, `logo.png`, `mascote.png`, etc.).
 
----
-
-#### 🌐 Deployment
-
-✔️ - Hosting on GitHub Pages (free tier):
-
-- [x] &nbsp;&nbsp;&nbsp; Go to [GitHub](https://github.com).
-- [x] &nbsp;&nbsp;&nbsp; Navigate to your repository (e.g., `https://github.com/repository-created-by-you`).
-- [x] &nbsp;&nbsp;&nbsp; Enable GitHub Pages: Go to the repository settings, scroll to the **_`"Pages"`_** section, select the branch (e.g., `main` or `gh-pages`), and set the root directory to `/` (project root).
-- [x] &nbsp;&nbsp;&nbsp; Deploy and access the generated URL (e.g., `https://your-username.github.io/repository-name/`).
-
-✔️ - Optional Hosting on Render (free tier):
-
-- [ ] &nbsp;&nbsp;&nbsp; Go to [Render](https://render.com).
-- [ ] &nbsp;&nbsp;&nbsp; Create a new Static Site, connect the repository `https://github.com/repository-created-by-you`.
-- [ ] &nbsp;&nbsp;&nbsp; Set the root directory to `/` (project root).
-- [ ] &nbsp;&nbsp;&nbsp; Deploy and access the generated URL (e.g., `https://your-app-name.onrender.com`).
+✔️ - Abra o arquivo `index.html` diretamente no navegador ou hospede-o no `GitHub Pages`.<br>
 
 ---
 
-#### 🔬 Testing
+#### 🌐 Implantação
 
-✔️ - Manual Testing:
+✔️ - Hospedagem no GitHub Pages (plano gratuito):
 
-- [x] &nbsp;&nbsp;&nbsp; Check the responsive behavior with DevTools (F12 > Toggle Device Toolbar) or another tool of your choice, to simulate across smartphones (max-width: 885px), tablets (886px-1024px), Full HD (1920px+), and 4K (3840px+) screens.
-- [x] &nbsp;&nbsp;&nbsp; Test the hamburger toggle and submenu interactions on mobile devices.
-- [x] &nbsp;&nbsp;&nbsp;Verify accessibility features (e.g. semantic tags, keyboard navigation, NonVisual Desktop Access (NVDA)) using Browser DevTools, ensuring compatibility and usability.
+- [x] &nbsp;&nbsp;&nbsp; Acesse o [GitHub](https://github.com).
+- [x] &nbsp;&nbsp;&nbsp; Navegue até o seu repositório (por exemplo, `https://github.com/repository-created-by-you`).
+- [x] &nbsp;&nbsp;&nbsp; Habilite o GitHub Pages: Acesse as configurações do repositório, role até a seção **_`"Pages"`_**, selecione a branch (por exemplo, `main` ou `gh-pages`) e defina o diretório raiz como `/` (raiz do projeto).
+- [x] &nbsp;&nbsp;&nbsp; Suba e acesse a URL gerada (por exemplo, `https://seu-nome-de-usuário.github.io/nome-do-repositório/`).
+
+✔️ - Hospedagem opcional no Render (plano gratuito):
+
+- [ ] &nbsp;&nbsp;&nbsp; Acesse o [Render](https://render.com).
+- [ ] &nbsp;&nbsp;&nbsp; Crie um novo Site Estático e conecte-o ao repositório `https://github.com/repository-created-by-you`.
+- [ ] &nbsp;&nbsp;&nbsp; Defina o diretório raiz como `/` (raiz do projeto).
+- [ ] &nbsp;&nbsp;&nbsp; Suba e acesse a URL gerada (por exemplo, `https://nome-do-seu-aplicativo.onrender.com`).
 
 ---
 
-#### 📜 License
+#### 🔬 Testes
 
-This project is licensed under the [MIT License](LICENSE).
+✔️ - Testes Manuais:
+
+- [x] &nbsp;&nbsp;&nbsp; Verifique o comportamento responsivo com as Ferramentas de Desenvolvedor (F12 > Alternar Barra de Ferramentas do Dispositivo) ou outra ferramenta de sua escolha, para simular em smartphones (largura máxima: 885px), tablets (886px-1024px), telas Full HD (1920px+) e 4K (3840px+).
+- [x] &nbsp;&nbsp;&nbsp; Teste a alternância do menu hambúrguer e as interações do submenu em dispositivos móveis.
+- [x] &nbsp;&nbsp;&nbsp;Verifique os recursos de acessibilidade (por exemplo, tags semânticas, navegação por teclado, Acesso Não Visual à Área de Trabalho (NVDA)) usando as Ferramentas de Desenvolvedor do Navegador, garantindo compatibilidade e usabilidade.
+
+---
+
+#### 📜 Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
 
 ---
 
 <h4 align="center">
-  👨‍💻 Developed by 
+  👨‍💻 Desenvolvido por 
 <h4/>
 <br>
-<table align="center"
+
+<table align="center">
   <tr>
     <td align="center">
-      <a href="https://www.linkedin.com/in/edmar-radanovis-0130b611a/">
-        <img src="/github/Logo_EWD_APEX_rounded-sem_fundo.png" width=160px;"height=160px;" alt="EWD Apex Logo"/><br>
-      <sub>
-        <b>Edmar Radanovis</b>
-      </sub>
+      <a href="https://www.linkedin.com/in/edmar-radanovis/">
+        <img src="/github/foto perfil (4).jpeg" width="100px" height="120px" alt="foto de perfil"/><br>
+        <sub><b>Edmar Radanovis</b></sub><br>
+        <sub>Desenvolvedor Full Stack &nbsp;&</sub><br>
+        <sub>Bacharelando em</sub><br>
+        <sub>Engenharia de Software</sub>
       </a>
     </td>
     <td align="center">
-      <a href="https://www.anhanguera.com/">
-        <img src="./src/images/logo_eng_software-red.jpg" width="120px;"height="120px;" alt="Anhanguera logo"/><br>
-      <sub>
-        <b>Undergraduate in<br>Software Engineering</b>
-      </sub>
+      <a href="https://edwebdev.vercel.app/">
+        <img src="/github/Logo_EWD_APEX_rounded-sem_fundo.png" width="200px" height="200px" alt="Logo EWD Apex"/><br>
+        <sub><b>Ed Web Dev</b></sub><br>
       </a>
     </td>
+  </tr>
 </table>
+<table align="center">
+  <tr>
+    
+  </tr>
+</table>
+
 <br>
 <br>
 
-[⬆ Voltar ao topo](#projeto---atividade-prática-construção-de-front--end-baseado-em-framework)
+[⬆ Voltar ao topo](#projeto---atividade-prática-construção-de-front-end-baseado-em-framework)

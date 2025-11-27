@@ -58,17 +58,17 @@ Abaixo segue o resultado do projeto concluído:
 - [ ] Antes de iniciar este projeto, você deve ter conhecimento básico nas seguintes áreas:
       <br>
 
-- **Lógica de Programação:** Variáveis, entrada/saída de dados, estruturas condicionais e de repetição.
-- **Python Básico:** Sintaxe da linguagem, tipos de dados, listas, funções e módulos.
-- **Estruturas de Controle:** Uso de `if/elif/else`, `while` e `for`.
-- **Funções em Python:** Definição de funções com `def`, parâmetros, retorno de valores e escopo de variáveis.
-- **Manipulação de Listas:** Adição, iteração e cálculo de soma/len para média.
+- **Lógica de Programação :** Variáveis, entrada/saída de dados, estruturas condicionais e de repetição.
+- **Python Básico :** Sintaxe da linguagem, tipos de dados, listas, funções e módulos.
+- **Estruturas de Controle :** Uso de `if/elif/else`, `while` e `for`.
+- **Funções em Python :** Definição de funções com `def`, parâmetros, retorno de valores e escopo de variáveis.
+- **Manipulação de Listas :** Adição, iteração e cálculo de soma/len para média.
 
 ---
 
 ### 🛠️ Tecnologias Utilizadas
 
-O projeto foi desenvolvido utilizando:
+A Atvidade foi desenvolvida utilizando:
 
 [![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=python&logoColor=FFD43B)](https://www.python.org/)
 
