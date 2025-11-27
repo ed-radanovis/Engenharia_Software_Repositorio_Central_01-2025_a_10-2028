@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bioc="http://bpmn.io/schema/bpmn/biocolor/1.0" xmlns:color="http://www.omg.org/spec/BPMN/non-normative/color/1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="Definitions_1" targetNamespace="http://bpmn.io/schema/bpmn" exporter="bpmn-js (https://demo.bpmn.io)" exporterVersion="18.9.0">
+  <process id="Process_SIC" isExecutable="false">
+    <laneSet id="LaneSet_1">
+      <lane id="Lane_Financeiro" name="Financeiro">
+        <flowNodeRef>Activity_1r6xr99</flowNodeRef>
+        <flowNodeRef>Task_EncaminharFatura</flowNodeRef>
+        <flowNodeRef>Task_ProgramarPagamento</flowNodeRef>
+        <flowNodeRef>EndEvent_1</flowNodeRef>
+      </lane>
+      <lane id="Lane_Recepcao" name="Recepção">
+        <flowNodeRef>Task_ReceberMercadoria</flowNodeRef>
+        <flowNodeRef>Task_ConferirMercadoria</flowNodeRef>
+        <flowNodeRef>Task_EncaminharMaterial</flowNodeRef>
+        <flowNodeRef>Task_RejeitarEntrega</flowNodeRef>
+        <flowNodeRef>Gateway_Conferencia</flowNodeRef>
+      </lane>
+      <lane id="Lane_Fornecedor" name="Fornecedor">
+        <flowNodeRef>Task_ReceberOC</flowNodeRef>
+        <flowNodeRef>Task_EntregarMaterial</flowNodeRef>
+        <flowNodeRef>Task_RecolherMaterial</flowNodeRef>
+        <flowNodeRef>Activity_006pvhg</flowNodeRef>
+        <flowNodeRef>Gateway_0mr2gdq</flowNodeRef>
+        <flowNodeRef>Activity_1rpn7yc</flowNodeRef>
+        <flowNodeRef>EndEvent_2</flowNodeRef>
+      </lane>
+      <lane id="Lane_Compras" name="Compras">
+        <flowNodeRef>Task_RealizarOrcamentos</flowNodeRef>
+        <flowNodeRef>Activity_069az8i</flowNodeRef>
+        <flowNodeRef>Activity_1y3r9r3</flowNodeRef>
+        <flowNodeRef>Activity_1s6m2az</flowNodeRef>
+        <flowNodeRef>Task_EnviarCotacao</flowNodeRef>
+        <flowNodeRef>Task_EmitirOC</flowNodeRef>
+        <flowNodeRef>Gateway_13tu50j</flowNodeRef>
+        <flowNodeRef>Event_0mryd6j</flowNodeRef>
+      </lane>
+      <lane id="Lane_Solicitante" name="Solicitante">
+        <flowNodeRef>Task_SolicitarMaterial</flowNodeRef>
+        <flowNodeRef>Activity_0w1istb</flowNodeRef>
+        <flowNodeRef>StartEvent_1</flowNodeRef>
+        <flowNodeRef>Event_0purx9i</flowNodeRef>
+      </lane>
+    </laneSet>
+    <startEvent id="StartEvent_1" name="Início">
+      <outgoing>Flow_1h707ao</outgoing>
+    </startEvent>
+    <endEvent id="EndEvent_1" name="Processo Pagamento Concluído">
+      <incoming>Flow_0e0y8qn</incoming>
+    </endEvent>
+    <endEvent id="EndEvent_2" name="Processo Finalizado /  Rejeitado">
+      <incoming>Flow_0mcdqkk</incoming>
+    </endEvent>
+    <task id="Task_SolicitarMaterial" name="Necessidade de  Material / Insumo">
+      <incoming>Flow_1h707ao</incoming>
+      <outgoing>Flow_1fejcmf</outgoing>
+    </task>
+    <task id="Task_RealizarOrcamentos" name="3 ou + fornecedores">
+      <incoming>Flow_1h7i5h6</incoming>
+      <outgoing>Flow_1p7i2zb</outgoing>
+    </task>
+    <task id="Task_EnviarCotacao" name="Enviar Cotação">
+      <incoming>Flow_0f2dw9o</incoming>
+      <outgoing>Flow_0q2yn0u</outgoing>
+      <outgoing>Flow_143k52h</outgoing>
+      <outgoing>Flow_1h7i5h6</outgoing>
+    </task>
+    <task id="Task_EmitirOC" name="Emitir Ordem de Compra (OC)">
+      <incoming>Flow_17o3kzq</incoming>
+    </task>
+    <task id="Task_ReceberOC" name="Receber OC" />
+    <task id="Task_EntregarMaterial" name="Verificar Disponibilidade de Estoque e Situação do Cliente">
+      <outgoing>Flow_1busy3y</outgoing>
+    </task>
+    <task id="Task_ReceberMercadoria" name="Receber Mercadoria e Fatura">
+      <incoming>Flow_1nvi22d</incoming>
+    </task>
+    <task id="Task_ConferirMercadoria" name="Conferir Mercadoria vs Fatura" />
+    <task id="Task_EncaminharMaterial" name="Encaminhar Material ao Solicitante">
+      <incoming>Flow_05zxm2i</incoming>
+      <outgoing>Flow_07pqpgn</outgoing>
+    </task>
+    <task id="Task_EncaminharFatura" name="Encaminhar Fatura ao Financeiro">
+      <incoming>Flow_1ibg34z</incoming>
+    </task>
+    <task id="Task_ProgramarPagamento" name="Programar Pagamento">
+      <outgoing>Flow_0pegvqh</outgoing>
+    </task>
+    <task id="Task_RejeitarEntrega" name="Rejeitar Entrega">
+      <outgoing>Flow_00d41k4</outgoing>
+    </task>
+    <task id="Task_RecolherMaterial" name="Recolher Material">
+      <incoming>Flow_00d41k4</incoming>
+      <outgoing>Flow_1htzqq7</outgoing>
+    </task>
+    <exclusiveGateway id="Gateway_Conferencia" name="Conferência de Material  e Fatura">
+      <outgoing>Flow_05zxm2i</outgoing>
+      <outgoing>Flow_1ibg34z</outgoing>
+    </exclusiveGateway>
+    <sequenceFlow id="Flow_6" sourceRef="Task_EmitirOC" targetRef="Task_ReceberOC" />
+    <sequenceFlow id="Flow_7" sourceRef="Task_ReceberOC" targetRef="Task_EntregarMaterial" />
+    <sequenceFlow id="Flow_9" sourceRef="Task_ReceberMercadoria" targetRef="Task_ConferirMercadoria" />
+    <sequenceFlow id="Flow_10" sourceRef="Task_ConferirMercadoria" targetRef="Gateway_Conferencia" />
+    <sequenceFlow id="Flow_13" sourceRef="Task_EncaminharFatura" targetRef="Task_ProgramarPagamento" />
+    <sequenceFlow id="Flow_15" sourceRef="Gateway_Conferencia" targetRef="Task_RejeitarEntrega" />
+    <task id="Activity_0w1istb" name="Criar Solicitação Interna de Compra (SIC)">
+      <incoming>Flow_1fejcmf</incoming>
+      <outgoing>Flow_189loxo</outgoing>
+    </task>
+    <sequenceFlow id="Flow_1fejcmf" sourceRef="Task_SolicitarMaterial" targetRef="Activity_0w1istb" />
+    <task id="Activity_1s6m2az" name="Receber SIC">
+      <incoming>Flow_189loxo</incoming>
+      <outgoing>Flow_0f2dw9o</outgoing>
+    </task>
+    <sequenceFlow id="Flow_189loxo" sourceRef="Activity_0w1istb" targetRef="Activity_1s6m2az" />
+    <sequenceFlow id="Flow_0f2dw9o" sourceRef="Activity_1s6m2az" targetRef="Task_EnviarCotacao" />
+    <sequenceFlow id="Flow_00d41k4" sourceRef="Task_RejeitarEntrega" targetRef="Task_RecolherMaterial" />
+    <task id="Activity_006pvhg" name="Cancelar Fatura">
+      <incoming>Flow_1htzqq7</incoming>
+      <outgoing>Flow_0mcdqkk</outgoing>
+    </task>
+    <sequenceFlow id="Flow_1htzqq7" sourceRef="Task_RecolherMaterial" targetRef="Activity_006pvhg" />
+    <sequenceFlow id="Flow_0mcdqkk" sourceRef="Activity_006pvhg" targetRef="EndEvent_2" />
+    <sequenceFlow id="Flow_05zxm2i" sourceRef="Gateway_Conferencia" targetRef="Task_EncaminharMaterial" />
+    <task id="Activity_1r6xr99" name="Quitar Fatura">
+      <incoming>Flow_0pegvqh</incoming>
+      <outgoing>Flow_0e0y8qn</outgoing>
+    </task>
+    <sequenceFlow id="Flow_0pegvqh" sourceRef="Task_ProgramarPagamento" targetRef="Activity_1r6xr99" />
+    <sequenceFlow id="Flow_0e0y8qn" sourceRef="Activity_1r6xr99" targetRef="EndEvent_1" />
+    <sequenceFlow id="Flow_1ibg34z" sourceRef="Gateway_Conferencia" targetRef="Task_EncaminharFatura" />
+    <task id="Activity_1rpn7yc" name="Entregar Material e Fatura">
+      <incoming>Flow_1lc2t2c</incoming>
+      <outgoing>Flow_1nvi22d</outgoing>
+    </task>
+    <exclusiveGateway id="Gateway_0mr2gdq">
+      <incoming>Flow_1busy3y</incoming>
+      <outgoing>Flow_1lc2t2c</outgoing>
+      <outgoing>Flow_0fx1uwf</outgoing>
+    </exclusiveGateway>
+    <sequenceFlow id="Flow_1busy3y" sourceRef="Task_EntregarMaterial" targetRef="Gateway_0mr2gdq" />
+    <sequenceFlow id="Flow_1lc2t2c" sourceRef="Gateway_0mr2gdq" targetRef="Activity_1rpn7yc" />
+    <endEvent id="Event_0mryd6j" name="Indisponibilidade ou situação cadastral insatisfeita / processo finalizado">
+      <incoming>Flow_0fx1uwf</incoming>
+    </endEvent>
+    <sequenceFlow id="Flow_0fx1uwf" sourceRef="Gateway_0mr2gdq" targetRef="Event_0mryd6j" />
+    <sequenceFlow id="Flow_1nvi22d" sourceRef="Activity_1rpn7yc" targetRef="Task_ReceberMercadoria" />
+    <dataStoreReference id="DataStoreReference_0434l0d" />
+    <endEvent id="Event_0purx9i" name="Processo finalizado">
+      <incoming>Flow_07pqpgn</incoming>
+    </endEvent>
+    <sequenceFlow id="Flow_07pqpgn" sourceRef="Task_EncaminharMaterial" targetRef="Event_0purx9i" />
+    <sequenceFlow id="Flow_1h707ao" sourceRef="StartEvent_1" targetRef="Task_SolicitarMaterial" />
+    <task id="Activity_069az8i" name="3 ou + fornecedores">
+      <incoming>Flow_0q2yn0u</incoming>
+      <outgoing>Flow_0hu716q</outgoing>
+    </task>
+    <task id="Activity_1y3r9r3" name="3 ou + fornecedores">
+      <incoming>Flow_143k52h</incoming>
+      <outgoing>Flow_0po8of3</outgoing>
+    </task>
+    <sequenceFlow id="Flow_0q2yn0u" sourceRef="Task_EnviarCotacao" targetRef="Activity_069az8i" />
+    <sequenceFlow id="Flow_143k52h" sourceRef="Task_EnviarCotacao" targetRef="Activity_1y3r9r3" />
+    <sequenceFlow id="Flow_1h7i5h6" sourceRef="Task_EnviarCotacao" targetRef="Task_RealizarOrcamentos" />
+    <exclusiveGateway id="Gateway_13tu50j" name="Selecionar Melhor Fornecedor">
+      <incoming>Flow_0hu716q</incoming>
+      <incoming>Flow_0po8of3</incoming>
+      <incoming>Flow_1p7i2zb</incoming>
+      <outgoing>Flow_17o3kzq</outgoing>
+    </exclusiveGateway>
+    <sequenceFlow id="Flow_0hu716q" sourceRef="Activity_069az8i" targetRef="Gateway_13tu50j" />
+    <sequenceFlow id="Flow_0po8of3" sourceRef="Activity_1y3r9r3" targetRef="Gateway_13tu50j" />
+    <sequenceFlow id="Flow_1p7i2zb" sourceRef="Task_RealizarOrcamentos" targetRef="Gateway_13tu50j" />
+    <sequenceFlow id="Flow_17o3kzq" sourceRef="Gateway_13tu50j" targetRef="Task_EmitirOC" />
+    <textAnnotation id="TextAnnotation_1jh0pe2">
+      <text>informar solicitante sobre o status</text>
+    </textAnnotation>
+    <association id="Association_1ukl5q6" associationDirection="None" sourceRef="Event_0mryd6j" targetRef="TextAnnotation_1jh0pe2" />
+  </process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Process_SIC">
+      <bpmndi:BPMNShape id="Lane_Financeiro_di" bpmnElement="Lane_Financeiro" isHorizontal="true">
+        <dc:Bounds x="160" y="840" width="1390" height="150" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_Recepcao_di" bpmnElement="Lane_Recepcao" isHorizontal="true">
+        <dc:Bounds x="160" y="690" width="1390" height="150" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_Fornecedor_di" bpmnElement="Lane_Fornecedor" isHorizontal="true">
+        <dc:Bounds x="160" y="540" width="1390" height="150" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_Compras_di" bpmnElement="Lane_Compras" isHorizontal="true">
+        <dc:Bounds x="160" y="210" width="1390" height="330" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_Solicitante_di" bpmnElement="Lane_Solicitante" isHorizontal="true">
+        <dc:Bounds x="160" y="80" width="1390" height="130" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_ReceberOC_di" bpmnElement="Task_ReceberOC" bioc:stroke="#0d4372" bioc:fill="#bbdefb" color:background-color="#bbdefb" color:border-color="#0d4372">
+        <dc:Bounds x="220" y="580" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_EntregarMaterial_di" bpmnElement="Task_EntregarMaterial" bioc:stroke="#6b3c00" bioc:fill="#ffe0b2" color:background-color="#ffe0b2" color:border-color="#6b3c00">
+        <dc:Bounds x="420" y="580" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_RealizarOrcamentos_di" bpmnElement="Task_RealizarOrcamentos" bioc:stroke="#831311" bioc:fill="#ffcdd2" color:background-color="#ffcdd2" color:border-color="#831311">
+        <dc:Bounds x="590" y="420" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_ReceberMercadoria_di" bpmnElement="Task_ReceberMercadoria" bioc:stroke="#0d4372" bioc:fill="#bbdefb" color:background-color="#bbdefb" color:border-color="#0d4372">
+        <dc:Bounds x="420" y="730" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_ConferirMercadoria_di" bpmnElement="Task_ConferirMercadoria" bioc:stroke="#6b3c00" bioc:fill="#ffe0b2" color:background-color="#ffe0b2" color:border-color="#6b3c00">
+        <dc:Bounds x="620" y="730" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Gateway_Conferencia_di" bpmnElement="Gateway_Conferencia" isMarkerVisible="true" bioc:stroke="#5b176d" bioc:fill="#e1bee7" color:background-color="#e1bee7" color:border-color="#5b176d">
+        <dc:Bounds x="815" y="745" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="746" y="796" width="87" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_EncaminharMaterial_di" bpmnElement="Task_EncaminharMaterial" bioc:stroke="#205022" bioc:fill="#c8e6c9" color:background-color="#c8e6c9" color:border-color="#205022">
+        <dc:Bounds x="1120" y="750" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1r6xr99_di" bpmnElement="Activity_1r6xr99" bioc:stroke="#6b3c00" bioc:fill="#ffe0b2" color:background-color="#ffe0b2" color:border-color="#6b3c00">
+        <dc:Bounds x="1230" y="890" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="EndEvent_1_di" bpmnElement="EndEvent_1" bioc:stroke="#205022" bioc:fill="#c8e6c9" color:background-color="#c8e6c9" color:border-color="#205022">
+        <dc:Bounds x="1432" y="912" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1421" y="860" width="57" height="40" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_RejeitarEntrega_di" bpmnElement="Task_RejeitarEntrega" bioc:stroke="#831311" bioc:fill="#ffcdd2" color:background-color="#ffcdd2" color:border-color="#831311">
+        <dc:Bounds x="940" y="700" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="DataStoreReference_0434l0d_di" bpmnElement="DataStoreReference_0434l0d" bioc:stroke="#0d4372" bioc:fill="#bbdefb" color:background-color="#bbdefb" color:border-color="#0d4372">
+        <dc:Bounds x="385" y="545" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_RecolherMaterial_di" bpmnElement="Task_RecolherMaterial" bioc:stroke="#831311" bioc:fill="#ffcdd2" color:background-color="#ffcdd2" color:border-color="#831311">
+        <dc:Bounds x="940" y="580" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_006pvhg_di" bpmnElement="Activity_006pvhg" bioc:stroke="#831311" bioc:fill="#ffcdd2" color:background-color="#ffcdd2" color:border-color="#831311">
+        <dc:Bounds x="1090" y="580" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_EncaminharFatura_di" bpmnElement="Task_EncaminharFatura" bioc:stroke="#205022" bioc:fill="#c8e6c9" color:background-color="#c8e6c9" color:border-color="#205022">
+        <dc:Bounds x="880" y="890" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_ProgramarPagamento_di" bpmnElement="Task_ProgramarPagamento" bioc:stroke="#205022" bioc:fill="#c8e6c9" color:background-color="#c8e6c9" color:border-color="#205022">
+        <dc:Bounds x="1060" y="890" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_15jqdhg" bpmnElement="Activity_069az8i" bioc:stroke="#205022" bioc:fill="#c8e6c9" color:background-color="#c8e6c9" color:border-color="#205022">
+        <dc:Bounds x="590" y="330" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_1fhm3go" bpmnElement="Activity_1y3r9r3" bioc:stroke="#831311" bioc:fill="#ffcdd2" color:background-color="#ffcdd2" color:border-color="#831311">
+        <dc:Bounds x="590" y="240" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="StartEvent_1_di" bpmnElement="StartEvent_1" bioc:stroke="#0d4372" bioc:fill="#bbdefb" color:background-color="#bbdefb" color:border-color="#0d4372">
+        <dc:Bounds x="202" y="112" width="36" height="36" />
+        <bpmndi:BPMNLabel color:color="#0d4372">
+          <dc:Bounds x="206" y="123" width="27" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_SolicitarMaterial_di" bpmnElement="Task_SolicitarMaterial" bioc:stroke="#831311" bioc:fill="#ffcdd2" color:background-color="#ffcdd2" color:border-color="#831311">
+        <dc:Bounds x="320" y="90" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0w1istb_di" bpmnElement="Activity_0w1istb" bioc:stroke="#6b3c00" bioc:fill="#ffe0b2" color:background-color="#ffe0b2" color:border-color="#6b3c00">
+        <dc:Bounds x="490" y="90" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1s6m2az_di" bpmnElement="Activity_1s6m2az" bioc:stroke="#0d4372" bioc:fill="#bbdefb" color:background-color="#bbdefb" color:border-color="#0d4372">
+        <dc:Bounds x="210" y="370" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_EnviarCotacao_di" bpmnElement="Task_EnviarCotacao" bioc:stroke="#6b3c00" bioc:fill="#ffe0b2" color:background-color="#ffe0b2" color:border-color="#6b3c00">
+        <dc:Bounds x="390" y="330" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Gateway_13tu50j_di" bpmnElement="Gateway_13tu50j" isMarkerVisible="true" bioc:stroke="#5b176d" bioc:fill="#e1bee7" color:background-color="#e1bee7" color:border-color="#5b176d">
+        <dc:Bounds x="745" y="345" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="791" y="300" width="58" height="40" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_EmitirOC_di" bpmnElement="Task_EmitirOC" bioc:stroke="#205022" bioc:fill="#c8e6c9" color:background-color="#c8e6c9" color:border-color="#205022">
+        <dc:Bounds x="880" y="330" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Gateway_0mr2gdq_di" bpmnElement="Gateway_0mr2gdq" isMarkerVisible="true" bioc:stroke="#5b176d" bioc:fill="#e1bee7" color:background-color="#e1bee7" color:border-color="#5b176d">
+        <dc:Bounds x="575" y="595" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1rpn7yc_di" bpmnElement="Activity_1rpn7yc" bioc:stroke="#205022" bioc:fill="#c8e6c9" color:background-color="#c8e6c9" color:border-color="#205022">
+        <dc:Bounds x="710" y="580" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_0mryd6j_di" bpmnElement="Event_0mryd6j" bioc:stroke="#831311" bioc:fill="#ffcdd2" color:background-color="#ffcdd2" color:border-color="#831311">
+        <dc:Bounds x="1052" y="352" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1088" y="330" width="83" height="80" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="EndEvent_2_di" bpmnElement="EndEvent_2" bioc:stroke="#831311" bioc:fill="#ffcdd2" color:background-color="#ffcdd2" color:border-color="#831311">
+        <dc:Bounds x="1252" y="602" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1285" y="560" width="60" height="40" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_0purx9i_di" bpmnElement="Event_0purx9i" bioc:stroke="#205022" bioc:fill="#c8e6c9" color:background-color="#c8e6c9" color:border-color="#205022">
+        <dc:Bounds x="1352" y="132" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1346" y="96" width="47" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Association_1ukl5q6_di" bpmnElement="Association_1ukl5q6">
+        <di:waypoint x="1070" y="352" />
+        <di:waypoint x="1070" y="280" />
+        <di:waypoint x="990" y="280" />
+        <di:waypoint x="990" y="195" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="TextAnnotation_1jh0pe2_di" bpmnElement="TextAnnotation_1jh0pe2" bioc:stroke="#831311" bioc:fill="#ffcdd2" color:background-color="#ffcdd2" color:border-color="#831311">
+        <dc:Bounds x="940" y="140" width="99.98238464742583" height="54.96828752642707" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Flow_6_di" bpmnElement="Flow_6">
+        <di:waypoint x="930" y="410" />
+        <di:waypoint x="930" y="520" />
+        <di:waypoint x="260" y="520" />
+        <di:waypoint x="260" y="580" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_7_di" bpmnElement="Flow_7">
+        <di:waypoint x="320" y="620" />
+        <di:waypoint x="420" y="620" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1busy3y_di" bpmnElement="Flow_1busy3y" bioc:stroke="#6b3c00" color:border-color="#6b3c00">
+        <di:waypoint x="520" y="620" />
+        <di:waypoint x="575" y="620" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1h7i5h6_di" bpmnElement="Flow_1h7i5h6" bioc:stroke="#6b3c00" color:border-color="#6b3c00">
+        <di:waypoint x="490" y="400" />
+        <di:waypoint x="560" y="400" />
+        <di:waypoint x="560" y="460" />
+        <di:waypoint x="590" y="460" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1p7i2zb_di" bpmnElement="Flow_1p7i2zb" bioc:stroke="#831311" color:border-color="#831311">
+        <di:waypoint x="690" y="460" />
+        <di:waypoint x="770" y="460" />
+        <di:waypoint x="770" y="395" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1nvi22d_di" bpmnElement="Flow_1nvi22d">
+        <di:waypoint x="760" y="660" />
+        <di:waypoint x="760" y="710" />
+        <di:waypoint x="470" y="710" />
+        <di:waypoint x="470" y="730" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_9_di" bpmnElement="Flow_9">
+        <di:waypoint x="520" y="770" />
+        <di:waypoint x="620" y="770" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_10_di" bpmnElement="Flow_10" bioc:stroke="#6b3c00" color:border-color="#6b3c00">
+        <di:waypoint x="720" y="770" />
+        <di:waypoint x="815" y="770" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_15_di" bpmnElement="Flow_15" bioc:stroke="#831311" color:border-color="#831311">
+        <di:waypoint x="840" y="745" />
+        <di:waypoint x="840" y="730" />
+        <di:waypoint x="940" y="730" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_05zxm2i_di" bpmnElement="Flow_05zxm2i" bioc:stroke="#205022" color:border-color="#205022">
+        <di:waypoint x="845" y="790" />
+        <di:waypoint x="1120" y="790" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1ibg34z_di" bpmnElement="Flow_1ibg34z" bioc:stroke="#205022" color:border-color="#205022">
+        <di:waypoint x="840" y="795" />
+        <di:waypoint x="840" y="930" />
+        <di:waypoint x="880" y="930" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_07pqpgn_di" bpmnElement="Flow_07pqpgn" bioc:stroke="#205022" color:border-color="#205022">
+        <di:waypoint x="1220" y="790" />
+        <di:waypoint x="1370" y="790" />
+        <di:waypoint x="1370" y="168" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0pegvqh_di" bpmnElement="Flow_0pegvqh">
+        <di:waypoint x="1160" y="930" />
+        <di:waypoint x="1230" y="930" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0e0y8qn_di" bpmnElement="Flow_0e0y8qn">
+        <di:waypoint x="1330" y="930" />
+        <di:waypoint x="1432" y="930" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_00d41k4_di" bpmnElement="Flow_00d41k4">
+        <di:waypoint x="990" y="700" />
+        <di:waypoint x="990" y="660" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1htzqq7_di" bpmnElement="Flow_1htzqq7">
+        <di:waypoint x="1040" y="620" />
+        <di:waypoint x="1090" y="620" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0mcdqkk_di" bpmnElement="Flow_0mcdqkk">
+        <di:waypoint x="1190" y="620" />
+        <di:waypoint x="1252" y="620" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_13_di" bpmnElement="Flow_13">
+        <di:waypoint x="980" y="930" />
+        <di:waypoint x="1060" y="930" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0q2yn0u_di" bpmnElement="Flow_0q2yn0u" bioc:stroke="#6b3c00" color:border-color="#6b3c00">
+        <di:waypoint x="490" y="370" />
+        <di:waypoint x="590" y="370" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0hu716q_di" bpmnElement="Flow_0hu716q" bioc:stroke="#205022" color:border-color="#205022">
+        <di:waypoint x="690" y="370" />
+        <di:waypoint x="745" y="370" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_143k52h_di" bpmnElement="Flow_143k52h" bioc:stroke="#6b3c00" color:border-color="#6b3c00">
+        <di:waypoint x="490" y="350" />
+        <di:waypoint x="560" y="350" />
+        <di:waypoint x="560" y="280" />
+        <di:waypoint x="590" y="280" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0po8of3_di" bpmnElement="Flow_0po8of3" bioc:stroke="#831311" color:border-color="#831311">
+        <di:waypoint x="690" y="280" />
+        <di:waypoint x="770" y="280" />
+        <di:waypoint x="770" y="345" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1h707ao_di" bpmnElement="Flow_1h707ao">
+        <di:waypoint x="238" y="130" />
+        <di:waypoint x="320" y="130" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1fejcmf_di" bpmnElement="Flow_1fejcmf">
+        <di:waypoint x="420" y="130" />
+        <di:waypoint x="490" y="130" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_189loxo_di" bpmnElement="Flow_189loxo">
+        <di:waypoint x="540" y="170" />
+        <di:waypoint x="540" y="300" />
+        <di:waypoint x="230" y="300" />
+        <di:waypoint x="230" y="370" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0f2dw9o_di" bpmnElement="Flow_0f2dw9o">
+        <di:waypoint x="310" y="400" />
+        <di:waypoint x="390" y="400" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_17o3kzq_di" bpmnElement="Flow_17o3kzq">
+        <di:waypoint x="795" y="370" />
+        <di:waypoint x="880" y="370" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1lc2t2c_di" bpmnElement="Flow_1lc2t2c" bioc:stroke="#205022" color:border-color="#205022">
+        <di:waypoint x="625" y="620" />
+        <di:waypoint x="710" y="620" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0fx1uwf_di" bpmnElement="Flow_0fx1uwf" bioc:stroke="#831311" color:border-color="#831311">
+        <di:waypoint x="600" y="595" />
+        <di:waypoint x="600" y="550" />
+        <di:waypoint x="1070" y="550" />
+        <di:waypoint x="1070" y="388" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</definitions>

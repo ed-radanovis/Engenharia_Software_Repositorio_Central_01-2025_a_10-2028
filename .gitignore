@@ -1,0 +1,23 @@
+# Arquivos compilados do C
+*.exe
+*.o
+*.out
+*.obj
+*.dll
+*.so
+*.a
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos do VSCode
+.vscode/
+*.code-workspace
+
+# Diretórios e arquivos não pertinentes
+_Bueno_Brandao_trocado
+materiais/
+
+calendario.txt
+

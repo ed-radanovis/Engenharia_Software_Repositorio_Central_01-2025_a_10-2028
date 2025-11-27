@@ -1,0 +1,38 @@
+name: Metrics
+
+permissions:
+  contents: write
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+jobs:
+  repo-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.METRICS_TOKEN }}
+
+          # 🔥 ANALISAR APENAS ESTE REPOSITÓRIO
+          user: ed-radanovis
+          repo: ed-radanovis/Engenharia_Software_Repositorio_Central-01-2025_a_10-2028
+
+          # 🔥 MODO REPOSITÓRIO (fundamental!)
+          base: repository
+
+          template: classic
+          config_timezone: America/Sao_Paulo
+
+          # 🔥 Linguagens SÓ deste repositório
+          plugin_languages: yes
+          plugin_languages_indepth: yes
+          plugin_languages_sections: most-used
+          plugin_languages_limit: 12
+          plugin_languages_threshold: 0%
+
+          filename: github-metrics.svg
+          commit_branch: master
