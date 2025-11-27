@@ -2,7 +2,7 @@
 
 <img src="./images/logo_linux_sem_fundo.png" min-width="50px" width="80" min-height="50px" height="80px" alt="Logo Sistemas Operacionais">
 
-<img src="./images/logo_windows_sem_fundo.png" min-width="50px" width="100" min-height="50px" height="100px" alt="Logo Sistemas Operacionais">
+<img src="./images/logo_windows_sem_fundo.png" min-width="50px" width="120" min-height="50px" height="120px" alt="Logo Sistemas Operacionais">
 
 </div>
 
