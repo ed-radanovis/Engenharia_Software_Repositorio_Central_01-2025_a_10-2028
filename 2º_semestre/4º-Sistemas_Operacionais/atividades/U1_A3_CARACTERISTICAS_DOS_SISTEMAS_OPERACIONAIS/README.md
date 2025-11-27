@@ -1,10 +1,21 @@
+<div style="display: flex; justify-content: center; width: 15%; border: 4px solid gray; border-radius: 18px; margin: auto; padding-top: 15px;">
+  <div style="margin-right: 5px;">
+    <img src="./images/logo_linux_sem_fundo.png" min-width="50px" width="90" min-height="50px" height="90px" alt="Logo Sistemas Operacionais">
+  </div>
+  <div>
+    <img src="./images/logo_windows_sem_fundo.png" min-width="80px" width="100" min-height="80px" height="100px" alt="Logo Sistemas Operacionais">
+  </div>
+</div>
+
+<br>
+
 # Projeto - Atividade Prática: Construção de Front-End Baseado em Framework
 
 ## Disciplina: Desenvolvimento Responsivo
 
 ### Unidade 3 – Aula 2
 
-Ministrado por _Profº Me. Anderson Emidio de Macedo Gonçalves_.
+Ministrado por _Profº Me. Rômulo de Almeida Neves_.
 <br>
 
 Abaixo segue o resultado do projeto concluído:
