@@ -1,5 +1,17 @@
 <DOCUMENT filename="README.md">
 
+<div align="center">
+
+### Linguagens Dominadas no Curso
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ed-radanovis&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=7c3aed&hide=html,css,scss)
+
+### Streak de Contribuições
+
+![Streak](https://github-readme-streak-stats.herokuapp.com/?user=ed-radanovis&theme=tokyonight&hide_border=true&background=0d1117&stroke=7c3aed&ring=58a6ff&fire=89b4fa&currStreakLabel=7c3aed)
+
+</div>
+
 # Repositório Central
 
 ## Bacharelado Engenharia de Software
@@ -235,41 +247,6 @@ grade_materias_por_semestre
 
 ---
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
-
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true)
-
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=radical)
-
-<<<<<<< HEAD
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=SEU_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=7c3aed&hide=issues,prs)
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=SEU_USERNAME&show_icons=true&theme=onedark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=fbf1f9)
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=SEU_USERNAME&show_icons=true&theme=cobalt&hide_border=true&bg_color=0d1117&title_color=7c3aed&text_color=ffffff)
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=SEU_USERNAME&show_icons=true&theme=gruvbox&hide_border=true&bg_color=0d1117&title_color=89b4fa&text_color=ebdbb2)
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=SEU_USERNAME&show_icons=true&theme=merko&hide_border=true&bg_color=0d1117&title_color=89b4fa&text_color=ffffff)
-
-### Linguagens Dominadas no Curso
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SEU_USERNAME&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=7c3aed&hide=html,css,scss)
-
-### Streak de Contribuições
-
-![Streak](https://github-readme-streak-stats.herokuapp.com/?user=SEU_USERNAME&theme=tokyonight&hide_border=true&background=0d1117&stroke=7c3aed&ring=58a6ff&fire=89b4fa&currStreakLabel=7c3aed)
-
-[![Python](https://skillicons.dev/icons?i=python&theme=dark)](https://skillicons.dev)
-[![C](https://skillicons.dev/icons?i=c&theme=dark)](https://skillicons.dev)
-[![HTML](https://skillicons.dev/icons?i=html&theme=dark)](https://skillicons.dev)
-[![CSS](https://skillicons.dev/icons?i=css&theme=dark)](https://skillicons.dev)
-[![JavaScript](https://skillicons.dev/icons?i=js&theme=dark)](https://skillicons.dev)
-
-=======
-</div>
-
->>>>>>> efdf5ca896508569d55677dbe569d4b4083e1792
 ### 📜 Licenças (Acadêmica)
 
 Por se tratar de um repositório de caráter exclusivamente acadêmico, desenvolvido como parte das atividades avaliativas do curso de Bacharelado em Engenharia de Software da Anhanguera, não foi atribuída uma licença formal de software.
@@ -308,10 +285,3 @@ O conteúdo tem finalidade educativa e de construção de portfólio. Fique à v
 
 [⬆ Voltar ao topo](#repositório-central)
 </DOCUMENT>
-<<<<<<< HEAD
-=======
-
-
-
-
->>>>>>> efdf5ca896508569d55677dbe569d4b4083e1792
