@@ -4,7 +4,7 @@
 
 # Projeto - Atividade Prática: Funções em Python
 
-## Matéria: Linguagem de Programação
+## Disciplina : Linguagem de Programação
 
 ### Unidade 1 – Aula 4
 
@@ -158,4 +158,3 @@ O código tem finalidade educativa e de portfólio estudantil, sendo destinado a
 <br>
 
 [⬆ Voltar ao topo](#projeto---atividade-prática-funções-em-python)
-

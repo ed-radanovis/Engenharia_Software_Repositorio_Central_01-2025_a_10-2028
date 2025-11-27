@@ -1,61 +1,72 @@
-# Responsive Navigation Menu Using Front-End Development with HTML CSS JavaScript
+# Projeto - Atividade Prática: Construção de Front-End Baseado em Framework
 
-## Course: Software Engineering
+## Disciplina: Desenvolvimento Responsivo
 
-### Activity: for grade in the Responsive Development course
+### Unidade 3 – Aula 2
 
-Course taught by _Anderson Emidio de Macedo Gonçalves_ - Master in Education and Technology.
+Ministrado por _Profº Me. Anderson Emidio de Macedo Gonçalves_.
 <br>
 
-Below is the result of the completed project:
-<br>
+Abaixo segue o resultado do projeto concluído:
 
-> 🎯 Objective:
+> <br>
+> 🎯 Objetivo:
 >
-> - I developed this mini front-end application **_`"Responsive Menu"`_** as part of the _Responsive Development_ course (Unit U3, Class A2) of the aforementioned course. The project focuses on creating a responsive and interactive navigation menu using pure **_[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)_** , **_[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)_** and **_[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)_**. The menu adapts seamlessly to various screen sizes—smartphones, tablets (portrait and landscape), _Full HD_ (1920px+), and _4K_ (3840px+) with features like a _hamburger toggle_, _dropdown submenus_, **_smooth animations_**, and **_accessibility_** enhancements. ✅
+> - Desenvolvi este mini aplicativo front-end, **_`"Menu Responsivo"`_**, como parte do curso de _Desenvolvimento Responsivo_ (Unidade U3, Aula A2). O projeto foca na criação de um menu de navegação responsivo e interativo usando apenas **_[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)_**, **_[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)_** e **_[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)_**. O menu se adapta perfeitamente a vários tamanhos de tela — smartphones, tablets (retrato e paisagem), Full HD (1920px+) e 4K (3840px+) com recursos como um botão de alternância (hambúrguer), submenus suspensos, animações suaves e melhorias de acessibilidade. ✅
 
-> - This project honed my skills in responsive design using **CSS media queries**, _DOM_ manipulation with _JavaScript_, and the implementation of interactive elements to boost _usability_ and _accessibility_. Leveraging **semantic** HTML and modern CSS techniques, I enhanced my ability to craft layouts that perform efficiently across devices, a key asset in today’s web development landscape. ✅
->   > - The lightweight, framework-free approach, combined with practical guidance from the course, made this a rewarding and educational experience, reinforcing my commitment to delivering high-quality, optimized web solutions.
-
-<br>
-
-### 🚀 Features
-
-- Create a responsive navigation menu adapting to smartphones, tablets (portrait and landscape), Full HD (1920px+), and 4K (3840px+) screens
-- Implement a hamburger toggle button for mobile devices
-- Display dropdown submenus with smooth animations
-- Highlight the currently selected menu item
-- Ensure automatic closure of other submenus when opening a new one
-- Provide an accessible and user-friendly interface with semantic HTML
+> - Este projeto aprimorou minhas habilidades em design responsivo usando _media queries_ em CSS, manipulação do DOM com JavaScript e a implementação de elementos interativos para aumentar a usabilidade e a acessibilidade. Aproveitando o HTML semântico e técnicas modernas de CSS, aprimorei minha capacidade de criar layouts que funcionam de forma eficiente em diversos dispositivos, um diferencial importante no cenário atual de desenvolvimento web. ✅
+>   > - A abordagem leve, combinada com a orientação prática do curso, tornou esta uma experiência gratificante e educativa, reforçando meu compromisso em entregar soluções web otimizadas e de alta qualidade.
 
 <br>
+
+### 🧩 Features
+
+- Criar um menu de navegação responsivo que se adapte a smartphones, tablets (retrato e paisagem), telas Full HD (1920px+) e 4K (3840px+)
+- Implementar um botão de alternância (tipo hambúrguer) para dispositivos móveis
+- Exibir submenus suspensos com animações suaves
+- Destacar o item de menu selecionado
+- Garantir o fechamento automático de outros submenus ao abrir um novo
+- Fornecer uma interface acessível e amigável com HTML semântico
+
+---
 
 <p align="center">
 <img src="./src/images/readme_gif.gif" alt="page-gif" width="800px" >
 </p>
+
 <div align="center">
- <a href="https://ed-radanovis.github.io/Eng_Software_U3-A2_05-2025/" >Click here to try it out .. thanks for your interest!</a>
- <p>( 🖱️ Ctrl + click to open in a new tab )</p>
+
+Clique aqui para testar... obrigado pelo seu interesse!
+( 🖱️ Ctrl + clique para abrir em uma nova aba ou visite [www.??????](https://www.??????) ).
+
 </div>
+
  <p align="center">
 <img src="./src/images/Model2.png" alt="print-screen-image" width="800px" >
 </p>
-<br>
 
-### Adjustments and improvements
+---
 
-The project was fully completed and some of the resources used were:
+### ✨ Ajustes e melhorias
 
-- [x] **Frontend**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5)](https://developer.mozilla.org/en-US/docs/Web/HTML) &nbsp;&nbsp;[![CSS](https://img.shields.io/badge/-CSS-333333?style=flat&logo=CSS3&logoColor=1572B6)](https://developer.mozilla.org/en-US/docs/Web/CSS)&nbsp;&nbsp;[![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+O proposta da atividade foi totalmente concluída, o que Inclui a HomePage e AboutPage.
+
+> 📝 Nota: As demais pages não foram criadas por questões de gestão de tempo, e serão criadas posteriormente.
+
+---
+
+### 🛠️ Tecnologias Utilizadas
+
+- [x] **Frontend**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5)](https://developer.mozilla.org/en-US/docs/Web/HTML) &nbsp;&nbsp;[![<img src="https://raw.githubusercontent.com/ed-radanovis/Soft-App-Memes-Machine-DIO-11-2022/refs/heads/master/assets/github/mini_logo_css.png" width="16px" alt="CSS Icon">CSS](https://img.shields.io/badge/-CSS-333333?style=flat&logo=CSS3&logoColor=1572B6)](https://developer.mozilla.org/en-US/docs/Web/CSS)&nbsp;&nbsp;[![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
       <br>
 
-- [x] **Development Tools and Testing**:&nbsp;&nbsp;&nbsp;[<img src="https://raw.githubusercontent.com/ed-radanovis/Soft-App-Memes-Machine-DIO-11-2022/refs/heads/master/assets/github/mini_logo_liveserver.png" width="21px" alt="Live Server Icon">![Live Server](https://img.shields.io/badge/-Live%20Server-333333?style=flat&logo=live-server)](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)&nbsp;&nbsp;`Manual testing with Browser DevTools`
+- [x] **Ferramentas de Desenvolvimento e Testes**:&nbsp;&nbsp;&nbsp;[<img src="https://raw.githubusercontent.com/ed-radanovis/Soft-App-Memes-Machine-DIO-11-2022/refs/heads/master/assets/github/mini_logo_liveserver.png" width="21px" alt="Live Server Icon">![Live Server](https://img.shields.io/badge/-Live%20Server-333333?style=flat&logo=live-server)](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)&nbsp;&nbsp;`Manual testing with Browser DevTools`
       <br>
 
-- [x] **Hosting and Deployment**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![GitHub Pages](https://img.shields.io/badge/-GitHub%20Pages-333333?style=flat&logo=github&logoColor=ffffff)](https://pages.github.com/)
+- [x] **Hospedagem e Implantação**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![GitHub Pages](https://img.shields.io/badge/-GitHub%20Pages-333333?style=flat&logo=github&logoColor=ffffff)](https://pages.github.com/)
       <br>
 
-- [x] **Planning and Editor**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Figma](https://img.shields.io/badge/-Figma-333333?style=flat&logo=figma&logoColor=007ACC)](https://figma.com/)&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/ed-radanovis/Soft-App-Memes-Machine-DIO-11-2022/6c046ddb9cd516f3cea41a8abbb1318fc3e6d8d1/assets/github/mini_logo_vscode.png" width="21px" alt="VS Code Icon">[![Visual Studio Code](https://img.shields.io/badge/-Visual_Studio_Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC)](https://code.visualstudio.com/)
+- [x] **Planejamento e Edição**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Figma](https://img.shields.io/badge/-Figma-333333?style=flat&logo=figma&logoColor=007ACC)](https://figma.com/)&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/ed-radanovis/Soft-App-Memes-Machine-DIO-11-2022/6c046ddb9cd516f3cea41a8abbb1318fc3e6d8d1/assets/github/mini_logo_vscode.png" width="21px" alt="VS Code Icon">[![Visual Studio Code](https://img.shields.io/badge/-Visual_Studio_Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC)](https://code.visualstudio.com/)
       <br>
 
 #### ⚙️ Steps for the project
@@ -113,6 +124,12 @@ git clone https://github.com/ed-radanovis/Eng_Software_U3-A2_05-2025.git
 
 ---
 
+#### 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
 <h4 align="center">
   👨‍💻 Developed by 
 <h4/>
@@ -121,7 +138,7 @@ git clone https://github.com/ed-radanovis/Eng_Software_U3-A2_05-2025.git
   <tr>
     <td align="center">
       <a href="https://www.linkedin.com/in/edmar-radanovis-0130b611a/">
-        <img src="./src/images/Logo_EWD_APEX.png" width="120px;"height="120px;" alt="EWD Apex Logo"/><br>
+        <img src="/github/Logo_EWD_APEX_rounded-sem_fundo.png" width=160px;"height=160px;" alt="EWD Apex Logo"/><br>
       <sub>
         <b>Edmar Radanovis</b>
       </sub>
@@ -139,4 +156,4 @@ git clone https://github.com/ed-radanovis/Eng_Software_U3-A2_05-2025.git
 <br>
 <br>
 
-[⬆ Back to top](#responsive-navigation-menu-using-front-end-development-with-html-css-javascript)
+[⬆ Voltar ao topo](#projeto---atividade-prática-construção-de-front--end-baseado-em-framework)
