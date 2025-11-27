@@ -1,13 +1,10 @@
-<div style="display: flex; justify-content: center; width: 15%; border: 4px solid gray; border-radius: 18px; margin: auto; padding-top: 15px;">
-  <div style="margin-right: 5px;">
-    <img src="./images/logo_linux_sem_fundo.png" min-width="50px" width="90" min-height="50px" height="90px" alt="Logo Sistemas Operacionais">
-  </div>
-  <div>
-    <img src="./images/logo_windows_sem_fundo.png" min-width="80px" width="100" min-height="80px" height="100px" alt="Logo Sistemas Operacionais">
-  </div>
-</div>
+<div align="center">
 
-<br>
+<img src="./images/logo_linux_sem_fundo.png" min-width="50px" width="80" min-height="50px" height="80px" alt="Logo Sistemas Operacionais">
+
+<img src="./images/logo_windows_sem_fundo.png" min-width="50px" width="100" min-height="50px" height="100px" alt="Logo Sistemas Operacionais">
+
+</div>
 
 # Projeto - Atividade Prática: Construção de Front-End Baseado em Framework
 
