@@ -6,10 +6,6 @@
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ed-radanovis&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=7c3aed&hide=html,css,scss)
 
-### Streak de Contribuições
-
-![Streak](https://github-readme-streak-stats.herokuapp.com/?user=ed-radanovis&theme=tokyonight&hide_border=true&background=0d1117&stroke=7c3aed&ring=58a6ff&fire=89b4fa&currStreakLabel=7c3aed)
-
 </div>
 
 # Repositório Central
