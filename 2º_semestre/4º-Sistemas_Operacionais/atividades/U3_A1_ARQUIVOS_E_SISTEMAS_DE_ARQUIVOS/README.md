@@ -1,86 +1,63 @@
 <div align="center">
 
-<img src="./images/logo_linux_sem_fundo.png" min-width="50px" width="80" min-height="50px" height="80px" alt="Logo Sistemas Operacionais">
+<img src="../U1_A3_CARACTERISTICAS_DOS_SISTEMAS_OPERACIONAIS/images/logo_linux_sem_fundo.png" min-width="50px" width="80" min-height="50px" height="80px" alt="Logo Sistemas Operacionais">
 
-<img src="./images/logo_windows_sem_fundo.png" min-width="50px" width="120" min-height="50px" height="120px" alt="Logo Sistemas Operacionais">
+<img src="../U1_A3_CARACTERISTICAS_DOS_SISTEMAS_OPERACIONAIS/images/logo_windows_sem_fundo.png" min-width="50px" width="120" min-height="50px" height="120px" alt="Logo Sistemas Operacionais">
 
 </div>
 
-# Atividade Prática: Características dos Sistemas Operacionais
+# Atividade Prática: Arquivos e Sistemas de Arquivos
 
 ## Disciplina: Sistemas Operacionais
 
-### Unidade 1 – Aula 3
+### Unidade 3 – Aula 1
 
 Ministrado por _Profº Me. Rômulo de Almeida Neves_.
 <br>
 
-Abaixo segue o resultado da atidade concluída:
+Abaixo segue o resultado da atividade concluída:
 
 > <br>
 > 🎯 Objetivo:
 >
-> - Desenvolver a compreensão dos principais componentes dos sistemas operacionais **_[Linux](https://www.linux.org/)_** e **_[Windows](https://www.microsoft.com/pt-br/windows/?r=1)_**.
-> - Explorar o `kernel` , `shell` e `gerenciamento de arquivos` nos sistemas operacionais.
-> - Aprender sobre organização do sistema de arquivos e configuração de permissões.
-> - Comparar estruturas de diretórios entre `Linux` e `Windows`. ✅
+> - Compreender e aplicar os conceitos fundamentais de `arquivos` e `sistemas de arquivos`.
+> - Explorar a `estrutura de arquivos` , `métodos de acesso e atributos` conforme autores como _Tanenbaum_, _Machado_ e _Maia_.
+> - Identificar e analisar `atributos de arquivos` em sistemas **_[Linux](https://www.linux.org/)_** e **_[Windows](https://www.microsoft.com/pt-br/windows/?r=1)_**.
+> - Comparar métodos de `acesso sequencial` vs `acesso direto` em termos de eficiência e aplicabilidade. ✅
 
 <br>
 
 ### 🧩 Features
 
-- Identificação de versão do kernel nos sistemas Linux e Windows
-- Listagem de processos ativos em ambos os sistemas operacionais
-- Criação e gerenciamento de permissões de arquivos e diretórios
-- Exploração da estrutura de diretórios raiz e principais pastas
-- Comparação das arquiteturas de sistemas de arquivos Linux vs Windows
+- Identificação e análise detalhada de atributos de arquivos em Linux e Windows.
+- Utilização de comandos avançados para listagem de metadados de arquivos.
+- Criação e manipulação de arquivos de texto com dados sequenciais.
+- Desenvolvimento de scripts para acesso sequencial e direto a arquivos.
+- Comparação de desempenho entre diferentes métodos de acesso.
+- Análise de impacto dos atributos no uso do sistema de arquivos.
 
 ---
 
 <table align="center">
   <tr>
     <td align="center">
-      <a href="./images/linux_1.png">
-        <img src="./images/linux_1.png" width="250px" height="250px" alt="print da atividade"/>
+      <a href="./images/1_listar_atributos_arquivos.png">
+        <img src="./images/1_listar_atributos_arquivos.png" width="250px" height="500px" alt="print da atividade"/>
       </a>
     </td>
     <td align="center">
-      <a href="./images/linux_2.png">
-        <img src="./images/linux_2.png" width="250px" height="250px" alt="print da atividade"/>
+      <a href="./images/2_desenvolvimento_execução_arquivo_dados.png">
+        <img src="./images/2_desenvolvimento_execução_arquivo_dados.png" width="250px" height="500px" alt="print da atividade"/>
       </a>
     </td>
     <td align="center">
-      <a href="./images/linux_3.png">
-        <img src="./images/linux_3.png" width="250px" height="500px" alt="print da atividade"/>
+      <a href="./images/3_script_acesso_sequencial.png">
+        <img src="./images/3_script_acesso_sequencial.png" width="250px" height="250px" alt="print da atividade"/>
       </a>
     </td>
     <td align="center">
-      <a href="./images/windows_1.0.png">
-        <img src="./images/windows_1.0.png" width="250px" height="500px" alt="print da atividade"/>
-      </a>
-    </td>
-  </tr>
-</table>
-<table align="center">
-  <tr>
-    <td align="center">
-      <a href="./images/windows_1.1.png">
-        <img src="./images/windows_1.1.png" width="250px" height="250px" alt="print da atividade"/>
-      </a>
-    </td>
-    <td align="center">
-      <a href="./images/windows_2.0.png">
-        <img src="./images/windows_2.0.png" width="250px" height="250px" alt="print da atividade"/>
-      </a>
-    </td>
-    <td align="center">
-      <a href="./images/windows_2.1.png">
-        <img src="./images/windows_2.1.png" width="250px" height="250px" alt="print da atividade"/>
-      </a>
-    </td>
-    <td align="center">
-      <a href="./images/windows_3.png">
-        <img src="./images/windows_3.png" width="250px" height="250px" alt="print da atividade"/>
+      <a href="./images/4_script_acesso_direto.png">
+        <img src="./images/4_script_acesso_direto.png" width="250px" height="250px" alt="print da atividade"/>
       </a>
     </td>
   </tr>
@@ -93,19 +70,19 @@ Abaixo segue o resultado da atidade concluída:
 - [ ] Antes de iniciar esta atividade, você deve ter conhecimento básico nas seguintes áreas:
       <br>
 
-- **Conceitos Básicos de SO :** Noções de kernel, shell e sistemas de arquivos.
-- **Linha de Comando :** Experiência básica com terminal / console.
-- **Sistemas Linux :** Familiaridade com comandos básicos do terminal.
-- **Windows :** Conhecimento do PowerShell ou Prompt de Comando.
-- **Permissões de Arquivo :** Conceitos básicos de leitura, escrita e execução.
+- **Sistemas de Arquivos:** Noções básicas de organização e estrutura de arquivos.
+- **Linha de Comando:** Experiência com terminal Linux e PowerShell Windows.
+- **Scripting Básico:** Conhecimento elementar de scripts para automação.
+- **Metadados:** Compreensão de atributos como permissões, datas e tamanhos.
+- **Métodos de Acesso:** Conceitos de acesso sequencial e aleatório/direto.
 
 ---
 
 ### 🛠️ Tecnologias Utilizadas
 
-A Atvidade foi desenvolvida utilizando:
+A Atividade foi desenvolvida utilizando:
 
-[![Linux](https://img.shields.io/badge/-Linux-333333?style=flat&logo=linux&logoColor=FCC624)](https://www.linux.org/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="./images/mini_logo_windows.png" width="19px" alt="Windows Icon">![Windows](https://img.shields.io/badge/-windows-333333?style=flat&logo=windows&logoColor=0078D6)](https://www.microsoft.com/pt-br/windows/?r=1)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Bash](https://img.shields.io/badge/-Bash-333333?style=flat&logo=gnu-bash&logoColor=4EAA25)](https://www.gnu.org/software/bash/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="https://github.com/ed-radanovis/Engenharia_Software_Repositorio_Central_01-2025_a_10-2028/blob/master/2%C2%BA_semestre/4%C2%BA-Sistemas_Operacionais/atividades/U1_A3_CARACTERISTICAS_DOS_SISTEMAS_OPERACIONAIS/images/mini_logo_windows.png" width="19px" alt="Windows Icon">![PowerShell](https://img.shields.io/badge/-PowerShell-333333?style=flat&logo=powershell&logoColor=5391FE)](https://learn.microsoft.com/pt-br/powershell/scripting/install/install-powershell-on-windows?view=powershell-7.5)
+[![Linux](https://img.shields.io/badge/-Linux-333333?style=flat&logo=linux&logoColor=FCC624)](https://www.linux.org/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="./images/mini_logo_windows.png" width="19px" alt="Windows Icon">![Windows](https://img.shields.io/badge/-windows-333333?style=flat&logo=windows&logoColor=0078D6)](https://www.microsoft.com/pt-br/windows/?r=1)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Bash](https://img.shields.io/badge/-Bash-333333?style=flat&logo=gnu-bash&logoColor=4EAA25)](https://www.gnu.org/software/bash/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="https://github.com/ed-radanovis/Engenharia_Software_Repositorio_Central_01-2025_a_10-2028/blob/master/2%C2%BA_semestre/4%C2%BA-Sistemas_Operacionais/atividades/U1_A3_CARACTERISTICAS_DOS_SISTEMAS_OPERACIONAIS/images/mini_logo_windows.png" width="19px" alt="Windows Icon">![PowerShell](https://img.shields.io/badge/-PowerShell-333333?style=flat&logo=powershell&logoColor=5391FE)](https://learn.microsoft.com/pt-br/powershell/scripting/install/install-powershell-on-windows?view=powershell-7.5)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=python&logoColor=3776AB)](https://www.python.org/)
 
 ---
 
@@ -113,42 +90,24 @@ A Atvidade foi desenvolvida utilizando:
 
 - [x] &nbsp;&nbsp;&nbsp;Pré-requisitos:
 
-✔️ - Sistema Linux (Ubuntu, Fedora, etc.) e Windows 10 / 11.
+✔️ - Sistema Linux (Ubuntu, Fedora, etc.) e Windows 10/11.
 ✔️ - Acesso ao terminal Linux e PowerShell do Windows.
+✔️ - Editor de texto para criação de scripts.
 
-- [x] &nbsp;&nbsp;&nbsp;Para executar no Linux:
-
-```bash
-
-# Identificar versão do kernel
-uname -r
-
-# Listar processos
-ps -e
-
-# Gerenciar arquivos e permissões
-mkdir test_dir
-cd test_dir
-touch test_file.txt
-chmod 600 test_file.txt
-ls -l
-```
-
-- [x] &nbsp;&nbsp;&nbsp;Para executar no Windows:
+- [x] &nbsp;&nbsp;&nbsp;Atividade 1 - Identificação de Atributos:
 
 ```bash
+# Linux - Listar atributos detalhados
+ls -l arquivo.txt
+stat arquivo.txt
 
-# Listar processos
-Get-Process
+# Windows - Listar atributos
+dir arquivo.txt
+Get-Item arquivo.txt | Select-Object *
 
-# Verificar versão do Windows
-winver
-
-# Gerenciar permissões
-mkdir TestFolder
-cd TestFolder
-echo "" > TestFile.txt
-icacls TestFile.txt /grant %username%:F
+# Analisar 3 arquivos diferentes e documentar atributos:
+# - Nome, tamanho, datas (criação/modificação)
+# - Permissões, tipo, proprietário
 ```
 
 ---
