@@ -69,7 +69,7 @@ Abaixo segue o resultado da atividade concluída:
   <tr>
     <td align="center">
       <a href="./images/4_contexto_geral.png">
-        <img src="./images/4_contexto_geral.png" width="1080px" height="250px" alt="print da atividade"/>
+        <img src="./images/4_contexto_geral.png" width="1080px" height="300px" alt="print da atividade"/>
       </a>
     </td>
   </tr>
@@ -84,7 +84,7 @@ Abaixo segue o resultado da atividade concluída:
 
 - **Conceitos de Memória Virtual:** Noções de paginação e memória virtual.
 - **SOsim Básico:** Familiaridade com a interface do simulador.
-- **Processos e Estados:** Compreensão de processos CPU-bound e seus estados.
+- **Processos e Estados:** Compreensão de processos CPU - bound e seus estados.
 - **Tabelas de Páginas:** Conceitos básicos de organização de memória.
 - **Bits de Controle:** Noções de bits de validade e proteção.
 
@@ -94,7 +94,7 @@ Abaixo segue o resultado da atividade concluída:
 
 A Atividade foi desenvolvida utilizando:
 
-[![SOsim](https://img.shields.io/badge/-SOsim-333333?style=flat&logo=windowsterminal&logoColor=4D4D4D)](http://www.training.com.br/sosim/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Windows](https://img.shields.io/badge/-Windows-333333?style=flat&logo=windows&logoColor=0078D6)](https://www.microsoft.com/pt-br/windows/?r=1)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Memória Virtual](https://img.shields.io/badge/-Memória_Virtual-333333?style=flat&logo=memory&logoColor=FF6B35)](http://www.training.com.br/sosim/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Paginação](https://img.shields.io/badge/-Paginação-333333?style=flat&logo=layers&logoColor=00AAFF)](https://pt.wikipedia.org/wiki/Paginação)
+[<img src="https://github.com/ed-radanovis/Engenharia_Software_Repositorio_Central_01-2025_a_10-2028/blob/519b9a6e9da6ea7fb6db6c07e5aaa723457c8614/2%C2%BA_semestre/4%C2%BA-Sistemas_Operacionais/atividades/U2_A1_PROCESSOS_CONCEITO_E_GERENCIAMENTO/images/mini_logo_sosim.png" width="19px" alt="SOsim Icon">![SOsim](https://img.shields.io/badge/-SOsim-333333?style=flat&logo=windowsterminal&logoColor=4D4D4D)](http://www.training.com.br/sosim/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="https://github.com/ed-radanovis/Engenharia_Software_Repositorio_Central_01-2025_a_10-2028/blob/master/2%C2%BA_semestre/4%C2%BA-Sistemas_Operacionais/atividades/U1_A3_CARACTERISTICAS_DOS_SISTEMAS_OPERACIONAIS/images/mini_logo_windows.png" width="19px" alt="Windows Icon">![Windows](https://img.shields.io/badge/-Windows-333333?style=flat&logo=windows&logoColor=0078D6)](https://www.microsoft.com/pt-br/windows/?r=1)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Memória Virtual](https://img.shields.io/badge/-Memória_Virtual-333333?style=flat&logo=probot&logoColor=00ff00)](http://www.training.com.br/sosim/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Paginação](https://img.shields.io/badge/-Paginação-333333?style=flat&logo=probot&logoColor=ffe600)](https://pt.wikipedia.org/wiki/Paginação)
 
 ---
 
