@@ -1,5 +1,5 @@
  <p align="center">
-    <img src="./images/logo_python2.png" min-width="100px" width="150" min-height="100px" height="150px" alt="logo bootcamp">
+    <img src="./images/logo_python2.png" min-width="100px" width="150" min-height="100px" height="150px" alt="logo Python">
   </p>
 
 # Projeto - Atividade Prática: Funções em Python
@@ -9,47 +9,51 @@
 ### Unidade 1 – Aula 4
 
 Ministrado por _Profº Anderson I. S. Abreu_.
+
 <br>
 
 Abaixo segue o resultado do projeto concluído:
 
-> <br>
+<br>
+
 > 🎯 Objetivo da Atividade:
 >
 > - Compreender a importância das estruturas condicionais, de repetição e funções.
 > - Aplicar funções, listas e estruturas de controle em um cenário realista.
-> - Desenvolver um sistema simples de gestão de notas de alunos com entrada de dados, cálculo de média, determinação da situação (aprovado/reprovado) e exibição de relatório.
->   <br>
+> - Desenvolver um sistema simples de gestão de notas de alunos com entrada de dados, cálculo de média, determinação da situação (aprovado / reprovado) e exibição de relatório.
+
+<br>
 
 ### 🧩 Features
 
-- Cadastro de notas do aluno (quantidade variável definida pelo usuário)
-- Armazenamento das notas em uma lista
-- Cálculo automático da média aritmética
-- Determinação da situação do aluno (Aprovado ≥ 7.0 | Reprovado < 7.0)
-- Exibição de relatório completo com todas as notas, média e situação
-- Validação básica de entrada (notas entre 0 e 10)
+- Cadastro de notas do aluno (quantidade variável definida pelo usuário).
+- Armazenamento das notas em uma lista.
+- Cálculo automático da média aritmética.
+- Determinação da situação do aluno (Aprovado ≥ 7.0 | Reprovado < 7.0).
+- Exibição de relatório completo com todas as notas, média e situação.
+- Validação básica de entrada (notas entre 0 e 10).
 
 ---
 
-<p align="center">
-    Prints dos resultados
-  </p>
-  <p align="center">
-    <img src="./images/result_activity_1.png" width="600px;"height="800px;" alt="copy shopee cart screen"/>
-  </p>
-
----
-
- <p align="center">
-    <img src="./images/result_activity_2.png" width="600px;"height="400px;" alt="copy shopee cart screen"/>
-  </p>
-
----
-
-   <p align="center">
-    <img src="./images/result_activity_3.png" width="600px;"height="400px;" alt="copy shopee cart screen"/>
-  </p>
+<table align="center">
+  <tr>
+    <td align="center">
+      <a href="./images/result_activity_1.png">
+        <img src="./images/result_activity_1.png" width="500px" height="600px" alt="print da atividade"/>
+      </a>
+    </td>
+    <td align="center">
+      <a href="./images/result_activity_2.png">
+        <img src="./images/result_activity_2.png" width="500px" height="300px" alt="print da atividade"/>
+      </a>
+      <br>
+      <br>
+      <a href="./images/result_activity_3.png">
+        <img src="./images/result_activity_3.png" width="500px" height="300px" alt="print da atividade"/>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -70,28 +74,26 @@ Abaixo segue o resultado do projeto concluído:
 
 A Atvidade foi desenvolvida utilizando:
 
-[![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=python&logoColor=FFD43B)](https://www.python.org/)
-
-[![Google Colab](https://img.shields.io/badge/-Google_Colab-333333?style=flat&logo=google-colab&logoColor=F9AB00)](https://colab.research.google.com/)
-
-<img src="./images/mini_logo_vscode.png" width="21px" alt="VS Code Icon">[![Visual Studio Code](https://img.shields.io/badge/-Visual_Studio_Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC)](https://code.visualstudio.com/)
+[![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=python&logoColor=FFD43B)](https://www.python.org/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Google Colab](https://img.shields.io/badge/-Google_Colab-333333?style=flat&logo=google-colab&logoColor=F9AB00)](https://colab.research.google.com/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./images/mini_logo_vscode.png" width="21px" alt="VS Code Icon">[![Visual Studio Code](https://img.shields.io/badge/-Visual_Studio_Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC)](https://code.visualstudio.com/)
 
 ---
 
-### 📂 Project Structure
+### 📂 Estrutura do Projeto
 
 ```bash
 U1_A4_FUNCOES_EM_PYTHON/
 ├── images/
 │   ├── logo_python.png
 │   ├── logo_python2.png
+│   ├── mini_logo_vscode.png
 │   ├── result_activity_1.png
 │   └── result_activity_2.png
 │   └── result_activity_3.png
 ├── src/
 │   └── unit_one_lesson_four_functions.py    # Código principal da atividade
-│
-└── README.md                                # Este arquivo
+├── ATIVIDADE_PRATICA_U1_A4_FUNCOES_EM_PYTHON.pdf
+├── README.md                                # Este arquivo
+└── roteiro_U1_A4_FUNCOES_EM_PYTHON.pdf
 ```
 
 ---
@@ -143,18 +145,39 @@ python unit_one_lesson_four_functions.py
 
 ---
 
-### 🤝 Contribua
-
-Contribuições são bem-vindas ! &nbsp;&nbsp;&nbsp;Sinta-se à vontade para abrir issues ou pull requests.
-
----
-
 ### 📜 License
 
 Por se tratar de um projeto de caráter exclusivamente acadêmico, desenvolvido como atividade prática da disciplina de Linguagem de Programação, ainda não foi atribuída uma licença formal de software (como MIT, GPL ou outra).
 
 O código tem finalidade educativa e de portfólio estudantil, sendo destinado apenas ao aprendizado e à avaliação no âmbito da faculdade. Caso deseje reutilizar ou adaptar o material para fins didáticos, sinta-se à vontade — apenas mantenha a referência ao autor original e ao contexto acadêmico.
 
+---
+
+<h4 align="center">
+  👨‍💻 Desenvolvido por 
+<h4/>
+<br>
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/edmar-radanovis/">
+        <img src="/github/foto perfil (4).jpeg" width="100px" height="120px" alt="foto de perfil"/><br>
+        <sub><b>Edmar Radanovis</b></sub><br>
+        <sub>Desenvolvedor Full Stack &nbsp;&</sub><br>
+        <sub>Bacharelando em</sub><br>
+        <sub>Engenharia de Software</sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://edwebdev.vercel.app/">
+        <img src="/github/Logo_EWD_APEX_rounded-sem_fundo.png" width="200px" height="200px" alt="Logo EWD Apex"/><br>
+        <sub><b>Ed Web Dev</b></sub><br>
+      </a>
+    </td>
+  </tr>
+</table>
+<br>
 <br>
 
 [⬆ Voltar ao topo](#projeto---atividade-prática-funções-em-python)
