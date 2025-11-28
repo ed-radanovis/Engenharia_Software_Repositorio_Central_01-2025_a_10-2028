@@ -29,11 +29,11 @@ Abaixo segue o resultado da atidade concluída:
 
 ### 🧩 Features
 
-- Identificação de versão do kernel nos sistemas Linux e Windows
-- Listagem de processos ativos em ambos os sistemas operacionais
-- Criação e gerenciamento de permissões de arquivos e diretórios
-- Exploração da estrutura de diretórios raiz e principais pastas
-- Comparação das arquiteturas de sistemas de arquivos Linux vs Windows
+- Identificação de versão do kernel nos sistemas Linux e Windows.
+- Listagem de processos ativos em ambos os sistemas operacionais.
+- Criação e gerenciamento de permissões de arquivos e diretórios.
+- Exploração da estrutura de diretórios raiz e principais pastas.
+- Comparação das arquiteturas de sistemas de arquivos Linux vs Windows.
 
 ---
 
@@ -103,7 +103,7 @@ Abaixo segue o resultado da atidade concluída:
 
 ### 🛠️ Tecnologias Utilizadas
 
-A Atvidade foi desenvolvida utilizando:
+A Atividade foi desenvolvida utilizando:
 
 [![Linux](https://img.shields.io/badge/-Linux-333333?style=flat&logo=linux&logoColor=FCC624)](https://www.linux.org/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="./images/mini_logo_windows.png" width="19px" alt="Windows Icon">![Windows](https://img.shields.io/badge/-windows-333333?style=flat&logo=windows&logoColor=0078D6)](https://www.microsoft.com/pt-br/windows/?r=1)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Bash](https://img.shields.io/badge/-Bash-333333?style=flat&logo=gnu-bash&logoColor=4EAA25)](https://www.gnu.org/software/bash/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="https://github.com/ed-radanovis/Engenharia_Software_Repositorio_Central_01-2025_a_10-2028/blob/master/2%C2%BA_semestre/4%C2%BA-Sistemas_Operacionais/atividades/U1_A3_CARACTERISTICAS_DOS_SISTEMAS_OPERACIONAIS/images/mini_logo_windows.png" width="19px" alt="Windows Icon">![PowerShell](https://img.shields.io/badge/-PowerShell-333333?style=flat&logo=powershell&logoColor=5391FE)](https://learn.microsoft.com/pt-br/powershell/scripting/install/install-powershell-on-windows?view=powershell-7.5)
 

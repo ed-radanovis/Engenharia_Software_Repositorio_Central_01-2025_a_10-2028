@@ -1,159 +1,151 @@
-# Projeto - Atividade Prática: Construção de Front-End Baseado em Framework
+<div align="center">
 
-## Disciplina: Desenvolvimento Responsivo
+<img src="../U1_A3_CARACTERISTICAS_DOS_SISTEMAS_OPERACIONAIS/images/logo_linux_sem_fundo.png" min-width="50px" width="80" min-height="50px" height="80px" alt="Logo Sistemas Operacionais">
 
-### Unidade 3 – Aula 2
+<img src="../U1_A3_CARACTERISTICAS_DOS_SISTEMAS_OPERACIONAIS//images/logo_windows_sem_fundo.png" min-width="50px" width="120" min-height="50px" height="120px" alt="Logo Sistemas Operacionais">
 
-Ministrado por _Profº Me. Anderson Emidio de Macedo Gonçalves_.
+</div>
+
+# Atividade Prática: Processos e Threads - Conceito e Gerenciamento
+
+## Disciplina: Sistemas Operacionais
+
+### Unidade 2 – Aula 1
+
+Ministrado por _Profº Me. Rômulo de Almeida Neves_.
 <br>
 
-Abaixo segue o resultado do projeto concluído:
+Abaixo segue o resultado da atividade concluída:
 
 > <br>
 > 🎯 Objetivo:
 >
-> - Desenvolvi este mini aplicativo front-end, **_`"Menu Responsivo"`_**, como parte do curso de _Desenvolvimento Responsivo_ (Unidade U3, Aula A2). O projeto foca na criação de um menu de navegação responsivo e interativo usando apenas **_[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)_**, **_[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)_** e **_[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)_**. O menu se adapta perfeitamente a vários tamanhos de tela — smartphones, tablets (retrato e paisagem), Full HD (1920px+) e 4K (3840px+) com recursos como um botão de alternância (hambúrguer), submenus suspensos, animações suaves e melhorias de acessibilidade. ✅
-
-> - Este projeto aprimorou minhas habilidades em design responsivo usando _media queries_ em CSS, manipulação do DOM com JavaScript e a implementação de elementos interativos para aumentar a usabilidade e a acessibilidade. Aproveitando o HTML semântico e técnicas modernas de CSS, aprimorei minha capacidade de criar layouts que funcionam de forma eficiente em diversos dispositivos, um diferencial importante no cenário atual de desenvolvimento web. ✅
->   > - A abordagem leve, combinada com a orientação prática do curso, tornou esta uma experiência gratificante e educativa, reforçando meu compromisso em entregar soluções web otimizadas e de alta qualidade.
+> - Compreensão, análise e aplicações relacionados a **_processos_** em sistemas operacionais.
+> - Explorar a `criação` , `eliminação` e `mudanças de estado` nos processos.
+> - Utilizar o simulador **_[SOsim](https://www.training.com.br/sosim/)_** para visualização prática dos conceitos de multiprogramação.
+> - Analisar políticas de `escalonamento circular` e `gerência de processador`. ✅
 
 <br>
 
 ### 🧩 Features
 
-- Criar um menu de navegação responsivo que se adapte a smartphones, tablets (retrato e paisagem), telas Full HD (1920px+) e 4K (3840px+)
-- Implementar um botão de alternância (tipo hambúrguer) para dispositivos móveis
-- Exibir submenus suspensos com animações suaves
-- Destacar o item de menu selecionado
-- Garantir o fechamento automático de outros submenus ao abrir um novo
-- Fornecer uma interface acessível e amigável com HTML semântico
+- Download e configuração do simulador SOsim para estudos de sistemas operacionais.
+- Criação e análise de processos `CPU-bound` e `I/O-bound`.
+- Observação de mudanças de estado e mudanças de contexto entre processos.
+- Configuração e análise do escalonamento circular com diferentes fatias de tempo.
+- Monitoramento de estatísticas em tempo real através das janelas do simulador.
+- Comparação de concorrência entre processos com diferentes parâmetros de sistema.
 
 ---
 
-<p align="center">
-<img src="./src/images/readme_gif.gif" alt="page-gif" width="800px" >
-</p>
-
-<div align="center">
-<p></p>
-Clique aqui para testar... obrigado pelo seu interesse!
-
-( 🖱️ Ctrl + clique para abrir em uma nova aba ou visite [www.??????](https://www.??????) ).
-
-</div>
-
- <p align="center">
-<img src="./src/images/Model2.png" alt="print-screen-image" width="800px" >
-</p>
+<table align="center">
+  <tr>
+    <td align="center">
+      <a href="./images/1_criacao_processos.png">
+        <img src="./images/1_criacao_processos.png" width="250px" height="250px" alt="Criação de Processos"/>
+      </a>
+    </td>
+    <td align="center">
+      <a href="./images/2.0_processos_com_mesma_prioridade.png">
+        <img src="./images/2.0_processos_com_mesma_prioridade.png" width="250px" height="250px" alt="Gerência de Processos"/>
+      </a>
+    </td>
+    <td align="center">
+      <a href="./images/2.1_processos_com_mesma_prioridade.png">
+        <img src="./images/2.1_processos_com_mesma_prioridade.png" width="250px" height="250px" alt="Gerência do Processador"/>
+      </a>
+    </td>
+    <td align="center">
+      <a href="./images/2.2_processos_com_mesma_prioridade.png">
+        <img src="./images/2.2_processos_com_mesma_prioridade.png" width="250px" height="250px" alt="Gerência de Memória"/>
+      </a>
+    </td>
+    <td align="center">
+      <a href="./images/2.3_processos_com_mesma_prioridade.png">
+        <img src="./images/2.3_processos_com_mesma_prioridade.png" width="250px" height="250px" alt="Janela de Estatísticas"/>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ---
 
 ### 📚 Pré-requisitos
 
-- [ ] Antes de iniciar este projeto, você deve ter conhecimento básico nas seguintes áreas:
+- [ ] Antes de iniciar esta atividade, você deve ter conhecimento básico nas seguintes áreas:
       <br>
 
-- **HTML Básico :** Estrutura semântica de páginas web, tags fundamentais (`<header>` , `<nav>` , `<ul>` , `<li>`), e atributos.
-- **CSS Intermediário :** Seletores, box model, Flexbox/Grid, media queries, e propriedades de animação / transição.
-- **JavaScript Essencial :** Manipulação do DOM, eventos (click, mouseover), funções, e condicionais.
-- **Design Responsivo :** Conceitos de breakpoints, mobile-first, e adaptação a diferentes tamanhos de tela.
-- **Acessibilidade Web :** Noções básicas de ARIA attributes e navegação por teclado.
-
----
-
-### ✨ Ajustes e melhorias
-
-O proposta da atividade foi totalmente concluída, o que Inclui a HomePage e AboutPage.
-
-> 📝 Nota: As demais pages não foram criadas por questões de gestão de tempo, e serão criadas posteriormente.
+- **Conceitos de Processos:** Noções de processos, threads e estados de processos.
+- **Sistemas Operacionais:** Compreensão básica de multiprogramação e escalonamento.
+- **SOsim:** Familiaridade com a interface do simulador (será adquirida durante a atividade).
+- **Terminologia:** Conceitos de CPU-bound, I/O-bound, fatia de tempo e mudanças de contexto.
 
 ---
 
 ### 🛠️ Tecnologias Utilizadas
 
-A Atvidade foi desenvolvida utilizando:
+A Atividade foi desenvolvida utilizando:
 
-- [x] **Frontend**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5)](https://developer.mozilla.org/en-US/docs/Web/HTML) &nbsp;&nbsp;[<img src="https://raw.githubusercontent.com/ed-radanovis/Soft-App-Memes-Machine-DIO-11-2022/refs/heads/master/assets/github/mini_logo_css.png" width="16px" alt="CSS Icon">![CSS](https://img.shields.io/badge/-CSS-333333?style=flat&logo=CSS3&logoColor=1572B6)](https://developer.mozilla.org/en-US/docs/Web/CSS)&nbsp;&nbsp;[![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-      <br>
+[<img src="./images/mini_logo_sosim.png" width="19px" alt="Windows Icon">![SOsim](https://img.shields.io/badge/-SOsim-333333?style=flat&logo=windowsterminal&logoColor=4D4D4D)](http://www.training.com.br/sosim/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="https://github.com/ed-radanovis/Engenharia_Software_Repositorio_Central_01-2025_a_10-2028/blob/master/2%C2%BA_semestre/4%C2%BA-Sistemas_Operacionais/atividades/U1_A3_CARACTERISTICAS_DOS_SISTEMAS_OPERACIONAIS/images/mini_logo_windows.png" width="19px" alt="Windows Icon">![Windows](https://img.shields.io/badge/-Windows-333333?style=flat&logo=windows&logoColor=0078D6)](https://www.microsoft.com/pt-br/windows/?r=1)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Simulador](https://img.shields.io/badge/-Simulador-333333?style=flat&logo=azurepipelines&logoColor=2560E0)](http://www.training.com.br/sosim/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Sistemas Operacionais](https://img.shields.io/badge/-Sistemas_Operacionais-333333?style=flat&logo=probot&logoColor=00D4AA)](https://pt.wikipedia.org/wiki/Sistema_operativo)
 
-- [x] **Ferramentas de Desenvolvimento e Testes**:&nbsp;&nbsp;&nbsp;[<img src="https://raw.githubusercontent.com/ed-radanovis/Soft-App-Memes-Machine-DIO-11-2022/refs/heads/master/assets/github/mini_logo_liveserver.png" width="21px" alt="Live Server Icon">![Live Server](https://img.shields.io/badge/-Live%20Server-333333?style=flat&logo=live-server)](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)&nbsp;&nbsp;`Manual testing with Browser DevTools`
-      <br>
+---
 
-- [x] **Hospedagem e Implantação**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![GitHub Pages](https://img.shields.io/badge/-GitHub%20Pages-333333?style=flat&logo=github&logoColor=ffffff)](https://pages.github.com/)
-      <br>
+#### ⚙️ Configuração e Execução
 
-- [x] **Planejamento e Edição**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Figma](https://img.shields.io/badge/-Figma-333333?style=flat&logo=figma&logoColor=007ACC)](https://figma.com/)&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/ed-radanovis/Soft-App-Memes-Machine-DIO-11-2022/6c046ddb9cd516f3cea41a8abbb1318fc3e6d8d1/assets/github/mini_logo_vscode.png" width="21px" alt="VS Code Icon">[![Visual Studio Code](https://img.shields.io/badge/-Visual_Studio_Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC)](https://code.visualstudio.com/)
-      <br>
+- [x] &nbsp;&nbsp;&nbsp;Pré-requisitos:
 
-#### ⚙️ Etapas do projeto
+✔️ - Download do SOsim em: http://www.training.com.br/sosim/
+✔️ - Sistema Windows para execução do simulador.
+✔️ - Conhecimento básico de conceitos de processos e escalonamento.
 
-✔️ - Planejamento: O projeto foi estruturado com foco em um miniaplicativo funcional, **evitando dependências complexas** e priorizando um código limpo e **de fácil manutenção**.<br>
-✔️ - Configurar o ambiente:
-
-- [ ] Se desejar, clone o repositório:
+- [x] &nbsp;&nbsp;&nbsp;Configuração Inicial do SOsim:
 
 ```bash
-
-📝 Nota => Método recomendado - para clonar apenas este diretório e não todo o repositório :
-
-git clone --depth 1 --filter=blob:none --sparse https://github.com/ed-radanovis/Engenharia_Software_Repositorio_Central_01-2025_a_10-2028.git
-cd Engenharia_Software_Repositorio_Central_01-2025_a_10-2028
-git sparse-checkout set "1º_semestre/1º-Desenvolvimento_Responsivo_disciplina_isolada/atividades/Frontend_com_Framework_HTML_CSS_JS"
-```
-
-- [ ] Navegue até a pasta do projeto: `cd Frontend_com_Framework_HTML_CSS_JS` ou a pasta que você criou e nomeou.
-
----
-
-#### 🖥️ Frontend
-
-✔️ - Navegue até a raiz do projeto: onde estão localizados os arquivos `index.html`, `src/css/`, `src/js/` e `src/images/`.<br>
-✔️ - Certifique-se de que as dependências estejam disponíveis:
-
-- [x] &nbsp;&nbsp;&nbsp;Baixe bibliotecas externas como `typed.js`, `jquery`, `jquery-easing` e `ionicons`, conforme os links no cabeçalho (`<head>`) do arquivo `index.html`.
-
-- [x] &nbsp;&nbsp;&nbsp;Certifique-se de que a pasta `src/images/` contenha os recursos necessários (por exemplo, `background.png`, `logo.png`, `mascote.png`, etc.).
-
-✔️ - Abra o arquivo `index.html` diretamente no navegador ou hospede-o no `GitHub Pages`.<br>
-
----
-
-#### 🌐 Implantação
-
-✔️ - Hospedagem no GitHub Pages (plano gratuito):
-
-- [x] &nbsp;&nbsp;&nbsp; Acesse o [GitHub](https://github.com).
-- [x] &nbsp;&nbsp;&nbsp; Navegue até o seu repositório (por exemplo, `https://github.com/repository-created-by-you`).
-- [x] &nbsp;&nbsp;&nbsp; Habilite o GitHub Pages: Acesse as configurações do repositório, role até a seção **_`"Pages"`_**, selecione a branch (por exemplo, `main` ou `gh-pages`) e defina o diretório raiz como `/` (raiz do projeto).
-- [x] &nbsp;&nbsp;&nbsp; Suba e acesse a URL gerada (por exemplo, `https://seu-nome-de-usuário.github.io/nome-do-repositório/`).
-
-✔️ - Hospedagem opcional no Render (plano gratuito):
-
-- [ ] &nbsp;&nbsp;&nbsp; Acesse o [Render](https://render.com).
-- [ ] &nbsp;&nbsp;&nbsp; Crie um novo Site Estático e conecte-o ao repositório `https://github.com/repository-created-by-you`.
-- [ ] &nbsp;&nbsp;&nbsp; Defina o diretório raiz como `/` (raiz do projeto).
-- [ ] &nbsp;&nbsp;&nbsp; Suba e acesse a URL gerada (por exemplo, `https://nome-do-seu-aplicativo.onrender.com`).
+# 1. Fazer download do SOsim no site oficial
+# 2. Extrair e executar o aplicativo
+# 3. Abrir todas as janelas: Console SOsim, Gerência de Processos,
+#    Gerência do Processador, Gerência de Memória, Arquivo de paginação,
+#    Estatísticas e Log
 
 ---
 
 #### 🔬 Testes
 
-✔️ - Testes Manuais:
+✔️ - Testes práticos realizados:
 
-- [x] &nbsp;&nbsp;&nbsp; Verifique o comportamento responsivo com as Ferramentas de Desenvolvedor (F12 > Alternar Barra de Ferramentas do Dispositivo) ou outra ferramenta de sua escolha, para simular em smartphones (largura máxima: 885px), tablets (886px-1024px), telas Full HD (1920px+) e 4K (3840px+).
-- [x] &nbsp;&nbsp;&nbsp; Teste a alternância do menu hambúrguer e as interações do submenu em dispositivos móveis.
-- [x] &nbsp;&nbsp;&nbsp;Verifique os recursos de acessibilidade (por exemplo, tags semânticas, navegação por teclado, Acesso Não Visual à Área de Trabalho (NVDA)) usando as Ferramentas de Desenvolvedor do Navegador, garantindo compatibilidade e usabilidade.
+- [x] &nbsp;&nbsp;&nbsp; Identificação correta da versão do kernel no Linux.
+- [x] &nbsp;&nbsp;&nbsp; Listagem de processos ativos em ambos os sistemas.
+- [x] &nbsp;&nbsp;&nbsp; Criação e configuração de permissões de arquivos.
+- [x] &nbsp;&nbsp;&nbsp; Exploração da estrutura de diretórios raiz.
+- [x] &nbsp;&nbsp;&nbsp; Comparação entre /home, /etc, /var (Linux) e C:\Users, C:\Windows (Windows).
+- [x] &nbsp;&nbsp;&nbsp; Verificação de permissões aplicadas.
+
+---
+
+### 🧠 Habilidades Desenvolvidas
+
+✔️ Ao concluir esta atividade, você terá adquirido as seguintes habilidades e sub-habilidades :
+
+- Compreensão das funções do kernel e shell em sistemas operacionais.
+- Habilidade em comandos essenciais do terminal Linux e PowerShell.
+- Gerenciamento de permissões de arquivos e diretórios.
+- Conhecimento da estrutura de sistemas de arquivos Linux e Windows.
+- Capacidade de comparar arquiteturas de diferentes sistemas operacionais.
+- Habilidade em troubleshooting básico de sistemas.
+- Entendimento de ambientes multiusuário e segurança de acesso.
 
 ---
 
 #### 📜 Licença
 
-Este projeto está licenciado sob a [MIT License](LICENSE).
+Por se tratar de um projeto de caráter exclusivamente acadêmico, desenvolvido como atividade prática da disciplina de Sistemas Operacionais, ainda não foi atribuída uma licença formal de software (como MIT, GPL ou outra).
+
+O material tem finalidade educativa e de portfólio estudantil, sendo destinado apenas ao aprendizado e à avaliação no âmbito da faculdade. Caso deseje reutilizar ou adaptar o conteúdo para fins didáticos, sinta-se à vontade — apenas mantenha a referência ao autor original e ao contexto acadêmico..
 
 ---
 
 <h4 align="center">
-  👨‍💻 Desenvolvido por 
+  👨‍💻 Desenvolvido por
 <h4/>
 <br>
 
@@ -176,13 +168,8 @@ Este projeto está licenciado sob a [MIT License](LICENSE).
     </td>
   </tr>
 </table>
-<table align="center">
-  <tr>
-    
-  </tr>
-</table>
-
 <br>
 <br>
 
-[⬆ Voltar ao topo](#projeto---atividade-prática-construção-de-front-end-baseado-em-framework)
+[⬆ Voltar ao topo](#atividade-prática-características-dos-sistemas-operacionais)
+```
