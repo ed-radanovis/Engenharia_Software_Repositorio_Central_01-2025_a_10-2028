@@ -42,27 +42,31 @@ Abaixo segue o resultado da atividade concluída:
   <tr>
     <td align="center">
       <a href="./images/1_criacao_processos.png">
-        <img src="./images/1_criacao_processos.png" width="250px" height="250px" alt="Criação de Processos"/>
+        <img src="./images/1_criacao_processos.png" width="500px" height="250px" alt="Criação de Processos"/>
       </a>
     </td>
     <td align="center">
       <a href="./images/2.0_processos_com_mesma_prioridade.png">
-        <img src="./images/2.0_processos_com_mesma_prioridade.png" width="250px" height="250px" alt="Gerência de Processos"/>
+        <img src="./images/2.0_processos_com_mesma_prioridade.png" width="500px" height="250px" alt="Gerência de Processos"/>
       </a>
     </td>
     <td align="center">
       <a href="./images/2.1_processos_com_mesma_prioridade.png">
-        <img src="./images/2.1_processos_com_mesma_prioridade.png" width="250px" height="250px" alt="Gerência do Processador"/>
+        <img src="./images/2.1_processos_com_mesma_prioridade.png" width="500px" height="250px" alt="Gerência do Processador"/>
       </a>
     </td>
+  </tr>
+</table>
+<table align="center">
+  <tr>
     <td align="center">
       <a href="./images/2.2_processos_com_mesma_prioridade.png">
-        <img src="./images/2.2_processos_com_mesma_prioridade.png" width="250px" height="250px" alt="Gerência de Memória"/>
+        <img src="./images/2.2_processos_com_mesma_prioridade.png" width="500px" height="250px" alt="Gerência de Memória"/>
       </a>
     </td>
     <td align="center">
       <a href="./images/2.3_processos_com_mesma_prioridade.png">
-        <img src="./images/2.3_processos_com_mesma_prioridade.png" width="250px" height="250px" alt="Janela de Estatísticas"/>
+        <img src="./images/2.3_processos_com_mesma_prioridade.png" width="500px" height="250px" alt="Janela de Estatísticas"/>
       </a>
     </td>
   </tr>
