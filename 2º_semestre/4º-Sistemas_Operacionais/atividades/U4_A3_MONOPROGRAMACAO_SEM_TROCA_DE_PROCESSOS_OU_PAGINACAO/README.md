@@ -31,36 +31,36 @@ Abaixo segue o resultado da atividade concluída:
 
 ### 🧩 Features
 
-- Download e configuração do simulador SOsim para estudos avançados
-- Configuração de escalonamento circular e políticas de memória virtual
-- Criação e análise de processos CPU-bound com paginação ativa
-- Ativação e monitoramento da janela de arquivos de paginação
-- Visualização detalhada da tabela de páginas através do Contexto do Processo
-- Análise dos bits de validade nas entradas das tabelas de páginas (ETP)
-- Configuração de parâmetros avançados do sistema
+- Download e configuração do simulador SOsim para estudos avançados.
+- Configuração de escalonamento circular e políticas de memória virtual.
+- Criação e análise de processos CPU - bound com paginação ativa.
+- Ativação e monitoramento da janela de arquivos de paginação.
+- Visualização detalhada da tabela de páginas através do Contexto do Processo.
+- Análise dos bits de validade nas entradas das tabelas de páginas (ETP).
+- Configuração de parâmetros avançados do sistema.
 
 ---
 
 <table align="center">
   <tr>
     <td align="center">
-      <a href="./images/sosim_config_processador.png">
-        <img src="./images/sosim_config_processador.png" width="250px" height="250px" alt="Configuração Processador"/>
+      <a href="./images/1_escalonamento_circular.png">
+        <img src="./images/1_escalonamento_circular.png" width="250px" height="250px" alt="print da atividade"/>
       </a>
     </td>
     <td align="center">
-      <a href="./images/sosim_config_memoria.png">
-        <img src="./images/sosim_config_memoria.png" width="250px" height="250px" alt="Configuração Memória"/>
+      <a href="./images/2_busca_paginas_antecipada.png">
+        <img src="./images/2_busca_paginas_antecipada.png" width="250px" height="250px" alt="print da atividade"/>
       </a>
     </td>
     <td align="center">
-      <a href="./images/sosim_paginacao.png">
-        <img src="./images/sosim_paginacao.png" width="250px" height="250px" alt="Janela Paginação"/>
+      <a href="./images/3.1_contexto_do_processo_PCB.png">
+        <img src="./images/3.1_contexto_do_processo_PCB.png" width="250px" height="250px" alt="print da atividade"/>
       </a>
     </td>
     <td align="center">
-      <a href="./images/sosim_tabela_paginas.png">
-        <img src="./images/sosim_tabela_paginas.png" width="250px" height="250px" alt="Tabela de Páginas"/>
+      <a href="./images/3.2_contexto_do_processo_tabpag.png">
+        <img src="./images/3.2_contexto_do_processo_tabpag.png" width="250px" height="250px" alt="print da atividade"/>
       </a>
     </td>
   </tr>
@@ -68,23 +68,8 @@ Abaixo segue o resultado da atividade concluída:
 <table align="center">
   <tr>
     <td align="center">
-      <a href="./images/sosim_processo_cpu_bound.png">
-        <img src="./images/sosim_processo_cpu_bound.png" width="250px" height="250px" alt="Processo CPU-bound"/>
-      </a>
-    </td>
-    <td align="center">
-      <a href="./images/sosim_bits_validacao.png">
-        <img src="./images/sosim_bits_validacao.png" width="250px" height="250px" alt="Bits de Validação"/>
-      </a>
-    </td>
-    <td align="center">
-      <a href="./images/sosim_console.png">
-        <img src="./images/sosim_console.png" width="250px" height="250px" alt="Console SOsim"/>
-      </a>
-    </td>
-    <td align="center">
-      <a href="./images/sosim_gerencia_processos.png">
-        <img src="./images/sosim_gerencia_processos.png" width="250px" height="250px" alt="Gerência de Processos"/>
+      <a href="./images/4_contexto_geral.png">
+        <img src="./images/4_contexto_geral.png" width="1080px" height="250px" alt="print da atividade"/>
       </a>
     </td>
   </tr>
