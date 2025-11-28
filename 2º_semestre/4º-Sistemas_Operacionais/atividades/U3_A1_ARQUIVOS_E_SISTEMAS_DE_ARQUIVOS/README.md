@@ -42,22 +42,22 @@ Abaixo segue o resultado da atividade concluída:
   <tr>
     <td align="center">
       <a href="./images/1_listar_atributos_arquivos.png">
-        <img src="./images/1_listar_atributos_arquivos.png" width="250px" height="500px" alt="print da atividade"/>
+        <img src="./images/1_listar_atributos_arquivos.png" width="500px" height="800px" alt="print da atividade"/>
+      </a>
+      <br>
+      <br>
+      <a href="./images/3_script_acesso_sequencial.png">
+        <img src="./images/3_script_acesso_sequencial.png" width="500px" height="300px" alt="print da atividade"/>
       </a>
     </td>
     <td align="center">
       <a href="./images/2_desenvolvimento_execução_arquivo_dados.png">
-        <img src="./images/2_desenvolvimento_execução_arquivo_dados.png" width="250px" height="500px" alt="print da atividade"/>
+        <img src="./images/2_desenvolvimento_execução_arquivo_dados.png" width="500px" height="800px" alt="print da atividade"/>
       </a>
-    </td>
-    <td align="center">
-      <a href="./images/3_script_acesso_sequencial.png">
-        <img src="./images/3_script_acesso_sequencial.png" width="250px" height="250px" alt="print da atividade"/>
-      </a>
-    </td>
-    <td align="center">
+      <br>
+      <br>
       <a href="./images/4_script_acesso_direto.png">
-        <img src="./images/4_script_acesso_direto.png" width="250px" height="250px" alt="print da atividade"/>
+        <img src="./images/4_script_acesso_direto.png" width="500px" height="300px" alt="print da atividade"/>
       </a>
     </td>
   </tr>
