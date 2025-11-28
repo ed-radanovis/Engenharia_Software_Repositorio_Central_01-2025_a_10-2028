@@ -106,7 +106,7 @@ A Atividade foi desenvolvida utilizando:
 ✔️ - Sistema Windows para execução do simulador.
 ✔️ - Conhecimento prévio de conceitos de paginação.
 
-- [x] &nbsp;&nbsp;&nbsp;Configuração Inicial do SOsim:
+- [x] &nbsp;&nbsp;&nbsp;Atividade 1 - Configuração Inicial do SOsim:
 
 ```bash
 # 1. Fazer download e executar o SOsim
@@ -117,6 +117,40 @@ A Atividade foi desenvolvida utilizando:
 #    Console SOsim → Opções → Parâmetros do Sistema → Guia Memória
 
 # 4. Reiniciar o simulador para aplicar as configurações
+```
+
+- [x] &nbsp;&nbsp;&nbsp;Atividade 2 - Análise de Paginação:
+
+```bash
+# Criar processo CPU - bound:
+# Gerência de Processos → Criar → Tipo: CPU - bound
+
+# Ativar janela de paginação:
+# Janelas → Arquivo de paginação
+
+# Visualizar tabela de páginas:
+# Gerência de Processos → PCB → Guia Tab. de Pag.
+
+# Analisar Bits de Validade (Bit V) nas ETPs
+```
+
+- [x] &nbsp;&nbsp;&nbsp;Passos Detalhados no SOsim:
+
+```bash
+1. Console SOsim → Opções → Parâmetros do Sistema
+   - Guia Processador: Selecionar "Escalonamento Circular"
+   - Guia Memória: Configurar "Busca Antecipada de Páginas"
+
+2. Console SOsim → Reiniciar
+
+3. Gerência de Processos → Criar → CPU-bound
+
+4. Janelas → Arquivo de paginação (ativar)
+
+5. Gerência de Processos → Duplo-clique no processo → Guia "Tab. de Pag."
+
+6. Analisar coluna "Bit V" nas Entradas da Tabela de Páginas
+```
 
 ---
 
@@ -124,12 +158,13 @@ A Atividade foi desenvolvida utilizando:
 
 ✔️ - Testes práticos realizados:
 
-- [x] &nbsp;&nbsp;&nbsp; Identificação correta da versão do kernel no Linux.
-- [x] &nbsp;&nbsp;&nbsp; Listagem de processos ativos em ambos os sistemas.
-- [x] &nbsp;&nbsp;&nbsp; Criação e configuração de permissões de arquivos.
-- [x] &nbsp;&nbsp;&nbsp; Exploração da estrutura de diretórios raiz.
-- [x] &nbsp;&nbsp;&nbsp; Comparação entre /home, /etc, /var (Linux) e C:\Users, C:\Windows (Windows).
-- [x] &nbsp;&nbsp;&nbsp; Verificação de permissões aplicadas.
+- [x] &nbsp;&nbsp;&nbsp; Download e execução correta do simulador SOsim.
+- [x] &nbsp;&nbsp;&nbsp; Configuração adequada do escalonamento circular.
+- [x] &nbsp;&nbsp;&nbsp; Aplicação da política de busca de páginas antecipada.
+- [x] &nbsp;&nbsp;&nbsp; Criação bem-sucedida de processo CPU - bound.
+- [x] &nbsp;&nbsp;&nbsp; Ativação e análise da janela de paginação.
+- [x] &nbsp;&nbsp;&nbsp; Visualização detalhada da tabela de páginas.
+- [x] &nbsp;&nbsp;&nbsp; Verificação dos bits de validade nas ETPs.
 
 ---
 
@@ -137,13 +172,13 @@ A Atividade foi desenvolvida utilizando:
 
 ✔️ Ao concluir esta atividade, você terá adquirido as seguintes habilidades e sub-habilidades :
 
-- Compreensão das funções do kernel e shell em sistemas operacionais.
-- Habilidade em comandos essenciais do terminal Linux e PowerShell.
-- Gerenciamento de permissões de arquivos e diretórios.
-- Conhecimento da estrutura de sistemas de arquivos Linux e Windows.
-- Capacidade de comparar arquiteturas de diferentes sistemas operacionais.
-- Habilidade em troubleshooting básico de sistemas.
-- Entendimento de ambientes multiusuário e segurança de acesso.
+- Compreensão profunda dos conceitos de paginação em SO.
+- Habilidade em configurar políticas avançadas de memória virtual.
+- Capacidade de analisar tabelas de páginas e seus componentes.
+- Conhecimento prático de bits de controle e validação.
+- Habilidade em utilizar simuladores para estudos avançados.
+- Capacidade de visualizar e interpretar estruturas de memória.
+- Entendimento de processos CPU-bound em ambiente de paginação.
 
 ---
 
@@ -182,5 +217,4 @@ O material tem finalidade educativa e de portfólio estudantil, sendo destinado 
 <br>
 <br>
 
-[⬆ Voltar ao topo](#atividade-prática-características-dos-sistemas-operacionais)
-```
+[⬆ Voltar ao topo](#atividade-prática-monoprogramação-sem-troca-de-processos-ou-paginação)
