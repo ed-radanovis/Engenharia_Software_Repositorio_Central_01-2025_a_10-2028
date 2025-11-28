@@ -61,12 +61,12 @@ Abaixo segue o resultado da atividade concluída:
   <tr>
     <td align="center">
       <a href="./images/2.2_processos_com_mesma_prioridade.png">
-        <img src="./images/2.2_processos_com_mesma_prioridade.png" width="250px" height="250px" alt="Gerência de Memória"/>
+        <img src="./images/2.2_processos_com_mesma_prioridade.png" width="300px" height="300px" alt="Gerência de Memória"/>
       </a>
     </td>
     <td align="center">
       <a href="./images/2.3_processos_com_mesma_prioridade.png">
-        <img src="./images/2.3_processos_com_mesma_prioridade.png" width="250px" height="250px" alt="Janela de Estatísticas"/>
+        <img src="./images/2.3_processos_com_mesma_prioridade.png" width="300px" height="250px" alt="Janela de Estatísticas"/>
       </a>
     </td>
   </tr>
