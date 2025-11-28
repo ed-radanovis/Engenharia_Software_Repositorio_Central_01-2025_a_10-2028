@@ -81,8 +81,8 @@ Abaixo segue o resultado da atividade concluída:
 
 - **Conceitos de Processos:** Noções de processos, threads e estados de processos.
 - **Sistemas Operacionais:** Compreensão básica de multiprogramação e escalonamento.
-- **SOsim:** Familiaridade com a interface do simulador (será adquirida durante a atividade).
-- **Terminologia:** Conceitos de CPU-bound, I/O-bound, fatia de tempo e mudanças de contexto.
+- **SOsim:** Familiaridade com a interface do simulador (é adquirida durante a atividade).
+- **Terminologia:** Conceitos de CPU - bound, I / O - bound, fatia de tempo e mudanças de contexto.
 
 ---
 
@@ -102,7 +102,9 @@ A Atividade foi desenvolvida utilizando:
 ✔️ - Sistema Windows para execução do simulador.
 ✔️ - Conhecimento básico de conceitos de processos e escalonamento.
 
-- [x] &nbsp;&nbsp;&nbsp;Configuração Inicial do SOsim:
+<br>
+
+- [x] &nbsp;&nbsp;&nbsp;Atividade 1 - Configuração Inicial do SOsim:
 
 ```bash
 # 1. Fazer download do SOsim no site oficial
@@ -110,6 +112,34 @@ A Atividade foi desenvolvida utilizando:
 # 3. Abrir todas as janelas: Console SOsim, Gerência de Processos,
 #    Gerência do Processador, Gerência de Memória, Arquivo de paginação,
 #    Estatísticas e Log
+```
+
+<br>
+
+- [x] &nbsp;&nbsp;&nbsp;Atividade 2 - Criação de Processos:
+
+```bash
+# Criar processo CPU-bound:
+# Gerência de Processos → Criar → Tipo: CPU-bound
+
+# Criar processo I/O-bound:
+# Gerência de Processos → Criar → Tipo: I/O-bound
+
+# Observar mudanças de estado e comportamento
+```
+
+<br>
+
+- [x] &nbsp;&nbsp;&nbsp;Atividade 3 - Escalonamento Circular:
+
+```bash
+# Configurar escalonamento circular:
+# Console SOsim → Opções → Parâmetros do Sistema → Guia Processador
+
+# Criar 2 processos com mesma prioridade (CPU-bound e I/O-bound)
+# Observar tempo de processador por 2 minutos
+# Ajustar fatia de tempo e comparar resultados
+```
 
 ---
 
@@ -117,12 +147,13 @@ A Atividade foi desenvolvida utilizando:
 
 ✔️ - Testes práticos realizados:
 
-- [x] &nbsp;&nbsp;&nbsp; Identificação correta da versão do kernel no Linux.
-- [x] &nbsp;&nbsp;&nbsp; Listagem de processos ativos em ambos os sistemas.
-- [x] &nbsp;&nbsp;&nbsp; Criação e configuração de permissões de arquivos.
-- [x] &nbsp;&nbsp;&nbsp; Exploração da estrutura de diretórios raiz.
-- [x] &nbsp;&nbsp;&nbsp; Comparação entre /home, /etc, /var (Linux) e C:\Users, C:\Windows (Windows).
-- [x] &nbsp;&nbsp;&nbsp; Verificação de permissões aplicadas.
+- [x] &nbsp;&nbsp;&nbsp;Download e configuração correta do simulador SOsim.
+- [x] &nbsp;&nbsp;&nbsp;Criação de processos CPU-bound e I/O-bound com sucesso.
+- [x] &nbsp;&nbsp;&nbsp;Análise das mudanças de estado dos processos.
+- [x] &nbsp;&nbsp;&nbsp;Configuração do escalonamento circular.
+- [x] &nbsp;&nbsp;&nbsp;Observação do balanceamento no uso do processador.
+- [x] &nbsp;&nbsp;&nbsp;Análise comparativa com diferentes fatias de tempo.
+- [x] &nbsp;&nbsp;&nbsp;Monitoramento através das janelas de Estatísticas e Log.
 
 ---
 
@@ -130,13 +161,13 @@ A Atividade foi desenvolvida utilizando:
 
 ✔️ Ao concluir esta atividade, você terá adquirido as seguintes habilidades e sub-habilidades :
 
-- Compreensão das funções do kernel e shell em sistemas operacionais.
-- Habilidade em comandos essenciais do terminal Linux e PowerShell.
-- Gerenciamento de permissões de arquivos e diretórios.
-- Conhecimento da estrutura de sistemas de arquivos Linux e Windows.
-- Capacidade de comparar arquiteturas de diferentes sistemas operacionais.
-- Habilidade em troubleshooting básico de sistemas.
-- Entendimento de ambientes multiusuário e segurança de acesso.
+- Compreensão profunda do conceito de processos e seus estados.
+- Habilidade em utilizar simuladores para estudos de sistemas operacionais.
+- Capacidade de analisar diferenças entre processos CPU-bound e I/O-bound.
+- Conhecimento prático de políticas de escalonamento (circular).
+- Habilidade em configurar e ajustar parâmetros do sistema.
+- Capacidade de interpretar estatísticas e logs de execução.
+- Entendimento de mudanças de contexto e concorrência entre processos.
 
 ---
 
@@ -175,5 +206,4 @@ O material tem finalidade educativa e de portfólio estudantil, sendo destinado 
 <br>
 <br>
 
-[⬆ Voltar ao topo](#atividade-prática-características-dos-sistemas-operacionais)
-```
+[⬆ Voltar ao topo](#atividade-prática-processos-e-threads---conceito-e-gerenciamento)
