@@ -6,53 +6,61 @@
 
 </div>
 
-# Projeto - Atividade Prática: Construção de Front-End Baseado em Framework
+# Atividade Prática: Características dos Sistemas Operacionais
 
-## Disciplina: Desenvolvimento Responsivo
+## Disciplina: Sistemas Operacionais
 
-### Unidade 3 – Aula 2
+### Unidade 1 – Aula 3
 
 Ministrado por _Profº Me. Rômulo de Almeida Neves_.
 <br>
 
-Abaixo segue o resultado do projeto concluído:
+Abaixo segue o resultado da atidade concluída:
 
 > <br>
 > 🎯 Objetivo:
 >
-> - Desenvolvi este mini aplicativo front-end, **_`"Menu Responsivo"`_**, como parte do curso de _Desenvolvimento Responsivo_ (Unidade U3, Aula A2). O projeto foca na criação de um menu de navegação responsivo e interativo usando apenas **_[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)_**, **_[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)_** e **_[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)_**. O menu se adapta perfeitamente a vários tamanhos de tela — smartphones, tablets (retrato e paisagem), Full HD (1920px+) e 4K (3840px+) com recursos como um botão de alternância (hambúrguer), submenus suspensos, animações suaves e melhorias de acessibilidade. ✅
-
-> - Este projeto aprimorou minhas habilidades em design responsivo usando _media queries_ em CSS, manipulação do DOM com JavaScript e a implementação de elementos interativos para aumentar a usabilidade e a acessibilidade. Aproveitando o HTML semântico e técnicas modernas de CSS, aprimorei minha capacidade de criar layouts que funcionam de forma eficiente em diversos dispositivos, um diferencial importante no cenário atual de desenvolvimento web. ✅
->   > - A abordagem leve, combinada com a orientação prática do curso, tornou esta uma experiência gratificante e educativa, reforçando meu compromisso em entregar soluções web otimizadas e de alta qualidade.
+> - Desenvolver a compreensão dos principais componentes dos sistemas operacionais **_[Linux](https://www.linux.org/)_** e **_[Windows](https://www.microsoft.com/pt-br/windows/?r=1)_**.
+> - Explorar o `kernel` , `shell` e `gerenciamento de arquivos` nos sistemas operacionais.
+> - Aprender sobre organização do sistema de arquivos e configuração de permissões.
+> - Comparar estruturas de diretórios entre `Linux` e `Windows`. ✅
 
 <br>
 
 ### 🧩 Features
 
-- Criar um menu de navegação responsivo que se adapte a smartphones, tablets (retrato e paisagem), telas Full HD (1920px+) e 4K (3840px+)
-- Implementar um botão de alternância (tipo hambúrguer) para dispositivos móveis
-- Exibir submenus suspensos com animações suaves
-- Destacar o item de menu selecionado
-- Garantir o fechamento automático de outros submenus ao abrir um novo
-- Fornecer uma interface acessível e amigável com HTML semântico
+- Identificação de versão do kernel nos sistemas Linux e Windows
+- Listagem de processos ativos em ambos os sistemas operacionais
+- Criação e gerenciamento de permissões de arquivos e diretórios
+- Exploração da estrutura de diretórios raiz e principais pastas
+- Comparação das arquiteturas de sistemas de arquivos Linux vs Windows
 
 ---
 
-<p align="center">
-<img src="./src/images/readme_gif.gif" alt="page-gif" width="800px" >
-</p>
-
-<div align="center">
-<p></p>
-Clique aqui para testar... obrigado pelo seu interesse!
-
-( 🖱️ Ctrl + clique para abrir em uma nova aba ou visite [www.??????](https://www.??????) ).
-
-</div>
-
- <p align="center">
-<img src="./src/images/Model2.png" alt="print-screen-image" width="800px" >
-</p>
+<table align="center">
+  <tr>
+    <td align="center">
+      <a href="./images/linux_1.png">
+        <img src="./images/linux_1.png" width="250px" height="250px" alt="print da atividade"/>
+      </a>
+    </td>
+    <td align="center">
+      <a href="./images/linux_2.png">
+        <img src="./images/linux_2.png" width="250px" height="250px" alt="print da atividade"/>
+      </a>
+    </td>
+    <td align="center">
+      <a href="./images/linux_3.png">
+        <img src="./images/linux_3.png" width="250px" height="500px" alt="print da atividade"/>
+      </a>
+    </td>
+    <td align="center">
+      <a href="./images/windows_1.0.png">
+        <img src="./images/windows_1.0.png" width="250px" height="500px" alt="print da atividade"/>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -184,12 +192,6 @@ Este projeto está licenciado sob a [MIT License](LICENSE).
     </td>
   </tr>
 </table>
-<table align="center">
-  <tr>
-    
-  </tr>
-</table>
-
 <br>
 <br>
 
