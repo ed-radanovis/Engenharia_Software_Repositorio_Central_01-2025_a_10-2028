@@ -88,13 +88,13 @@ Abaixo segue o resultado da atividade concluída:
 
 ---
 
-#9900ffff
+#ffe600ff
 
 ### 🛠️ Tecnologias Utilizadas
 
 A Atividade foi desenvolvida utilizando:
 
-[<img src="./images/mini_logo_sosim.png" width="19px" alt="Windows Icon">![SOsim](https://img.shields.io/badge/-SOsim-333333?style=flat&logo=windowsterminal&logoColor=4D4D4D)](http://www.training.com.br/sosim/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="https://github.com/ed-radanovis/Engenharia_Software_Repositorio_Central_01-2025_a_10-2028/blob/master/2%C2%BA_semestre/4%C2%BA-Sistemas_Operacionais/atividades/U1_A3_CARACTERISTICAS_DOS_SISTEMAS_OPERACIONAIS/images/mini_logo_windows.png" width="19px" alt="Windows Icon">![Windows](https://img.shields.io/badge/-Windows-333333?style=flat&logo=windows&logoColor=0078D6)](https://www.microsoft.com/pt-br/windows/?r=1)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Simulador](https://img.shields.io/badge/-Simulador-333333?style=flat&logo=probot&logoColor=9900ff)](http://www.training.com.br/sosim/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Sistemas Operacionais](https://img.shields.io/badge/-Sistemas_Operacionais-333333?style=flat&logo=probot&logoColor=00D4AA)](https://pt.wikipedia.org/wiki/Sistema_operativo)
+[<img src="./images/mini_logo_sosim.png" width="19px" alt="SOsim Icon">![SOsim](https://img.shields.io/badge/-SOsim-333333?style=flat&logo=windowsterminal&logoColor=4D4D4D)](http://www.training.com.br/sosim/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="https://github.com/ed-radanovis/Engenharia_Software_Repositorio_Central_01-2025_a_10-2028/blob/master/2%C2%BA_semestre/4%C2%BA-Sistemas_Operacionais/atividades/U1_A3_CARACTERISTICAS_DOS_SISTEMAS_OPERACIONAIS/images/mini_logo_windows.png" width="19px" alt="Windows Icon">![Windows](https://img.shields.io/badge/-Windows-333333?style=flat&logo=windows&logoColor=0078D6)](https://www.microsoft.com/pt-br/windows/?r=1)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Simulador](https://img.shields.io/badge/-Simulador-333333?style=flat&logo=probot&logoColor=9900ff)](http://www.training.com.br/sosim/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Sistemas Operacionais](https://img.shields.io/badge/-Sistemas_Operacionais-333333?style=flat&logo=probot&logoColor=00D4AA)](https://pt.wikipedia.org/wiki/Sistema_operativo)
 
 ---
 
