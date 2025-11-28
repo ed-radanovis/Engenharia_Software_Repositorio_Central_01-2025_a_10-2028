@@ -16,8 +16,8 @@ Ministrado por _Profº Me. Rômulo de Almeida Neves_.
 <br>
 
 Abaixo segue o resultado da atividade concluída:
+<br>
 
-> <br>
 > 🎯 Objetivo:
 >
 > - Compreender e aplicar os conceitos fundamentais de `arquivos` e `sistemas de arquivos`.

@@ -16,8 +16,8 @@ Ministrado por _Profº Me. Rômulo de Almeida Neves_.
 <br>
 
 Abaixo segue o resultado da atividade concluída:
+<br>
 
-> <br>
 > 🎯 Objetivo:
 >
 > - Compreensão, análise e aplicações relacionados a **_processos_** em sistemas operacionais.

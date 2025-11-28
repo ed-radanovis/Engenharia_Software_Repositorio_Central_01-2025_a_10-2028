@@ -8,8 +8,8 @@ Ministrado por _Profº Me. Anderson Emidio de Macedo Gonçalves_.
 <br>
 
 Abaixo segue o resultado do projeto concluído:
+<br>
 
-> <br>
 > 🎯 Objetivo:
 >
 > - Desenvolvi este mini aplicativo front-end, **_`"Menu Responsivo"`_**, como parte do curso de _Desenvolvimento Responsivo_ (Unidade U3, Aula A2). O projeto foca na criação de um menu de navegação responsivo e interativo usando apenas **_[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)_**, **_[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)_** e **_[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)_**. O menu se adapta perfeitamente a vários tamanhos de tela — smartphones, tablets (retrato e paisagem), Full HD (1920px+) e 4K (3840px+) com recursos como um botão de alternância (hambúrguer), submenus suspensos, animações suaves e melhorias de acessibilidade. ✅

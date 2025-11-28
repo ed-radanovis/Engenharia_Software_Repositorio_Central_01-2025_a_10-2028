@@ -16,8 +16,8 @@ Ministrado por _Profº Me. Rômulo de Almeida Neves_.
 <br>
 
 Abaixo segue o resultado da atidade concluída:
+<br>
 
-> <br>
 > 🎯 Objetivo:
 >
 > - Desenvolver a compreensão dos principais componentes dos sistemas operacionais **_[Linux](https://www.linux.org/)_** e **_[Windows](https://www.microsoft.com/pt-br/windows/?r=1)_**.
