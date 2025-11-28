@@ -13,9 +13,11 @@
 ### Unidade 1 – Aula 3
 
 Ministrado por _Profº Me. Rômulo de Almeida Neves_.
+
 <br>
 
 Abaixo segue o resultado da atidade concluída:
+
 <br>
 
 > 🎯 Objetivo:
