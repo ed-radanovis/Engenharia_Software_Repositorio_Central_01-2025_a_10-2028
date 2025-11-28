@@ -1,62 +1,63 @@
 <div align="center">
 
-<img src="./images/logo_linux_sem_fundo.png" min-width="50px" width="80" min-height="50px" height="80px" alt="Logo Sistemas Operacionais">
+<img src="../U1_A3_CARACTERISTICAS_DOS_SISTEMAS_OPERACIONAIS/images/logo_linux_sem_fundo.png" min-width="50px" width="80" min-height="50px" height="80px" alt="Logo Sistemas Operacionais">
 
-<img src="./images/logo_windows_sem_fundo.png" min-width="50px" width="120" min-height="50px" height="120px" alt="Logo Sistemas Operacionais">
+<img src="../U1_A3_CARACTERISTICAS_DOS_SISTEMAS_OPERACIONAIS/images/logo_windows_sem_fundo.png" min-width="50px" width="120" min-height="50px" height="120px" alt="Logo Sistemas Operacionais">
 
 </div>
 
-# Atividade Prática: Características dos Sistemas Operacionais
+# Atividade Prática: Monoprogramação sem Troca de Processos ou Paginação
 
 ## Disciplina: Sistemas Operacionais
 
-### Unidade 1 – Aula 3
+### Unidade 4 – Aula 3
 
 Ministrado por _Profº Me. Rômulo de Almeida Neves_.
 <br>
 
-Abaixo segue o resultado da atidade concluída:
+Abaixo segue o resultado da atividade concluída:
 
-> <br>
 > 🎯 Objetivo:
 >
-> - Desenvolver a compreensão dos principais componentes dos sistemas operacionais **_[Linux](https://www.linux.org/)_** e **_[Windows](https://www.microsoft.com/pt-br/windows/?r=1)_**.
-> - Explorar o `kernel` , `shell` e `gerenciamento de arquivos` nos sistemas operacionais.
-> - Aprender sobre organização do sistema de arquivos e configuração de permissões.
-> - Comparar estruturas de diretórios entre `Linux` e `Windows`. ✅
+> - Compreensão, análise e aplicações relacionados a `paginação` em sistemas operacionais.
+> - Explorar os conceitos de `memória virtual` e `gerência de memória` através do simulador **_[SOsim](https://www.training.com.br/sosim/)_**.
+> - Configurar e analisar `políticas de busca de páginas antecipada`.
+> - Visualizar `tabelas de páginas e bits de validade` em processos CPU-bound. ✅
 
 <br>
 
 ### 🧩 Features
 
-- Identificação de versão do kernel nos sistemas Linux e Windows
-- Listagem de processos ativos em ambos os sistemas operacionais
-- Criação e gerenciamento de permissões de arquivos e diretórios
-- Exploração da estrutura de diretórios raiz e principais pastas
-- Comparação das arquiteturas de sistemas de arquivos Linux vs Windows
+- Download e configuração do simulador SOsim para estudos avançados
+- Configuração de escalonamento circular e políticas de memória virtual
+- Criação e análise de processos CPU-bound com paginação ativa
+- Ativação e monitoramento da janela de arquivos de paginação
+- Visualização detalhada da tabela de páginas através do Contexto do Processo
+- Análise dos bits de validade nas entradas das tabelas de páginas (ETP)
+- Configuração de parâmetros avançados do sistema
 
 ---
 
 <table align="center">
   <tr>
     <td align="center">
-      <a href="./images/linux_1.png">
-        <img src="./images/linux_1.png" width="250px" height="250px" alt="print da atividade"/>
+      <a href="./images/sosim_config_processador.png">
+        <img src="./images/sosim_config_processador.png" width="250px" height="250px" alt="Configuração Processador"/>
       </a>
     </td>
     <td align="center">
-      <a href="./images/linux_2.png">
-        <img src="./images/linux_2.png" width="250px" height="250px" alt="print da atividade"/>
+      <a href="./images/sosim_config_memoria.png">
+        <img src="./images/sosim_config_memoria.png" width="250px" height="250px" alt="Configuração Memória"/>
       </a>
     </td>
     <td align="center">
-      <a href="./images/linux_3.png">
-        <img src="./images/linux_3.png" width="250px" height="500px" alt="print da atividade"/>
+      <a href="./images/sosim_paginacao.png">
+        <img src="./images/sosim_paginacao.png" width="250px" height="250px" alt="Janela Paginação"/>
       </a>
     </td>
     <td align="center">
-      <a href="./images/windows_1.0.png">
-        <img src="./images/windows_1.0.png" width="250px" height="500px" alt="print da atividade"/>
+      <a href="./images/sosim_tabela_paginas.png">
+        <img src="./images/sosim_tabela_paginas.png" width="250px" height="250px" alt="Tabela de Páginas"/>
       </a>
     </td>
   </tr>
@@ -64,23 +65,23 @@ Abaixo segue o resultado da atidade concluída:
 <table align="center">
   <tr>
     <td align="center">
-      <a href="./images/windows_1.1.png">
-        <img src="./images/windows_1.1.png" width="250px" height="250px" alt="print da atividade"/>
+      <a href="./images/sosim_processo_cpu_bound.png">
+        <img src="./images/sosim_processo_cpu_bound.png" width="250px" height="250px" alt="Processo CPU-bound"/>
       </a>
     </td>
     <td align="center">
-      <a href="./images/windows_2.0.png">
-        <img src="./images/windows_2.0.png" width="250px" height="250px" alt="print da atividade"/>
+      <a href="./images/sosim_bits_validacao.png">
+        <img src="./images/sosim_bits_validacao.png" width="250px" height="250px" alt="Bits de Validação"/>
       </a>
     </td>
     <td align="center">
-      <a href="./images/windows_2.1.png">
-        <img src="./images/windows_2.1.png" width="250px" height="250px" alt="print da atividade"/>
+      <a href="./images/sosim_console.png">
+        <img src="./images/sosim_console.png" width="250px" height="250px" alt="Console SOsim"/>
       </a>
     </td>
     <td align="center">
-      <a href="./images/windows_3.png">
-        <img src="./images/windows_3.png" width="250px" height="250px" alt="print da atividade"/>
+      <a href="./images/sosim_gerencia_processos.png">
+        <img src="./images/sosim_gerencia_processos.png" width="250px" height="250px" alt="Gerência de Processos"/>
       </a>
     </td>
   </tr>
@@ -93,19 +94,19 @@ Abaixo segue o resultado da atidade concluída:
 - [ ] Antes de iniciar esta atividade, você deve ter conhecimento básico nas seguintes áreas:
       <br>
 
-- **Conceitos Básicos de SO :** Noções de kernel, shell e sistemas de arquivos.
-- **Linha de Comando :** Experiência básica com terminal / console.
-- **Sistemas Linux :** Familiaridade com comandos básicos do terminal.
-- **Windows :** Conhecimento do PowerShell ou Prompt de Comando.
-- **Permissões de Arquivo :** Conceitos básicos de leitura, escrita e execução.
+- **Conceitos de Memória Virtual:** Noções de paginação e memória virtual.
+- **SOsim Básico:** Familiaridade com a interface do simulador.
+- **Processos e Estados:** Compreensão de processos CPU-bound e seus estados.
+- **Tabelas de Páginas:** Conceitos básicos de organização de memória.
+- **Bits de Controle:** Noções de bits de validade e proteção.
 
 ---
 
 ### 🛠️ Tecnologias Utilizadas
 
-A Atvidade foi desenvolvida utilizando:
+A Atividade foi desenvolvida utilizando:
 
-[![Linux](https://img.shields.io/badge/-Linux-333333?style=flat&logo=linux&logoColor=FCC624)](https://www.linux.org/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="./images/mini_logo_windows.png" width="19px" alt="Windows Icon">![Windows](https://img.shields.io/badge/-windows-333333?style=flat&logo=windows&logoColor=0078D6)](https://www.microsoft.com/pt-br/windows/?r=1)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Bash](https://img.shields.io/badge/-Bash-333333?style=flat&logo=gnu-bash&logoColor=4EAA25)](https://www.gnu.org/software/bash/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="https://github.com/ed-radanovis/Engenharia_Software_Repositorio_Central_01-2025_a_10-2028/blob/master/2%C2%BA_semestre/4%C2%BA-Sistemas_Operacionais/atividades/U1_A3_CARACTERISTICAS_DOS_SISTEMAS_OPERACIONAIS/images/mini_logo_windows.png" width="19px" alt="Windows Icon">![PowerShell](https://img.shields.io/badge/-PowerShell-333333?style=flat&logo=powershell&logoColor=5391FE)](https://learn.microsoft.com/pt-br/powershell/scripting/install/install-powershell-on-windows?view=powershell-7.5)
+[![SOsim](https://img.shields.io/badge/-SOsim-333333?style=flat&logo=windowsterminal&logoColor=4D4D4D)](http://www.training.com.br/sosim/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Windows](https://img.shields.io/badge/-Windows-333333?style=flat&logo=windows&logoColor=0078D6)](https://www.microsoft.com/pt-br/windows/?r=1)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Memória Virtual](https://img.shields.io/badge/-Memória_Virtual-333333?style=flat&logo=memory&logoColor=FF6B35)](http://www.training.com.br/sosim/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Paginação](https://img.shields.io/badge/-Paginação-333333?style=flat&logo=layers&logoColor=00AAFF)](https://pt.wikipedia.org/wiki/Paginação)
 
 ---
 
@@ -113,43 +114,21 @@ A Atvidade foi desenvolvida utilizando:
 
 - [x] &nbsp;&nbsp;&nbsp;Pré-requisitos:
 
-✔️ - Sistema Linux (Ubuntu, Fedora, etc.) e Windows 10 / 11.
-✔️ - Acesso ao terminal Linux e PowerShell do Windows.
+✔️ - Download do SOsim em: http://www.training.com.br/sosim/
+✔️ - Sistema Windows para execução do simulador.
+✔️ - Conhecimento prévio de conceitos de paginação.
 
-- [x] &nbsp;&nbsp;&nbsp;Para executar no Linux:
-
-```bash
-
-# Identificar versão do kernel
-uname -r
-
-# Listar processos
-ps -e
-
-# Gerenciar arquivos e permissões
-mkdir test_dir
-cd test_dir
-touch test_file.txt
-chmod 600 test_file.txt
-ls -l
-```
-
-- [x] &nbsp;&nbsp;&nbsp;Para executar no Windows:
+- [x] &nbsp;&nbsp;&nbsp;Configuração Inicial do SOsim:
 
 ```bash
+# 1. Fazer download e executar o SOsim
+# 2. Configurar Escalonamento Circular:
+#    Console SOsim → Opções → Parâmetros do Sistema → Guia Processador
 
-# Listar processos
-Get-Process
+# 3. Configurar política de busca de páginas antecipada:
+#    Console SOsim → Opções → Parâmetros do Sistema → Guia Memória
 
-# Verificar versão do Windows
-winver
-
-# Gerenciar permissões
-mkdir TestFolder
-cd TestFolder
-echo "" > TestFile.txt
-icacls TestFile.txt /grant %username%:F
-```
+# 4. Reiniciar o simulador para aplicar as configurações
 
 ---
 
@@ -189,7 +168,7 @@ O material tem finalidade educativa e de portfólio estudantil, sendo destinado 
 ---
 
 <h4 align="center">
-  👨‍💻 Desenvolvido por 
+  👨‍💻 Desenvolvido por
 <h4/>
 <br>
 
@@ -216,3 +195,4 @@ O material tem finalidade educativa e de portfólio estudantil, sendo destinado 
 <br>
 
 [⬆ Voltar ao topo](#atividade-prática-características-dos-sistemas-operacionais)
+```
