@@ -90,7 +90,7 @@ A Atividade foi desenvolvida utilizando:
 
 - [x] &nbsp;&nbsp;&nbsp;Pré-requisitos:
 
-✔️ - Sistema Linux (Ubuntu, Fedora, etc.) e Windows 10/11.
+✔️ - Sistema Linux (Ubuntu, Fedora, etc.) e Windows 10 / 11.
 ✔️ - Acesso ao terminal Linux e PowerShell do Windows.
 ✔️ - Editor de texto para criação de scripts.
 
@@ -110,18 +110,60 @@ Get-Item arquivo.txt | Select-Object *
 # - Permissões, tipo, proprietário
 ```
 
+- [x] &nbsp;&nbsp;&nbsp;Atividade 2 - Acesso `Sequencial` vs `Direto`:
+
+```bash
+# Criar arquivo de dados sequenciais
+echo "Linha 1: Dado A" > dados_sequenciais.txt
+echo "Linha 2: Dado B" >> dados_sequenciais.txt
+echo "Linha 3: Dado C" >> dados_sequenciais.txt
+# ... adicionar mais linhas
+
+# Script Acesso Sequencial (exemplo Python)
+python acesso_sequencial.py dados_sequenciais.txt
+
+# Script Acesso Direto (exemplo Python)
+python acesso_direto.py dados_sequenciais.txt 5  # Lê linha 5 diretamente
+```
+
+- [x] &nbsp;&nbsp;&nbsp;Exemplo de Script Python:
+
+```bash
+# acesso_sequencial.py
+import time
+
+def acesso_sequencial(arquivo):
+    inicio = time.time()
+    with open(arquivo, 'r') as f:
+        for linha in f:
+            print(linha.strip())
+    fim = time.time()
+    print(f"Tempo sequencial: {fim - inicio:.4f}s")
+
+# acesso_direto.py
+def acesso_direto(arquivo, linha_alvo):
+    inicio = time.time()
+    with open(arquivo, 'r') as f:
+        linhas = f.readlines()
+        if 0 <= linha_alvo < len(linhas):
+            print(linhas[linha_alvo].strip())
+    fim = time.time()
+    print(f"Tempo direto: {fim - inicio:.4f}s")
+```
+
 ---
 
 #### 🔬 Testes
 
 ✔️ - Testes práticos realizados:
 
-- [x] &nbsp;&nbsp;&nbsp; Identificação correta da versão do kernel no Linux.
-- [x] &nbsp;&nbsp;&nbsp; Listagem de processos ativos em ambos os sistemas.
-- [x] &nbsp;&nbsp;&nbsp; Criação e configuração de permissões de arquivos.
-- [x] &nbsp;&nbsp;&nbsp; Exploração da estrutura de diretórios raiz.
-- [x] &nbsp;&nbsp;&nbsp; Comparação entre /home, /etc, /var (Linux) e C:\Users, C:\Windows (Windows).
-- [x] &nbsp;&nbsp;&nbsp; Verificação de permissões aplicadas.
+- [x] &nbsp;&nbsp;&nbsp; Identificação correta de atributos em 3 arquivos diferentes.
+- [x] &nbsp;&nbsp;&nbsp; Análise detalhada de metadados no Linux e Windows.
+- [x] &nbsp;&nbsp;&nbsp; Criação de arquivo de dados sequenciais com sucesso.
+- [x] &nbsp;&nbsp;&nbsp; Desenvolvimento de scripts para acesso sequencial e direto.
+- [x] &nbsp;&nbsp;&nbsp; Medição e comparação de tempos de execução.
+- [x] &nbsp;&nbsp;&nbsp; Análise de eficiência entre métodos de acesso.
+- [x] &nbsp;&nbsp;&nbsp; Documentação de situações ideais para cada método.
 
 ---
 
@@ -129,13 +171,13 @@ Get-Item arquivo.txt | Select-Object *
 
 ✔️ Ao concluir esta atividade, você terá adquirido as seguintes habilidades e sub-habilidades :
 
-- Compreensão das funções do kernel e shell em sistemas operacionais.
-- Habilidade em comandos essenciais do terminal Linux e PowerShell.
-- Gerenciamento de permissões de arquivos e diretórios.
-- Conhecimento da estrutura de sistemas de arquivos Linux e Windows.
-- Capacidade de comparar arquiteturas de diferentes sistemas operacionais.
-- Habilidade em troubleshooting básico de sistemas.
-- Entendimento de ambientes multiusuário e segurança de acesso.
+- Compreensão profunda de atributos e metadados de arquivos.
+- Habilidade em comandos avançados de listagem de arquivos.
+- Capacidade de analisar impactos dos atributos no uso do sistema.
+- Conhecimento prático de métodos de acesso sequencial e direto.
+- Habilidade em desenvolvimento de scripts para manipulação de arquivos.
+- Capacidade de comparar eficiência entre diferentes abordagens.
+- Entendimento de situações aplicáveis para cada método de acesso.
 
 ---
 
@@ -143,7 +185,7 @@ Get-Item arquivo.txt | Select-Object *
 
 Por se tratar de um projeto de caráter exclusivamente acadêmico, desenvolvido como atividade prática da disciplina de Sistemas Operacionais, ainda não foi atribuída uma licença formal de software (como MIT, GPL ou outra).
 
-O material tem finalidade educativa e de portfólio estudantil, sendo destinado apenas ao aprendizado e à avaliação no âmbito da faculdade. Caso deseje reutilizar ou adaptar o conteúdo para fins didáticos, sinta-se à vontade — apenas mantenha a referência ao autor original e ao contexto acadêmico..
+O material tem finalidade educativa e de portfólio estudantil, sendo destinado apenas ao aprendizado e à avaliação no âmbito da faculdade. Caso deseje reutilizar ou adaptar o conteúdo para fins didáticos, sinta-se à vontade — apenas mantenha a referência ao autor original e ao contexto acadêmico.
 
 ---
 
@@ -174,4 +216,4 @@ O material tem finalidade educativa e de portfólio estudantil, sendo destinado 
 <br>
 <br>
 
-[⬆ Voltar ao topo](#atividade-prática-características-dos-sistemas-operacionais)
+[⬆ Voltar ao topo](#atividade-prática-arquivos-e-sistemas-de-arquivos)
