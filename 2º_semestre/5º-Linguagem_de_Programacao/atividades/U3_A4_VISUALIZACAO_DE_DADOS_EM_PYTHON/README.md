@@ -1,50 +1,70 @@
-# Projeto - Atividade Prática: Construção de Front-End Baseado em Framework
+  <p align="center">
+    <img src="../U1_A4_FUNCOES_EM_PYTHON/images/logo_python2.png" min-width="100px" width="150" min-height="100px" height="150px" alt="logo Python">
+  </p>
 
-## Disciplina: Desenvolvimento Responsivo
+# Projeto - Atividade Prática: Análise de Dados em Python
 
-### Unidade 3 – Aula 2
+## Disciplina : Linguagem de Programação
 
-Ministrado por _Profº Me. Anderson Emidio de Macedo Gonçalves_.
+### Unidade 3 – Aula 4
+
+Ministrado por _Profº Anderson I. S. Abreu_.
+
 <br>
 
 Abaixo segue o resultado do projeto concluído:
 
-> <br>
-> 🎯 Objetivo:
->
-> - Desenvolvi este mini aplicativo front-end, **_`"Menu Responsivo"`_**, como parte do curso de _Desenvolvimento Responsivo_ (Unidade U3, Aula A2). O projeto foca na criação de um menu de navegação responsivo e interativo usando apenas **_[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)_**, **_[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)_** e **_[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)_**. O menu se adapta perfeitamente a vários tamanhos de tela — smartphones, tablets (retrato e paisagem), Full HD (1920px+) e 4K (3840px+) com recursos como um botão de alternância (hambúrguer), submenus suspensos, animações suaves e melhorias de acessibilidade. ✅
-
-> - Este projeto aprimorou minhas habilidades em design responsivo usando _media queries_ em CSS, manipulação do DOM com JavaScript e a implementação de elementos interativos para aumentar a usabilidade e a acessibilidade. Aproveitando o HTML semântico e técnicas modernas de CSS, aprimorei minha capacidade de criar layouts que funcionam de forma eficiente em diversos dispositivos, um diferencial importante no cenário atual de desenvolvimento web. ✅
->   > - A abordagem leve, combinada com a orientação prática do curso, tornou esta uma experiência gratificante e educativa, reforçando meu compromisso em entregar soluções web otimizadas e de alta qualidade.
-
 <br>
+
+> 🎯 Objetivo da Atividade:
+>
+> - Compreender como utilizar **_[Python](https://www.python.org/)_** para `análise` de dados em cenários reais de negócios.
+> - Aplicar técnicas de `tratamento` e `extração` de informações de _bancos de dados_.
+> - Desenvolver um <u>sistema completo</u> de análise de vendas com `SQLite` , `Pandas` e visualizações.
+> - Utilizar `Matplotlib` e `Seaborn` para criar visualizações profissionais que gerem insights.
+>   <br>
 
 ### 🧩 Features
 
-- Criar um menu de navegação responsivo que se adapte a smartphones, tablets (retrato e paisagem), telas Full HD (1920px+) e 4K (3840px+)
-- Implementar um botão de alternância (tipo hambúrguer) para dispositivos móveis
-- Exibir submenus suspensos com animações suaves
-- Destacar o item de menu selecionado
-- Garantir o fechamento automático de outros submenus ao abrir um novo
-- Fornecer uma interface acessível e amigável com HTML semântico
+- Conexão e manipulação de banco de dados **SQLite** com Python
+- Criação de tabelas e inserção de dados de vendas fictícias
+- Exploração e preparação de dados utilizando **Pandas DataFrame**
+- Análise de vendas por categoria, período e produtos
+- Geração de **visualizações profissionais** com Matplotlib e Seaborn
+- Extração de **insights estratégicos** para tomada de decisão
+- Relatório completo de análise de desempenho de vendas
 
 ---
 
-<p align="center">
-<img src="./src/images/readme_gif.gif" alt="page-gif" width="800px" >
-</p>
-
-<div align="center">
-<p></p>
-Clique aqui para testar... obrigado pelo seu interesse!
-
-( 🖱️ Ctrl + clique para abrir em uma nova aba ou visite [www.??????](https://www.??????) ).
-
-</div>
-
- <p align="center">
-<img src="./src/images/Model2.png" alt="print-screen-image" width="800px" >
-</p>
+<table align="center">
+  <tr>
+    <td align="center">
+      <a href="./images/result_activity_1.png">
+        <img src="./images/result_activity_1.png" width="500px" height="700px" alt="print da atividade"/>
+      </a>
+      <br>
+      <br>
+      <a href="./images/graphic_1.png">
+        <img src="./images/graphic_1.png" width="500px" height="200px" alt="print da atividade"/>
+      </a>
+    </td>
+    <td align="center">
+      <a href="./images/result_activity_2.png">
+        <img src="./images/result_activity_2.png" width="500px" height="700px" alt="print da atividade"/>
+      </a>
+      <br>
+      <br>
+      <a href="./images/graphic_2.png">
+        <img src="./images/graphic_2.png" width="500px" height="200px" alt="print da atividade"/>
+      </a>
+    </td>
+    <td align="center">
+      <a href="./images/result_activity_3.png">
+        <img src="./images/result_activity_3.png" width="500px" height="950px" alt="print da atividade"/>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -53,102 +73,94 @@ Clique aqui para testar... obrigado pelo seu interesse!
 - [ ] Antes de iniciar este projeto, você deve ter conhecimento básico nas seguintes áreas:
       <br>
 
-- **HTML Básico :** Estrutura semântica de páginas web, tags fundamentais (`<header>` , `<nav>` , `<ul>` , `<li>`), e atributos.
-- **CSS Intermediário :** Seletores, box model, Flexbox/Grid, media queries, e propriedades de animação / transição.
-- **JavaScript Essencial :** Manipulação do DOM, eventos (click, mouseover), funções, e condicionais.
-- **Design Responsivo :** Conceitos de breakpoints, mobile-first, e adaptação a diferentes tamanhos de tela.
-- **Acessibilidade Web :** Noções básicas de ARIA attributes e navegação por teclado.
-
----
-
-### ✨ Ajustes e melhorias
-
-O proposta da atividade foi totalmente concluída, o que Inclui a HomePage e AboutPage.
-
-> 📝 Nota: As demais pages não foram criadas por questões de gestão de tempo, e serão criadas posteriormente.
+- **Python Intermediário:** Sintaxe da linguagem, estruturas de dados e funções.
+- **Pandas Básico:** Manipulação de DataFrames, leitura e filtragem de dados.
+- **Banco de Dados:** Conceitos básicos de SQL e operações CRUD.
+- **Estatística Descritiva:** Média, soma, agrupamento e análise de tendências.
+- **Google Colab:** Ambiente de desenvolvimento em nuvem para execução de código.
 
 ---
 
 ### 🛠️ Tecnologias Utilizadas
 
-A Atvidade foi desenvolvida utilizando:
+A Atividade foi desenvolvida utilizando:
 
-- [x] **Frontend**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5)](https://developer.mozilla.org/en-US/docs/Web/HTML) &nbsp;&nbsp;[<img src="https://raw.githubusercontent.com/ed-radanovis/Soft-App-Memes-Machine-DIO-11-2022/refs/heads/master/assets/github/mini_logo_css.png" width="16px" alt="CSS Icon">![CSS](https://img.shields.io/badge/-CSS-333333?style=flat&logo=CSS3&logoColor=1572B6)](https://developer.mozilla.org/en-US/docs/Web/CSS)&nbsp;&nbsp;[![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-      <br>
+[![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=python&logoColor=FFD43B)](https://www.python.org/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Google Colab](https://img.shields.io/badge/-Google_Colab-333333?style=flat&logo=google-colab&logoColor=F9AB00)](https://colab.research.google.com/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Pandas](https://img.shields.io/badge/-Pandas-333333?style=flat&logo=pandas&logoColor=150458)](https://pandas.pydata.org/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Matplotlib](https://img.shields.io/badge/-Matplotlib-333333?style=flat&logo=python&logoColor=11557c)](https://matplotlib.org/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Seaborn](https://img.shields.io/badge/-Seaborn-333333?style=flat&logo=seaborn&logoColor=7E57C2)](https://seaborn.pydata.org/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![SQLite](https://img.shields.io/badge/-SQLite-333333?style=flat&logo=sqlite&logoColor=003B57)](https://www.sqlite.org/)
 
-- [x] **Ferramentas de Desenvolvimento e Testes**:&nbsp;&nbsp;&nbsp;[<img src="https://raw.githubusercontent.com/ed-radanovis/Soft-App-Memes-Machine-DIO-11-2022/refs/heads/master/assets/github/mini_logo_liveserver.png" width="21px" alt="Live Server Icon">![Live Server](https://img.shields.io/badge/-Live%20Server-333333?style=flat&logo=live-server)](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)&nbsp;&nbsp;`Manual testing with Browser DevTools`
-      <br>
+---
 
-- [x] **Hospedagem e Implantação**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![GitHub Pages](https://img.shields.io/badge/-GitHub%20Pages-333333?style=flat&logo=github&logoColor=ffffff)](https://pages.github.com/)
-      <br>
-
-- [x] **Planejamento e Edição**:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Figma](https://img.shields.io/badge/-Figma-333333?style=flat&logo=figma&logoColor=007ACC)](https://figma.com/)&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/ed-radanovis/Soft-App-Memes-Machine-DIO-11-2022/6c046ddb9cd516f3cea41a8abbb1318fc3e6d8d1/assets/github/mini_logo_vscode.png" width="21px" alt="VS Code Icon">[![Visual Studio Code](https://img.shields.io/badge/-Visual_Studio_Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC)](https://code.visualstudio.com/)
-      <br>
-
-#### ⚙️ Etapas do projeto
-
-✔️ - Planejamento: O projeto foi estruturado com foco em um miniaplicativo funcional, **evitando dependências complexas** e priorizando um código limpo e **de fácil manutenção**.<br>
-✔️ - Configurar o ambiente:
-
-- [ ] Se desejar, clone o repositório:
+### 📂 Estrutura do Projeto
 
 ```bash
-
-📝 Nota => Método recomendado - para clonar apenas este diretório e não todo o repositório :
-
-git clone --depth 1 --filter=blob:none --sparse https://github.com/ed-radanovis/Engenharia_Software_Repositorio_Central_01-2025_a_10-2028.git
-cd Engenharia_Software_Repositorio_Central_01-2025_a_10-2028
-git sparse-checkout set "1º_semestre/1º-Desenvolvimento_Responsivo_disciplina_isolada/atividades/Frontend_com_Framework_HTML_CSS_JS"
+U1_A4_FUNCOES_EM_PYTHON/
+├── images/
+│   ├── logo_python.png
+│   ├── logo_python2.png
+│   ├── mini_logo_vscode.png
+│   ├── result_activity_1.png
+│   └── result_activity_2.png
+│   └── result_activity_3.png
+├── src/
+│   └── unit_one_lesson_four_functions.py    # Código principal da atividade
+├── ATIVIDADE_PRATICA_U1_A4_FUNCOES_EM_PYTHON.pdf
+├── README.md                                # Este arquivo
+└── roteiro_U1_A4_FUNCOES_EM_PYTHON.pdf
 ```
 
-- [ ] Navegue até a pasta do projeto: `cd Frontend_com_Framework_HTML_CSS_JS` ou a pasta que você criou e nomeou.
+---
+
+### ⚙️ Configuração e Execução
+
+- [ ] &nbsp;&nbsp;&nbsp;Pré-requisitos:
+      ✔️ - Python 3.6+ ou Google Colab.<br>
+- [ ] &nbsp;&nbsp;&nbsp;Para rodar localmente (opcional) :
+
+```bash
+cd U1_A4_FUNCOES_EM_PYTHON
+python unit_one_lesson_four_functions.py
+```
+
+<br>
+
+- [x] &nbsp;&nbsp;&nbsp;Forma recomendada (conforme roteiro da disciplina) :
+      &nbsp;&nbsp;&nbsp;Abra o Google Colab, crie um novo notebook e cole o conteúdo de `unit_one_lesson_four_functions.py `.
+      <br>
 
 ---
 
-#### 🖥️ Frontend
+### 🔬 Testes Realizados
 
-✔️ - Navegue até a raiz do projeto: onde estão localizados os arquivos `index.html`, `src/css/`, `src/js/` e `src/images/`.<br>
-✔️ - Certifique-se de que as dependências estejam disponíveis:
+✔️ - Testes manuais :
 
-- [x] &nbsp;&nbsp;&nbsp;Baixe bibliotecas externas como `typed.js`, `jquery`, `jquery-easing` e `ionicons`, conforme os links no cabeçalho (`<head>`) do arquivo `index.html`.
-
-- [x] &nbsp;&nbsp;&nbsp;Certifique-se de que a pasta `src/images/` contenha os recursos necessários (por exemplo, `background.png`, `logo.png`, `mascote.png`, etc.).
-
-✔️ - Abra o arquivo `index.html` diretamente no navegador ou hospede-o no `GitHub Pages`.<br>
-
----
-
-#### 🌐 Implantação
-
-✔️ - Hospedagem no GitHub Pages (plano gratuito):
-
-- [x] &nbsp;&nbsp;&nbsp; Acesse o [GitHub](https://github.com).
-- [x] &nbsp;&nbsp;&nbsp; Navegue até o seu repositório (por exemplo, `https://github.com/repository-created-by-you`).
-- [x] &nbsp;&nbsp;&nbsp; Habilite o GitHub Pages: Acesse as configurações do repositório, role até a seção **_`"Pages"`_**, selecione a branch (por exemplo, `main` ou `gh-pages`) e defina o diretório raiz como `/` (raiz do projeto).
-- [x] &nbsp;&nbsp;&nbsp; Suba e acesse a URL gerada (por exemplo, `https://seu-nome-de-usuário.github.io/nome-do-repositório/`).
-
-✔️ - Hospedagem opcional no Render (plano gratuito):
-
-- [ ] &nbsp;&nbsp;&nbsp; Acesse o [Render](https://render.com).
-- [ ] &nbsp;&nbsp;&nbsp; Crie um novo Site Estático e conecte-o ao repositório `https://github.com/repository-created-by-you`.
-- [ ] &nbsp;&nbsp;&nbsp; Defina o diretório raiz como `/` (raiz do projeto).
-- [ ] &nbsp;&nbsp;&nbsp; Suba e acesse a URL gerada (por exemplo, `https://nome-do-seu-aplicativo.onrender.com`).
+- [x] &nbsp;&nbsp;&nbsp;Cadastro de 3, 4 e 5 notas com valores válidos.
+- [x] &nbsp;&nbsp;&nbsp;Cálculo correto da média em diferentes cenários.
+- [x] &nbsp;&nbsp;&nbsp;Situação "Aprovado" quando média ≥ 7.0.
+- [x] &nbsp;&nbsp;&nbsp;Situação "Reprovado" quando média < 7.0.
+- [x] &nbsp;&nbsp;&nbsp;Validação de notas fora do intervalo 0–10.
+- [x] &nbsp;&nbsp;&nbsp;Teste com aluno na média exata (7.0).
 
 ---
 
-#### 🔬 Testes
+### 🧠 Habilidades Desenvolvidas
 
-✔️ - Testes Manuais:
+✔️ Ao concluir esta atividade, você terá adquirido as seguintes habilidades e sub-habilidades :
 
-- [x] &nbsp;&nbsp;&nbsp; Verifique o comportamento responsivo com as Ferramentas de Desenvolvedor (F12 > Alternar Barra de Ferramentas do Dispositivo) ou outra ferramenta de sua escolha, para simular em smartphones (largura máxima: 885px), tablets (886px-1024px), telas Full HD (1920px+) e 4K (3840px+).
-- [x] &nbsp;&nbsp;&nbsp; Teste a alternância do menu hambúrguer e as interações do submenu em dispositivos móveis.
-- [x] &nbsp;&nbsp;&nbsp;Verifique os recursos de acessibilidade (por exemplo, tags semânticas, navegação por teclado, Acesso Não Visual à Área de Trabalho (NVDA)) usando as Ferramentas de Desenvolvedor do Navegador, garantindo compatibilidade e usabilidade.
+- Criação e utilização de funções reutilizáveis em Python.
+- Manipulação de listas para armazenamento dinâmico de dados.
+- Uso de condicionais para tomada de decisão (aprovado/reprovado).
+- Formatação de saída com f-strings e alinhamento.
+- Validação de entrada do usuário.
+- Estruturação limpa e comentada do código.
+- Working with JSON data structures for item representation.
+- Boas práticas de organização e documentação.
 
 ---
 
-#### 📜 Licença
+### 📜 License
 
-Este projeto está licenciado sob a [MIT License](LICENSE).
+Por se tratar de um projeto de caráter exclusivamente acadêmico, desenvolvido como atividade prática da disciplina de Linguagem de Programação, ainda não foi atribuída uma licença formal de software (como MIT, GPL ou outra).
+
+O código tem finalidade educativa e de portfólio estudantil, sendo destinado apenas ao aprendizado e à avaliação no âmbito da faculdade. Caso deseje reutilizar ou adaptar o material para fins didáticos, sinta-se à vontade — apenas mantenha a referência ao autor original e ao contexto acadêmico.
 
 ---
 
@@ -176,13 +188,7 @@ Este projeto está licenciado sob a [MIT License](LICENSE).
     </td>
   </tr>
 </table>
-<table align="center">
-  <tr>
-    
-  </tr>
-</table>
-
 <br>
 <br>
 
-[⬆ Voltar ao topo](#projeto---atividade-prática-construção-de-front-end-baseado-em-framework)
+[⬆ Voltar ao topo](#projeto---atividade-prática-funções-em-python)

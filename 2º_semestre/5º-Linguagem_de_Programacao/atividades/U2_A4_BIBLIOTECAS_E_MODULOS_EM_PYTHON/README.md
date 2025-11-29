@@ -1,4 +1,4 @@
- <p align="center">
+  <p align="center">
     <img src="../U1_A4_FUNCOES_EM_PYTHON/images/logo_python2.png" min-width="100px" width="150" min-height="100px" height="150px" alt="logo Python">
   </p>
 
