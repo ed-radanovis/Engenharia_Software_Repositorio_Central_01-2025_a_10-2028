@@ -128,8 +128,7 @@ python analise_vendas.py
 <br>
 
 - [x] &nbsp;&nbsp;&nbsp;Forma recomendada (conforme roteiro da disciplina) :
-
-&nbsp;&nbsp;&nbsp;Abra o Google Colab, crie um novo notebook e implemente o sistema seguindo os passos:
+      &nbsp;&nbsp;&nbsp;Abra o Google Colab, crie um novo notebook e implemente o sistema seguindo os passos:
 
 ```python
 # Passo 1: Instalar e importar bibliotecas
