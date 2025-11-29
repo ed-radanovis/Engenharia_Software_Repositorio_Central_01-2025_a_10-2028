@@ -18,16 +18,16 @@ Abaixo segue o resultado do projeto concluído:
 
 > 🎯 Objetivo da Atividade:
 >
-> - Compreender a importância dos `recursos` de **_[Python](https://www.python.org/)_** como **bibliotecas** e **módulos**.
-> - Aplicar **Programação Orientada a Objetos** com classes e métodos em um cenário realista.
-> - Desenvolver um **sistema de gerenciamento de biblioteca** com cadastro, busca e relatórios.
-> - Utilizar a **biblioteca Matplotlib** para geração de gráficos e visualização de dados.
+> - Compreender a importância dos `recursos` de **_[Python](https://www.python.org/)_** como `bibliotecas` e `módulos`.
+> - Aplicar `Programação Orientada a Objetos` com classes e métodos em um cenário realista.
+> - Desenvolver um `sistema de gerenciamento de biblioteca` com cadastro, busca e relatórios.
+> - Utilizar a biblioteca `Matplotlib` para geração de gráficos e visualização de dados.
 
 <br>
 
 ### 🧩 Features
 
-- Definição de classe `Livro` com atributos: título, autor, gênero e quantidade
+- Definição de classe **Livro** com atributos: título, autor, gênero e quantidade
 - Cadastro de novos livros no sistema da biblioteca
 - Listagem completa de todos os livros disponíveis
 - Busca inteligente de livros por título
@@ -70,7 +70,7 @@ Abaixo segue o resultado do projeto concluído:
 
 A Atividade foi desenvolvida utilizando:
 
-[![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=python&logoColor=FFD43B)](https://www.python.org/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Google Colab](https://img.shields.io/badge/-Google_Colab-333333?style=flat&logo=google-colab&logoColor=F9AB00)](https://colab.research.google.com/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Matplotlib](https://img.shields.io/badge/-Matplotlib-333333?style=flat&logo=python&logoColor=11557c)](https://matplotlib.org/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![POO](https://img.shields.io/badge/-Programação_Orientada_a_Objetos-333333?style=flat&logo=object&logoColor=FF6B35)](https://docs.python.org/3/tutorial/classes.html)
+[![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=python&logoColor=3776AB)](https://www.python.org/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Google Colab](https://img.shields.io/badge/-Google_Colab-333333?style=flat&logo=google-colab&logoColor=F9AB00)](https://colab.research.google.com/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Matplotlib](https://img.shields.io/badge/-Matplotlib-333333?style=flat&logo=python&logoColor=3776AB)](https://matplotlib.org/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![POO](https://img.shields.io/badge/-Programação_Orientada_a_Objetos-333333?style=flat&logo=blueprint&logoColor=FFD700)](https://pt.wikipedia.org/wiki/Programação_orientada_a_objetos)
 
 ---
 
@@ -94,18 +94,54 @@ U2_A4_BIBLIOTECAS_E_MODULOS_EM_PYTHON/
 
 - [ ] &nbsp;&nbsp;&nbsp;Pré-requisitos:
       ✔️ - Python 3.6+ ou Google Colab.<br>
-- [ ] &nbsp;&nbsp;&nbsp;Para rodar localmente (opcional) :
+- [ ] &nbsp;&nbsp;&nbsp;Acesso à internet para instalação da Matplotlib.
+- Para rodar localmente (opcional):
 
 ```bash
-cd U1_A4_FUNCOES_EM_PYTHON
-python unit_one_lesson_four_functions.py
+cd U2_A4_BIBLIOTECAS_MODULOS_PYTHON
+python sistema_biblioteca.py
 ```
 
 <br>
 
 - [x] &nbsp;&nbsp;&nbsp;Forma recomendada (conforme roteiro da disciplina) :
-      &nbsp;&nbsp;&nbsp;Abra o Google Colab, crie um novo notebook e cole o conteúdo de `unit_one_lesson_four_functions.py `.
-      <br>
+      &nbsp;&nbsp;&nbsp;Abra o Google Colab, crie um novo notebook e implemente o sistema seguindo os passos:
+
+```python
+      # Passo 1: Instalar e importar bibliotecas
+!pip install matplotlib
+import matplotlib.pyplot as plt
+
+      # Passo 2: Definir classe Livro
+class Livro:
+    def __init__(self, titulo, autor, genero, quantidade):
+        self.titulo = titulo
+        self.autor = autor
+        self.genero = genero
+        self.quantidade = quantidade
+
+    def __str__(self):
+        return f"'{self.titulo}' por {self.autor} | Gênero: {self.genero} | Disponível: {self.quantidade}"
+
+      # Passo 3: Implementar funções do sistema
+biblioteca = []
+
+def cadastrar_livro(titulo, autor, genero, quantidade):
+    # Implementação da função
+    pass
+
+def listar_livros():
+    # Implementação da função
+    pass
+
+def buscar_livro(titulo):
+    # Implementação da função
+    pass
+
+def gerar_grafico_generos():
+    # Implementação da função
+    pass
+```
 
 ---
 
@@ -113,12 +149,12 @@ python unit_one_lesson_four_functions.py
 
 ✔️ - Testes manuais :
 
-- [x] &nbsp;&nbsp;&nbsp;Cadastro de 3, 4 e 5 notas com valores válidos.
-- [x] &nbsp;&nbsp;&nbsp;Cálculo correto da média em diferentes cenários.
-- [x] &nbsp;&nbsp;&nbsp;Situação "Aprovado" quando média ≥ 7.0.
-- [x] &nbsp;&nbsp;&nbsp;Situação "Reprovado" quando média < 7.0.
-- [x] &nbsp;&nbsp;&nbsp;Validação de notas fora do intervalo 0–10.
-- [x] &nbsp;&nbsp;&nbsp;Teste com aluno na média exata (7.0).
+- [x] &nbsp;&nbsp;&nbsp;Cadastro de múltiplos livros com diferentes gêneros.
+- [x] &nbsp;&nbsp;&nbsp;Listagem completa de todos os livros cadastrados.
+- [x] &nbsp;&nbsp;&nbsp;Busca por título (casos: encontrado e não encontrado).
+- [x] &nbsp;&nbsp;&nbsp;Geração correta do gráfico de livros por gênero.
+- [x] &nbsp;&nbsp;&nbsp;Validação de entradas e tratamento de dados.
+- [x] &nbsp;&nbsp;&nbsp;Teste de instalação e importação da Matplotlib.
 
 ---
 
@@ -126,14 +162,14 @@ python unit_one_lesson_four_functions.py
 
 ✔️ Ao concluir esta atividade, você terá adquirido as seguintes habilidades e sub-habilidades :
 
-- Criação e utilização de funções reutilizáveis em Python.
-- Manipulação de listas para armazenamento dinâmico de dados.
-- Uso de condicionais para tomada de decisão (aprovado/reprovado).
-- Formatação de saída com f-strings e alinhamento.
-- Validação de entrada do usuário.
-- Estruturação limpa e comentada do código.
-- Working with JSON data structures for item representation.
-- Boas práticas de organização e documentação.
+- Criação e utilização de classes em Python (Programação Orientada a Objetos).
+- Implementação de sistemas de gerenciamento de dados com listas e objetos.
+- Manipulação e visualização de dados com a biblioteca Matplotlib.
+- Desenvolvimento de funções modulares para operações específicas.
+- Habilidade em buscar e filtrar dados em estruturas complexas.
+- Geração de relatórios visuais com gráficos personalizados.
+- Boas práticas de organização de código e documentação.
+- Experiência com ambientes de desenvolvimento em nuvem (Google Colab).
 
 ---
 
@@ -172,4 +208,4 @@ O código tem finalidade educativa e de portfólio estudantil, sendo destinado a
 <br>
 <br>
 
-[⬆ Voltar ao topo](#projeto---atividade-prática-funções-em-python)
+[⬆ Voltar ao topo](#projeto---atividade-prática-bibliotecas-e-módulos-em-python)
