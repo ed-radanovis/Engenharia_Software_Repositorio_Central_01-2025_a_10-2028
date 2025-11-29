@@ -107,8 +107,7 @@ python sistema_biblioteca.py
 
 <br>
 
-- [x] &nbsp;&nbsp;&nbsp;Forma recomendada (conforme roteiro da disciplina) :
-      &nbsp;&nbsp;&nbsp;Abra o Google Colab, crie um novo notebook e implemente o sistema seguindo os passos:
+- [x] &nbsp;&nbsp;&nbsp;Forma recomendada (conforme roteiro da disciplina) ➡ Abra o Google Colab, crie um novo notebook e implemente o sistema seguindo os passos:
 
 ```python
       # Passo 1: Instalar e importar bibliotecas

@@ -113,9 +113,7 @@ python unit_one_lesson_four_functions.py
 
 <br>
 
-- [x] &nbsp;&nbsp;&nbsp;Forma recomendada (conforme roteiro da disciplina) :
-      &nbsp;&nbsp;&nbsp;Abra o Google Colab, crie um novo notebook e cole o conteúdo de `unit_one_lesson_four_functions.py `.
-      <br>
+- [x] &nbsp;&nbsp;&nbsp;Forma recomendada (conforme roteiro da disciplina) ➡ Abra o Google Colab, crie um novo notebook e cole o conteúdo de `unit_one_lesson_four_functions.py `.
 
 ---
 
