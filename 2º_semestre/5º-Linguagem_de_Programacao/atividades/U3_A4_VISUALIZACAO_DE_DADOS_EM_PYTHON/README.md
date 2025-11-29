@@ -127,7 +127,7 @@ python analise_vendas.py
 
 <br>
 
-- [x] &nbsp;&nbsp;&nbsp;Forma recomendada (conforme roteiro da disciplina) :
+- [x] &nbsp;&nbsp;&nbsp;Forma recomendada (conforme roteiro da disciplina) =>
       &nbsp;&nbsp;&nbsp;Abra o Google Colab, crie um novo notebook e implemente o sistema seguindo os passos:
 
 ```python
