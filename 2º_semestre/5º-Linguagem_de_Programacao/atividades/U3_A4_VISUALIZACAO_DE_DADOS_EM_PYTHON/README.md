@@ -75,7 +75,7 @@ Abaixo segue o resultado do projeto concluído:
 
 - **Python Intermediário:** Sintaxe da linguagem, estruturas de dados e funções.
 - **Pandas Básico:** Manipulação de DataFrames, leitura e filtragem de dados.
-- **Banco de Dados:** Conceitos básicos de SQL e operações CRUD.
+- **Banco de Dados:** Conceitos básicos de `SQL` e operações `CRUD`.
 - **Estatística Descritiva:** Média, soma, agrupamento e análise de tendências.
 - **Google Colab:** Ambiente de desenvolvimento em nuvem para execução de código.
 
@@ -85,7 +85,7 @@ Abaixo segue o resultado do projeto concluído:
 
 A Atividade foi desenvolvida utilizando:
 
-[![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=python&logoColor=FFD43B)](https://www.python.org/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Google Colab](https://img.shields.io/badge/-Google_Colab-333333?style=flat&logo=google-colab&logoColor=F9AB00)](https://colab.research.google.com/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Pandas](https://img.shields.io/badge/-Pandas-333333?style=flat&logo=pandas&logoColor=150458)](https://pandas.pydata.org/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Matplotlib](https://img.shields.io/badge/-Matplotlib-333333?style=flat&logo=python&logoColor=11557c)](https://matplotlib.org/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Seaborn](https://img.shields.io/badge/-Seaborn-333333?style=flat&logo=seaborn&logoColor=7E57C2)](https://seaborn.pydata.org/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![SQLite](https://img.shields.io/badge/-SQLite-333333?style=flat&logo=sqlite&logoColor=003B57)](https://www.sqlite.org/)
+[![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=python&logoColor=FFD43B)](https://www.python.org/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Google Colab](https://img.shields.io/badge/-Google_Colab-333333?style=flat&logo=google-colab&logoColor=F9AB00)](https://colab.research.google.com/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/ed-radanovis/Engenharia_Software_Repositorio_Central_01-2025_a_10-2028/blob/772cfa927b7993ea3592c099b8e89a9f9f612444/2%C2%BA_semestre/5%C2%BA-Linguagem_de_Programacao/atividades/U1_A4_FUNCOES_EM_PYTHON/images/mini_logo_vscode.png" width="21px" alt="VS Code Icon">[![Visual Studio Code](https://img.shields.io/badge/-Visual_Studio_Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC)](https://code.visualstudio.com/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Pandas](https://img.shields.io/badge/-Pandas-333333?style=flat&logo=pandas&logoColor=150458)](https://pandas.pydata.org/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Matplotlib](https://img.shields.io/badge/-Matplotlib-333333?style=flat&logo=python&logoColor=11557c)](https://matplotlib.org/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="./images/mini_logo_seaborn.png" width="19px" alt="Seaborn Icon">![Seaborn](https://img.shields.io/badge/-Seaborn-333333?style=flat&logo=seaborn&logoColor=7E57C2)](https://seaborn.pydata.org/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![SQLite](https://img.shields.io/badge/-SQLite-333333?style=flat&logo=sqlite&logoColor=003B57)](https://www.sqlite.org/)
 
 ---
 
@@ -94,17 +94,18 @@ A Atividade foi desenvolvida utilizando:
 ```bash
 U1_A4_FUNCOES_EM_PYTHON/
 ├── images/
-│   ├── logo_python.png
-│   ├── logo_python2.png
-│   ├── mini_logo_vscode.png
+│   ├── graphic_1.png
+│   ├── graphic_2.png
+│   ├── mini_logo_seaborn.png
 │   ├── result_activity_1.png
-│   └── result_activity_2.png
+│   ├── result_activity_2.png
 │   └── result_activity_3.png
 ├── src/
-│   └── unit_one_lesson_four_functions.py    # Código principal da atividade
-├── ATIVIDADE_PRATICA_U1_A4_FUNCOES_EM_PYTHON.pdf
-├── README.md                                # Este arquivo
-└── roteiro_U1_A4_FUNCOES_EM_PYTHON.pdf
+│   ├── data_base_sales.db
+│   └── unit_three_lesson_four_data_visualization.py   # Código principal da atividade
+├── ATIVIDADE_PRATICA_U3_A4_VISUALIZACAO_DE_DADOS_COM_PYTHON.pdf
+├── README.md                                          # Este arquivo
+└── roteiro_U3_A4_VISUALIZACAO_DE_DADOS_EM_PYTHON.pdf
 ```
 
 ---
