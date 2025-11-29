@@ -22,7 +22,8 @@ Abaixo segue o resultado do projeto concluído:
 > - Desenvolver habilidades na `construção` e `interpretação` de tabelas verdade.
 > - Aplicar a tabela verdade para resolver problemas envolvendo `conectivos lógicos` ➡ **AND** , **OR** , **Negação**.
 > - Explorar a aplicação das `leis de _De Morgan_` e conceitos de `tautologia` , `contradição` e `contingência`.
->   <br>
+
+<br>
 
 ### 🧩 Features
 
