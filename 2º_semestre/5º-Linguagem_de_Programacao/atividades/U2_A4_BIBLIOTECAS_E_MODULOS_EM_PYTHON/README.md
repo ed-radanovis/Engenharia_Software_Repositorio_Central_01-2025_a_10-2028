@@ -93,7 +93,10 @@ U2_A4_BIBLIOTECAS_E_MODULOS_EM_PYTHON/
 ### ⚙️ Configuração e Execução
 
 - [ ] &nbsp;&nbsp;&nbsp;Pré-requisitos:
-      ✔️ - Python 3.6+ ou Google Colab.<br>
+      ✔️ - Python 3.6+ ou Google Colab.
+
+<br>
+
 - [ ] &nbsp;&nbsp;&nbsp;Acesso à internet para instalação da Matplotlib.
 - Para rodar localmente (opcional):
 

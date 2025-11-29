@@ -101,7 +101,9 @@ U1_A4_FUNCOES_EM_PYTHON/
 ### ⚙️ Configuração e Execução
 
 - [ ] &nbsp;&nbsp;&nbsp;Pré-requisitos:
-      ✔️ - Python 3.6+ ou Google Colab.<br>
+      ✔️ - Python 3.6+ ou Google Colab.
+      <br>
+
 - [ ] &nbsp;&nbsp;&nbsp;Para rodar localmente (opcional) :
 
 ```bash

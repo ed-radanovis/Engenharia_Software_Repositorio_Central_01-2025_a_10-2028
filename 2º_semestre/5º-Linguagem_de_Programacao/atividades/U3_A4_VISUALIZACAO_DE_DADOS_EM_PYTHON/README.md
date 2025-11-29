@@ -113,19 +113,54 @@ U1_A4_FUNCOES_EM_PYTHON/
 ### ⚙️ Configuração e Execução
 
 - [ ] &nbsp;&nbsp;&nbsp;Pré-requisitos:
-      ✔️ - Python 3.6+ ou Google Colab.<br>
-- [ ] &nbsp;&nbsp;&nbsp;Para rodar localmente (opcional) :
+      ✔️ - Python 3.6+ ou Google Colab.
+
+<br>
+
+- [ ] &nbsp;&nbsp;&nbsp;Acesso à internet para instalação da Matplotlib.
+- Para rodar localmente (opcional):
 
 ```bash
-cd U1_A4_FUNCOES_EM_PYTHON
-python unit_one_lesson_four_functions.py
+cd U3_A4_VISUALIZACAO_DADOS_PYTHON
+python analise_vendas.py
 ```
 
 <br>
 
 - [x] &nbsp;&nbsp;&nbsp;Forma recomendada (conforme roteiro da disciplina) :
-      &nbsp;&nbsp;&nbsp;Abra o Google Colab, crie um novo notebook e cole o conteúdo de `unit_one_lesson_four_functions.py `.
-      <br>
+      &nbsp;&nbsp;&nbsp;Abra o Google Colab, crie um novo notebook e implemente o sistema seguindo os passos:
+
+```python
+# Passo 1: Instalar e importar bibliotecas
+!pip install pandas matplotlib seaborn
+import sqlite3
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Passo 2: Conectar ao banco de dados SQLite
+conexao = sqlite3.connect('dados_vendas.db')
+cursor = conexao.cursor()
+
+# Passo 3: Criar tabela e inserir dados
+cursor.execute('''
+CREATE TABLE IF NOT EXISTS vendas1 (
+    id_venda INTEGER PRIMARY KEY AUTOINCREMENT,
+    data_venda DATE,
+    produto TEXT,
+    categoria TEXT,
+    valor_venda REAL
+)
+''')
+
+# Passo 4: Carregar dados no Pandas DataFrame
+df_vendas = pd.read_sql_query("SELECT * FROM vendas1", conexao)
+
+# Passo 5: Análise exploratória e visualizações
+# (Implementar análises específicas do roteiro)
+```
+
+<br>
 
 ---
 
@@ -133,12 +168,13 @@ python unit_one_lesson_four_functions.py
 
 ✔️ - Testes manuais :
 
-- [x] &nbsp;&nbsp;&nbsp;Cadastro de 3, 4 e 5 notas com valores válidos.
-- [x] &nbsp;&nbsp;&nbsp;Cálculo correto da média em diferentes cenários.
-- [x] &nbsp;&nbsp;&nbsp;Situação "Aprovado" quando média ≥ 7.0.
-- [x] &nbsp;&nbsp;&nbsp;Situação "Reprovado" quando média < 7.0.
-- [x] &nbsp;&nbsp;&nbsp;Validação de notas fora do intervalo 0–10.
-- [x] &nbsp;&nbsp;&nbsp;Teste com aluno na média exata (7.0).
+- [x] &nbsp;&nbsp;&nbsp;Conexão bem-sucedida com banco de dados SQLite.
+- [x] &nbsp;&nbsp;&nbsp;Criação e população da tabela de vendas.
+- [x] &nbsp;&nbsp;&nbsp;Carregamento correto dos dados no DataFrame Pandas.
+- [x] &nbsp;&nbsp;&nbsp;Análise exploratória (estatísticas descritivas, agrupamentos).
+- [x] &nbsp;&nbsp;&nbsp;Geração de visualizações com Matplotlib e Seaborn.
+- [x] &nbsp;&nbsp;&nbsp;Extração de insights sobre categorias e períodos de vendas.
+- [x] &nbsp;&nbsp;&nbsp;Validação de cálculos de total de vendas e médias.
 
 ---
 
@@ -146,14 +182,14 @@ python unit_one_lesson_four_functions.py
 
 ✔️ Ao concluir esta atividade, você terá adquirido as seguintes habilidades e sub-habilidades :
 
-- Criação e utilização de funções reutilizáveis em Python.
-- Manipulação de listas para armazenamento dinâmico de dados.
-- Uso de condicionais para tomada de decisão (aprovado/reprovado).
-- Formatação de saída com f-strings e alinhamento.
-- Validação de entrada do usuário.
-- Estruturação limpa e comentada do código.
-- Working with JSON data structures for item representation.
-- Boas práticas de organização e documentação.
+- Conexão e manipulação de bancos de dados SQLite com Python.
+- Manipulação avançada de DataFrames com biblioteca Pandas.
+- Criação de visualizações profissionais com Matplotlib e Seaborn.
+- Análise exploratória de dados para identificação de padrões.
+- Extração de insights estratégicos de dados de vendas.
+- Desenvolvimento de relatórios analíticos completos.
+- Habilidade em trabalhar com datas e agrupamentos temporais.
+- Capacidade de apresentar dados de forma clara e visualmente atraente.
 
 ---
 
@@ -192,4 +228,4 @@ O código tem finalidade educativa e de portfólio estudantil, sendo destinado a
 <br>
 <br>
 
-[⬆ Voltar ao topo](#projeto---atividade-prática-funções-em-python)
+[⬆ Voltar ao topo](#projeto---atividade-prática-análise-de-dados-em-python)

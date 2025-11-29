@@ -88,8 +88,6 @@ Abaixo segue o resultado da atividade concluída:
 
 ---
 
-#ffe600ff
-
 ### 🛠️ Tecnologias Utilizadas
 
 A Atividade foi desenvolvida utilizando:
