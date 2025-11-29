@@ -19,7 +19,7 @@ Abaixo segue o resultado do projeto concluído:
 > 🎯 Objetivo da Atividade:
 >
 > - Compreender a importância dos `recursos` de **_[Python](https://www.python.org/)_** como `bibliotecas` e `módulos`.
-> - Aplicar `Programação Orientada a Objetos` com classes e métodos em um cenário realista.
+> - Aplicar `Programação Orientada a Objetos` (POO) com classes e métodos em um cenário realista.
 > - Desenvolver um `sistema de gerenciamento de biblioteca` com cadastro, busca e relatórios.
 > - Utilizar a biblioteca **_[Matplotlib](https://matplotlib.org/)_** para geração de gráficos e visualização de dados.
 
