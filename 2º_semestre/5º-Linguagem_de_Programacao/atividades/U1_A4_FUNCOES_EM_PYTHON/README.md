@@ -107,7 +107,7 @@ U1_A4_FUNCOES_EM_PYTHON/
 - [ ] &nbsp;&nbsp;&nbsp;Para rodar localmente (opcional) :
 
 ```bash
-cd U1_A4_FUNCOES_EM_PYTHON
+cd U1_A4_FUNCOES_EM_PYTHON/src
 python unit_one_lesson_four_functions.py
 ```
 

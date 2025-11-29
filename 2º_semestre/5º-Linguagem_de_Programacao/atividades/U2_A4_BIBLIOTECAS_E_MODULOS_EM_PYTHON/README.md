@@ -21,7 +21,7 @@ Abaixo segue o resultado do projeto concluído:
 > - Compreender a importância dos `recursos` de **_[Python](https://www.python.org/)_** como `bibliotecas` e `módulos`.
 > - Aplicar `Programação Orientada a Objetos` com classes e métodos em um cenário realista.
 > - Desenvolver um `sistema de gerenciamento de biblioteca` com cadastro, busca e relatórios.
-> - Utilizar a biblioteca `Matplotlib` para geração de gráficos e visualização de dados.
+> - Utilizar a biblioteca **_[Matplotlib](https://matplotlib.org/)_** para geração de gráficos e visualização de dados.
 
 <br>
 
@@ -101,8 +101,8 @@ U2_A4_BIBLIOTECAS_E_MODULOS_EM_PYTHON/
 - Para rodar localmente (opcional):
 
 ```bash
-cd U2_A4_BIBLIOTECAS_MODULOS_PYTHON
-python sistema_biblioteca.py
+cd U2_A4_BIBLIOTECAS_E_MODULOS_EM_PYTHON/src
+python unit_two_lesson_four_libraries_and_modules.py
 ```
 
 <br>

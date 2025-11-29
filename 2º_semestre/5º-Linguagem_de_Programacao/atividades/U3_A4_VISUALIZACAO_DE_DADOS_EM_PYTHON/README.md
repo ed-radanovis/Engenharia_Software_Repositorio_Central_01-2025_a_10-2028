@@ -20,8 +20,8 @@ Abaixo segue o resultado do projeto concluído:
 >
 > - Compreender como utilizar **_[Python](https://www.python.org/)_** para `análise` de dados em cenários reais de negócios.
 > - Aplicar técnicas de `tratamento` e `extração` de informações de _bancos de dados_.
-> - Desenvolver um <u>sistema completo</u> de análise de vendas com `SQLite` , `Pandas` e visualizações.
-> - Utilizar `Matplotlib` e `Seaborn` para criar visualizações profissionais que gerem insights.
+> - Desenvolver um <u>sistema completo</u> de análise de vendas com **_[SQLite](https://sqlite.org/)_** , **_[Pandas](https://pandas.pydata.org/)_** e visualizações.
+> - Utilizar **_[Matplotlib](https://matplotlib.org/)_** e **_[Seaborn](https://seaborn.pydata.org/)_** para criar visualizações profissionais que gerem insights.
 >   <br>
 
 ### 🧩 Features
@@ -85,7 +85,7 @@ Abaixo segue o resultado do projeto concluído:
 
 A Atividade foi desenvolvida utilizando:
 
-[![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=python&logoColor=FFD43B)](https://www.python.org/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Google Colab](https://img.shields.io/badge/-Google_Colab-333333?style=flat&logo=google-colab&logoColor=F9AB00)](https://colab.research.google.com/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/ed-radanovis/Engenharia_Software_Repositorio_Central_01-2025_a_10-2028/blob/772cfa927b7993ea3592c099b8e89a9f9f612444/2%C2%BA_semestre/5%C2%BA-Linguagem_de_Programacao/atividades/U1_A4_FUNCOES_EM_PYTHON/images/mini_logo_vscode.png" width="21px" alt="VS Code Icon">[![Visual Studio Code](https://img.shields.io/badge/-Visual_Studio_Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC)](https://code.visualstudio.com/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Pandas](https://img.shields.io/badge/-Pandas-333333?style=flat&logo=pandas&logoColor=150458)](https://pandas.pydata.org/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Matplotlib](https://img.shields.io/badge/-Matplotlib-333333?style=flat&logo=python&logoColor=11557c)](https://matplotlib.org/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="./images/mini_logo_seaborn.png" width="19px" alt="Seaborn Icon">![Seaborn](https://img.shields.io/badge/-Seaborn-333333?style=flat&logo=seaborn&logoColor=7E57C2)](https://seaborn.pydata.org/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![SQLite](https://img.shields.io/badge/-SQLite-333333?style=flat&logo=sqlite&logoColor=003B57)](https://www.sqlite.org/)
+[![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=python&logoColor=3776AB)](https://www.python.org/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Google Colab](https://img.shields.io/badge/-Google_Colab-333333?style=flat&logo=google-colab&logoColor=F9AB00)](https://colab.research.google.com/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/ed-radanovis/Engenharia_Software_Repositorio_Central_01-2025_a_10-2028/blob/772cfa927b7993ea3592c099b8e89a9f9f612444/2%C2%BA_semestre/5%C2%BA-Linguagem_de_Programacao/atividades/U1_A4_FUNCOES_EM_PYTHON/images/mini_logo_vscode.png" width="21px" alt="VS Code Icon">[![Visual Studio Code](https://img.shields.io/badge/-Visual_Studio_Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC)](https://code.visualstudio.com/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Pandas](https://img.shields.io/badge/-Pandas-333333?style=flat&logo=pandas&logoColor=150458)](https://pandas.pydata.org/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Matplotlib](https://img.shields.io/badge/-Matplotlib-333333?style=flat&logo=python&logoColor=3776AB)](https://matplotlib.org/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="./images/mini_logo_seaborn.png" width="19px" alt="Seaborn Icon">![Seaborn](https://img.shields.io/badge/-Seaborn-333333?style=flat&logo=seaborn&logoColor=7E57C2)](https://seaborn.pydata.org/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![SQLite](https://img.shields.io/badge/-SQLite-333333?style=flat&logo=sqlite&logoColor=003B57)](https://www.sqlite.org/)
 
 ---
 
@@ -121,8 +121,8 @@ U1_A4_FUNCOES_EM_PYTHON/
 - Para rodar localmente (opcional):
 
 ```bash
-cd U3_A4_VISUALIZACAO_DADOS_PYTHON
-python analise_vendas.py
+cd U3_A4_VISUALIZACAO_DE_DADOS_EM_PYTHON/src
+python unit_three_lesson_four_data_visualization.py
 ```
 
 <br>
@@ -158,8 +158,6 @@ df_vendas = pd.read_sql_query("SELECT * FROM vendas1", conexao)
 # Passo 5: Análise exploratória e visualizações
 # (Implementar análises específicas do roteiro)
 ```
-
-<br>
 
 ---
 
