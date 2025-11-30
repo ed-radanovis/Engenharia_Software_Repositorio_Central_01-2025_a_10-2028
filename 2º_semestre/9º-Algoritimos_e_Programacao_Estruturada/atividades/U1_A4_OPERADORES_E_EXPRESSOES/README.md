@@ -52,8 +52,6 @@ Abaixo segue o resultado do projeto concluído:
 
 - [ ] Antes de iniciar este projeto, você deve ter conhecimento básico nas seguintes áreas:
 
-<br>
-
 - **Linguagem C Básica:** Sintaxe, estrutura main, variáveis e tipos de dados
 - **Entrada/Saída:** Comandos printf e scanf para interação com usuário
 - **Operadores Matemáticos:** Conceitos básicos de aritmética
@@ -159,7 +157,7 @@ int main() {
 
 ### 🧠 Habilidades Desenvolvidas
 
-✔️ Ao concluir esta atividade, você terá adquirido as seguintes habilidades e sub-habilidades :
+✔️ - Ao concluir esta atividade, você terá adquirido as seguintes habilidades e sub-habilidades :
 
 - Manipulação de operadores aritméticos em expressões matemáticas complexas.
 - Aplicação de operadores relacionais para comparações entre valores.
@@ -172,7 +170,7 @@ int main() {
 
 ---
 
-### 📜 License
+### 📜 Licença
 
 Por se tratar de um projeto de caráter exclusivamente acadêmico, desenvolvido como atividade prática da disciplina de Algoritmos e Programação Estruturada, ainda não foi atribuída uma licença formal.
 

@@ -57,8 +57,6 @@ Abaixo segue o resultado do projeto concluído:
 
 - [ ] Antes de iniciar este projeto, você deve ter conhecimento básico nas seguintes áreas:
 
-<br>
-
 - **Linguagem C Básica:** Sintaxe, estrutura main, variáveis e tipos de dados.
 - **Entrada/Saída:** Comandos printf e scanf para interação com usuário.
 - **Estruturas Condicionais:** Compreensão de if-else para lógica básica.
@@ -97,7 +95,8 @@ U2_A2_ESTRUTURAS_DE_REPETICOES/
 ### ⚙️ Configuração e Execução
 
 - [ ] &nbsp;&nbsp;&nbsp;Pré-requisitos:
-      ✔️ - Python 3.6+ ou Google Colab.
+
+✔️ - Python 3.6+ ou Google Colab.
 
 <br>
 
@@ -178,7 +177,7 @@ predicted_classes = np.argmax(predictions, axis=1)
 
 ### 🧠 Habilidades Desenvolvidas
 
-✔️ Ao concluir esta atividade, você terá adquirido as seguintes habilidades e sub-habilidades :
+✔️ - Ao concluir esta atividade, você terá adquirido as seguintes habilidades e sub-habilidades :
 
 - Compreensão dos fundamentos de Machine Learning e redes neurais.
 - Manipulação de datasets clássicos para problemas de classificação.
@@ -191,7 +190,7 @@ predicted_classes = np.argmax(predictions, axis=1)
 
 ---
 
-### 📜 License
+### 📜 Licença
 
 Por se tratar de um projeto de caráter exclusivamente acadêmico, desenvolvido como atividade prática da disciplina de Linguagem de Programação, ainda não foi atribuída uma licença formal de software (como MIT, GPL ou outra).
 

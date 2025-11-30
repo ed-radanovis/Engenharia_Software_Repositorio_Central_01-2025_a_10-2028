@@ -80,8 +80,6 @@ Abaixo segue o resultado da atividade concluída:
 
 - [ ] Antes de iniciar esta atividade, você deve ter conhecimento básico nas seguintes áreas:
 
-<br>
-
 - **Conceitos de Processos:** Noções de processos, threads e estados de processos.
 - **Sistemas Operacionais:** Compreensão básica de multiprogramação e escalonamento.
 - **SOsim:** Familiaridade com a interface do simulador (é adquirida durante a atividade).
@@ -164,7 +162,7 @@ A Atividade foi desenvolvida utilizando:
 
 ### 🧠 Habilidades Desenvolvidas
 
-✔️ Ao concluir esta atividade, você terá adquirido as seguintes habilidades e sub-habilidades :
+✔️ - Ao concluir esta atividade, você terá adquirido as seguintes habilidades e sub-habilidades :
 
 - Compreensão profunda do conceito de processos e seus estados.
 - Habilidade em utilizar simuladores para estudos de sistemas operacionais.

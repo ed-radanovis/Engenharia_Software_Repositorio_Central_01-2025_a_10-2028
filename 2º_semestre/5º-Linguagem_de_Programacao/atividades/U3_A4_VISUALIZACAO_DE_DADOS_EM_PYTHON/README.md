@@ -72,8 +72,6 @@ Abaixo segue o resultado do projeto concluído:
 
 - [ ] Antes de iniciar este projeto, você deve ter conhecimento básico nas seguintes áreas:
 
-<br>
-
 - **Python Intermediário:** Sintaxe da linguagem, estruturas de dados e funções.
 - **Pandas Básico:** Manipulação de DataFrames, leitura e filtragem de dados.
 - **Banco de Dados:** Conceitos básicos de `SQL` e operações `CRUD`.
@@ -178,7 +176,7 @@ df_vendas = pd.read_sql_query("SELECT * FROM vendas1", conexao)
 
 ### 🧠 Habilidades Desenvolvidas
 
-✔️ Ao concluir esta atividade, você terá adquirido as seguintes habilidades e sub-habilidades :
+✔️ - Ao concluir esta atividade, você terá adquirido as seguintes habilidades e sub-habilidades :
 
 - Conexão e manipulação de bancos de dados SQLite com Python.
 - Manipulação avançada de DataFrames com biblioteca Pandas.
@@ -191,7 +189,7 @@ df_vendas = pd.read_sql_query("SELECT * FROM vendas1", conexao)
 
 ---
 
-### 📜 License
+### 📜 Licença
 
 Por se tratar de um projeto de caráter exclusivamente acadêmico, desenvolvido como atividade prática da disciplina de Linguagem de Programação, ainda não foi atribuída uma licença formal de software (como MIT, GPL ou outra).
 

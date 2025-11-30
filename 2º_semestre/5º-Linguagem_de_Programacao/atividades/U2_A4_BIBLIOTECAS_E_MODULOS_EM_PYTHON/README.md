@@ -57,8 +57,6 @@ Abaixo segue o resultado do projeto concluído:
 
 - [ ] Antes de iniciar este projeto, você deve ter conhecimento básico nas seguintes áreas:
 
-<br>
-
 - **Programação Orientada a Objetos:** Conceitos de classes, objetos, atributos e métodos.
 - **Python Intermediário:** Sintaxe da linguagem, listas, dicionários e funções.
 - **Estruturas de Dados:** Manipulação de listas e iteração com loops.
@@ -163,7 +161,7 @@ def gerar_grafico_generos():
 
 ### 🧠 Habilidades Desenvolvidas
 
-✔️ Ao concluir esta atividade, você terá adquirido as seguintes habilidades e sub-habilidades :
+✔️ - Ao concluir esta atividade, você terá adquirido as seguintes habilidades e sub-habilidades :
 
 - Criação e utilização de classes em Python (Programação Orientada a Objetos).
 - Implementação de sistemas de gerenciamento de dados com listas e objetos.
@@ -176,7 +174,7 @@ def gerar_grafico_generos():
 
 ---
 
-### 📜 License
+### 📜 Licença
 
 Por se tratar de um projeto de caráter exclusivamente acadêmico, desenvolvido como atividade prática da disciplina de Linguagem de Programação, ainda não foi atribuída uma licença formal de software (como MIT, GPL ou outra).
 

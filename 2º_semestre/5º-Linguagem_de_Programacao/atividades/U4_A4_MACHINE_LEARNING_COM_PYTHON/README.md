@@ -79,8 +79,6 @@ Abaixo segue o resultado do projeto concluído:
 
 - [ ] Antes de iniciar este projeto, você deve ter conhecimento básico nas seguintes áreas:
 
-<br>
-
 - **Python Intermediário:** Sintaxe da linguagem, estruturas de dados e funções.
 - **Matemática Básica:** Conceitos de álgebra linear e estatística.
 - **Machine Learning:** Noções de treinamento, teste e validação de modelos.
@@ -201,7 +199,7 @@ predicted_classes = np.argmax(predictions, axis=1)
 
 ### 🧠 Habilidades Desenvolvidas
 
-✔️ Ao concluir esta atividade, você terá adquirido as seguintes habilidades e sub-habilidades :
+✔️ - Ao concluir esta atividade, você terá adquirido as seguintes habilidades e sub-habilidades :
 
 - Compreensão dos fundamentos de Machine Learning e redes neurais.
 - Manipulação de datasets clássicos para problemas de classificação.
@@ -214,7 +212,7 @@ predicted_classes = np.argmax(predictions, axis=1)
 
 ---
 
-### 📜 License
+### 📜 Licença
 
 Por se tratar de um projeto de caráter exclusivamente acadêmico, desenvolvido como atividade prática da disciplina de Linguagem de Programação, ainda não foi atribuída uma licença formal de software (como MIT, GPL ou outra).
 

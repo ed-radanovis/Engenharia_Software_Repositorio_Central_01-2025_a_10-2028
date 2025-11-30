@@ -61,8 +61,6 @@ Abaixo segue o resultado do projeto concluído:
 
 - [ ] Antes de iniciar este projeto, você deve ter conhecimento básico nas seguintes áreas:
 
-<br>
-
 - **Lógica de Programação :** Variáveis, entrada/saída de dados, estruturas condicionais e de repetição.
 - **Python Básico :** Sintaxe da linguagem, tipos de dados, listas, funções e módulos.
 - **Estruturas de Controle :** Uso de `if/elif/else`, `while` e `for`.
@@ -133,7 +131,7 @@ python unit_one_lesson_four_functions.py
 
 ### 🧠 Habilidades Desenvolvidas
 
-✔️ Ao concluir esta atividade, você terá adquirido as seguintes habilidades e sub-habilidades :
+✔️ - Ao concluir esta atividade, você terá adquirido as seguintes habilidades e sub-habilidades :
 
 - Criação e utilização de funções reutilizáveis em Python.
 - Manipulação de listas para armazenamento dinâmico de dados.
@@ -146,7 +144,7 @@ python unit_one_lesson_four_functions.py
 
 ---
 
-### 📜 License
+### 📜 Licença
 
 Por se tratar de um projeto de caráter exclusivamente acadêmico, desenvolvido como atividade prática da disciplina de Linguagem de Programação, ainda não foi atribuída uma licença formal de software (como MIT, GPL ou outra).
 

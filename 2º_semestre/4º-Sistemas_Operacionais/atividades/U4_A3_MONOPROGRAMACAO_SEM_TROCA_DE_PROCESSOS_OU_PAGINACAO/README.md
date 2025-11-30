@@ -81,8 +81,6 @@ Abaixo segue o resultado da atividade concluída:
 
 - [ ] Antes de iniciar esta atividade, você deve ter conhecimento básico nas seguintes áreas:
 
-<br>
-
 - **Conceitos de Memória Virtual:** Noções de paginação e memória virtual.
 - **SOsim Básico:** Familiaridade com a interface do simulador.
 - **Processos e Estados:** Compreensão de processos CPU - bound e seus estados.
@@ -173,7 +171,7 @@ A Atividade foi desenvolvida utilizando:
 
 ### 🧠 Habilidades Desenvolvidas
 
-✔️ Ao concluir esta atividade, você terá adquirido as seguintes habilidades e sub-habilidades :
+✔️ - Ao concluir esta atividade, você terá adquirido as seguintes habilidades e sub-habilidades :
 
 - Compreensão profunda dos conceitos de paginação em SO.
 - Habilidade em configurar políticas avançadas de memória virtual.

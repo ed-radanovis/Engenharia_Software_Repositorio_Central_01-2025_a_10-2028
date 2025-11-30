@@ -74,8 +74,6 @@ Abaixo segue o resultado do projeto concluído:
 
 - [ ] Antes de iniciar este projeto, você deve ter conhecimento básico nas seguintes áreas:
 
-<br>
-
 - **Lógica Proposicional:** Conceitos básicos de proposições e valores lógicos.
 - **Conectivos Lógicos:** Compreensão dos operadores AND, OR, NOT.
 - **Tabela Verdade:** Noções básicas de construção e interpretação.
@@ -114,7 +112,7 @@ A Atividade foi desenvolvida utilizando:
 
 ### 🧠 Habilidades Desenvolvidas
 
-✔️ Ao concluir esta atividade, você terá adquirido as seguintes habilidades e sub-habilidades :
+✔️ - Ao concluir esta atividade, você terá adquirido as seguintes habilidades e sub-habilidades :
 
 - Construção e interpretação de tabelas verdade para diferentes conectivos lógicos.
 - Aplicação prática das leis de De Morgan em proposições lógicas.
@@ -126,7 +124,7 @@ A Atividade foi desenvolvida utilizando:
 
 ---
 
-### 📜 License
+### 📜 Licença
 
 Por se tratar de um projeto de caráter exclusivamente acadêmico, desenvolvido como atividade prática da disciplina de Lógica e Matemática Computacional, ainda não foi atribuída uma licença formal.
 

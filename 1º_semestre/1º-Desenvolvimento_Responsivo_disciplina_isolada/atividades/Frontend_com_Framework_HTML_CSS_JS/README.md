@@ -54,8 +54,6 @@ Clique aqui para testar... obrigado pelo seu interesse!
 
 - [ ] Antes de iniciar este projeto, você deve ter conhecimento básico nas seguintes áreas:
 
-<br>
-
 - **HTML Básico :** Estrutura semântica de páginas web, tags fundamentais (`<header>` , `<nav>` , `<ul>` , `<li>`), e atributos.
 - **CSS Intermediário :** Seletores, box model, Flexbox/Grid, media queries, e propriedades de animação / transição.
 - **JavaScript Essencial :** Manipulação do DOM, eventos (click, mouseover), funções, e condicionais.

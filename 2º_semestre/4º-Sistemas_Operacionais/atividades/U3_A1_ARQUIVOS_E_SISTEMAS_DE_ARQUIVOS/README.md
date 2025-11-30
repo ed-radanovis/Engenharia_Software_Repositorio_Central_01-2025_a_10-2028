@@ -71,8 +71,6 @@ Abaixo segue o resultado da atividade concluída:
 
 - [ ] Antes de iniciar esta atividade, você deve ter conhecimento básico nas seguintes áreas:
 
-<br>
-
 - **Sistemas de Arquivos:** Noções básicas de organização e estrutura de arquivos.
 - **Linha de Comando:** Experiência com terminal Linux e PowerShell Windows.
 - **Scripting Básico:** Conhecimento elementar de scripts para automação.
@@ -174,7 +172,7 @@ def acesso_direto(arquivo, linha_alvo):
 
 ### 🧠 Habilidades Desenvolvidas
 
-✔️ Ao concluir esta atividade, você terá adquirido as seguintes habilidades e sub-habilidades :
+✔️ - Ao concluir esta atividade, você terá adquirido as seguintes habilidades e sub-habilidades :
 
 - Compreensão profunda de atributos e metadados de arquivos.
 - Habilidade em comandos avançados de listagem de arquivos.

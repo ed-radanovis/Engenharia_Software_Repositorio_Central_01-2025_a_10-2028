@@ -94,8 +94,6 @@ Abaixo segue o resultado da atidade concluída:
 
 - [ ] Antes de iniciar esta atividade, você deve ter conhecimento básico nas seguintes áreas:
 
-<br>
-
 - **Conceitos Básicos de SO :** Noções de kernel, shell e sistemas de arquivos.
 - **Linha de Comando :** Experiência básica com terminal / console.
 - **Sistemas Linux :** Familiaridade com comandos básicos do terminal.
@@ -172,7 +170,7 @@ icacls TestFile.txt /grant %username%:F
 
 ### 🧠 Habilidades Desenvolvidas
 
-✔️ Ao concluir esta atividade, você terá adquirido as seguintes habilidades e sub-habilidades :
+✔️ - Ao concluir esta atividade, você terá adquirido as seguintes habilidades e sub-habilidades :
 
 - Compreensão das funções do kernel e shell em sistemas operacionais.
 - Habilidade em comandos essenciais do terminal Linux e PowerShell.
