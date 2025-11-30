@@ -70,7 +70,8 @@ Abaixo segue o resultado da atividade concluída:
 ### 📚 Pré-requisitos
 
 - [ ] Antes de iniciar esta atividade, você deve ter conhecimento básico nas seguintes áreas:
-      <br>
+
+<br>
 
 - **Sistemas de Arquivos:** Noções básicas de organização e estrutura de arquivos.
 - **Linha de Comando:** Experiência com terminal Linux e PowerShell Windows.

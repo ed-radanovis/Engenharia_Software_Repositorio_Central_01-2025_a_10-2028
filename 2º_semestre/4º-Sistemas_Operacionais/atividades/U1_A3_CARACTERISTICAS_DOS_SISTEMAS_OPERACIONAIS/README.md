@@ -93,7 +93,8 @@ Abaixo segue o resultado da atidade concluída:
 ### 📚 Pré-requisitos
 
 - [ ] Antes de iniciar esta atividade, você deve ter conhecimento básico nas seguintes áreas:
-      <br>
+
+<br>
 
 - **Conceitos Básicos de SO :** Noções de kernel, shell e sistemas de arquivos.
 - **Linha de Comando :** Experiência básica com terminal / console.

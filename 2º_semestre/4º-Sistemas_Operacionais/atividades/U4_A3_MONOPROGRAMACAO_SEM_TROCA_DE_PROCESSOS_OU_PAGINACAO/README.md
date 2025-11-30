@@ -80,7 +80,8 @@ Abaixo segue o resultado da atividade concluída:
 ### 📚 Pré-requisitos
 
 - [ ] Antes de iniciar esta atividade, você deve ter conhecimento básico nas seguintes áreas:
-      <br>
+
+<br>
 
 - **Conceitos de Memória Virtual:** Noções de paginação e memória virtual.
 - **SOsim Básico:** Familiaridade com a interface do simulador.

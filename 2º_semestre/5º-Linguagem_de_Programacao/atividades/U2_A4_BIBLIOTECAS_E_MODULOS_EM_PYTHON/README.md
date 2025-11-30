@@ -56,7 +56,8 @@ Abaixo segue o resultado do projeto concluído:
 ### 📚 Pré-requisitos
 
 - [ ] Antes de iniciar este projeto, você deve ter conhecimento básico nas seguintes áreas:
-      <br>
+
+<br>
 
 - **Programação Orientada a Objetos:** Conceitos de classes, objetos, atributos e métodos.
 - **Python Intermediário:** Sintaxe da linguagem, listas, dicionários e funções.

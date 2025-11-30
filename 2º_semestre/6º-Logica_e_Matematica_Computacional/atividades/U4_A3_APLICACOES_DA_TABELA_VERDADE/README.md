@@ -73,7 +73,8 @@ Abaixo segue o resultado do projeto concluído:
 ### 📚 Pré-requisitos
 
 - [ ] Antes de iniciar este projeto, você deve ter conhecimento básico nas seguintes áreas:
-      <br>
+
+<br>
 
 - **Lógica Proposicional:** Conceitos básicos de proposições e valores lógicos.
 - **Conectivos Lógicos:** Compreensão dos operadores AND, OR, NOT.

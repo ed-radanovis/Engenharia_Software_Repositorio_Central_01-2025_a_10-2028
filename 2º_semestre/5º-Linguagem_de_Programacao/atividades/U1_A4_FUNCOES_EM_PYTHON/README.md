@@ -60,7 +60,8 @@ Abaixo segue o resultado do projeto concluído:
 ### 📚 Pré-requisitos
 
 - [ ] Antes de iniciar este projeto, você deve ter conhecimento básico nas seguintes áreas:
-      <br>
+
+<br>
 
 - **Lógica de Programação :** Variáveis, entrada/saída de dados, estruturas condicionais e de repetição.
 - **Python Básico :** Sintaxe da linguagem, tipos de dados, listas, funções e módulos.

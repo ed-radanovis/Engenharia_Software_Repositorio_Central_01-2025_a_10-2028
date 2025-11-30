@@ -78,7 +78,8 @@ Abaixo segue o resultado do projeto concluído:
 ### 📚 Pré-requisitos
 
 - [ ] Antes de iniciar este projeto, você deve ter conhecimento básico nas seguintes áreas:
-      <br>
+
+<br>
 
 - **Python Intermediário:** Sintaxe da linguagem, estruturas de dados e funções.
 - **Matemática Básica:** Conceitos de álgebra linear e estatística.

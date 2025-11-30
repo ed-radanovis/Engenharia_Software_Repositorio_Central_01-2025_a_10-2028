@@ -1,5 +1,5 @@
   <p align="center">
-    <img src="./images/logo_linguagem_C_redondo.png" min-width="100px" width="150" min-height="100px" height="150px" alt="logo Python">
+    <img src="./images/logo_linguagem_C_redondo.png" min-width="100px" width="100" min-height="100px" height="100px" alt="logo Python">
   </p>
 
 # Projeto - Atividade Prática: Operadores e Expressões em C
@@ -18,7 +18,7 @@ Abaixo segue o resultado do projeto concluído:
 
 > 🎯 Objetivo da Atividade:
 >
-> - Compreender o funcionamento de `operadores aritméticos` , `relacionais` e `lógicos` na linguagem de programação **_[C](https://en.cppreference.com/)_** .
+> - Compreender o funcionamento de `operadores aritméticos` , `relacionais` e `lógicos` na linguagem de programação **_[C](https://en.cppreference.com/)_**.
 > - Aplicar **operadores** em `expressões condicionais ` e `matemáticas` em programas simples.
 > - Desenvolver habilidades na **combinação de operadores** para criar expressões complexas.
 > - Implementar `validações lógicas` baseadas em múltiplas condições.
@@ -43,6 +43,7 @@ Abaixo segue o resultado do projeto concluído:
         <img src="./images/result_activity_1.png" width="500px" height="800px" alt="print da atividade"/>
       </a>
     </td>
+  </tr>  
 </table>
 
 ---

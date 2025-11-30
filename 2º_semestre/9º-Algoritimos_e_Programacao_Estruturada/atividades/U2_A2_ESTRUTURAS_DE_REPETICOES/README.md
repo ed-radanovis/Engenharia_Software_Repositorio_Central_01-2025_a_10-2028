@@ -1,14 +1,14 @@
   <p align="center">
-    <img src="../U1_A4_FUNCOES_EM_PYTHON/images/logo_python2.png" min-width="100px" width="150" min-height="100px" height="150px" alt="logo Python">
+    <img src="../U1_A4_OPERADORES_E_EXPRESSOES/images/logo_linguagem_C_redondo.png" min-width="100px" width="100" min-height="100px" height="100px" alt="logo Python">
   </p>
 
-# Projeto - Atividade Prática: Machine Learning com Python
+# Projeto - Atividade Prática: Estruturas de Repetição While em C
 
-## Disciplina : Linguagem de Programação
+## Disciplina: Algoritmos e Programação Estruturada
 
-### Unidade 4 – Aula 4
+### Unidade 2 – Aula 2
 
-Ministrado por _Profº Anderson I. S. Abreu_.
+Ministrado por _Dr. Gilberto Fernandes Junior_.
 
 <br>
 
@@ -18,23 +18,21 @@ Abaixo segue o resultado do projeto concluído:
 
 > 🎯 Objetivo da Atividade:
 >
-> - Compreender os conceitos fundamentais de **_[Machine Learning](https://pt.wikipedia.org/wiki/Aprendizado_de_m%C3%A1quina)_** e suas aplicações práticas.
-> - Implementar técnicas de `aprendizado supervisionado` para classificação de dados.
-> - Desenvolver um modelo de `rede neural` com **_[TensorFlow](https://www.tensorflow.org/?hl=pt-br)_** para classificação de espécies.
-> - Aplicar pré-processamento e validação de dados com **_[Scikit-learn](https://scikit-learn.org/stable/)_**.
-> - Manipulação eficiente de arrays numéricos e operações matemáticas com **_[NumPy](https://numpy.org/)_** .
+> - Compreender o funcionamento da estrutura de repetição `while` em linguagem de programação **_[C](https://en.cppreference.com/)_**.
+> - Implementar um programa que utiliza laços de repetição para resolver problemas práticos.
+> - Desenvolver habilidades no `controle de loops` baseados em condições.
+> - Aprender a utilizar `valores sentinela` para encerramento de programas.
 
 <br>
 
 ### 🧩 Features
 
-- Carregamento e exploração do **conjunto de dados Iris** do **Scikit-learn**
-- Pré-processamento avançado com normalização e divisão treino / teste
-- Construção de modelo de rede neural com **TensorFlow / Keras**
-- Treinamento e avaliação do modelo com métricas de precisão
-- Classificação multi-classe para 3 espécies de flores Iris
-- Visualização de resultados e performance do modelo
-- Previsões em tempo real com o modelo treinado
+- Leitura contínua de números inteiros via entrada do usuário.
+- Implementação de estrutura de repetição while com condição de parada.
+- Cálculo acumulativo de soma em tempo real.
+- Utilização do número zero como valor sentinela.
+- Interface interativa com feedback imediato.
+- Exibição do resultado final após encerramento.
 
 ---
 
@@ -42,35 +40,15 @@ Abaixo segue o resultado do projeto concluído:
   <tr>
     <td align="center">
       <a href="./images/result_activity_1.png">
-        <img src="./images/result_activity_1.png" width="500px" height="950px" alt="Importação e Carregamento de Dados"/>
+        <img src="./images/result_activity_1.png" width="500px" height="800px" alt="print da atividade"/>
       </a>
     </td>
     <td align="center">
       <a href="./images/result_activity_2.png">
-        <img src="./images/result_activity_2.png" width="500px" height="950px" alt="Pré-processamento e Modelagem"/>
+        <img src="./images/result_activity_2.png" width="500px" height="800px" alt="print da atividade"/>
       </a>
     </td>
-    <td align="center">
-      <a href="./images/result_activity_3.png">
-        <img src="./images/result_activity_3.png" width="500px" height="700px" alt="Treinamento e Avaliação"/>
-      </a>
-      <br>
-      <br>
-      <a href="./images/graphic_1.png">
-        <img src="./images/graphic_1.png" width="500px" height="200px" alt="Visualização dos Dados Iris"/>
-      </a>
-    </td>
-    <td align="center">
-      <a href="./images/result_activity_4.png">
-        <img src="./images/result_activity_4.png" width="500px" height="700px" alt="Treinamento e Avaliação"/>
-      </a>
-       <br>
-      <br>
-      <a href="./images/graphic_2.png">
-        <img src="./images/graphic_2.png" width="500px" height="200px" alt="Arquitetura da Rede Neural"/>
-      </a>
-    </td>
-  </tr>
+  </tr>  
 </table>
 
 ---
@@ -78,13 +56,14 @@ Abaixo segue o resultado do projeto concluído:
 ### 📚 Pré-requisitos
 
 - [ ] Antes de iniciar este projeto, você deve ter conhecimento básico nas seguintes áreas:
-      <br>
 
-- **Python Intermediário:** Sintaxe da linguagem, estruturas de dados e funções.
-- **Matemática Básica:** Conceitos de álgebra linear e estatística.
-- **Machine Learning:** Noções de treinamento, teste e validação de modelos.
-- **Pandas / NumPy:** Manipulação básica de arrays e dataframes.
-- **Google Colab:** Ambiente de desenvolvimento em nuvem para execução de código.
+<br>
+
+- **Linguagem C Básica:** Sintaxe, estrutura main, variáveis e tipos de dados.
+- **Entrada/Saída:** Comandos printf e scanf para interação com usuário.
+- **Estruturas Condicionais:** Compreensão de if-else para lógica básica.
+- **Operadores Relacionais:** Uso de operadores como != (diferente).
+- **OnlineGDB:** Familiaridade com a plataforma online.
 
 ---
 
@@ -92,26 +71,25 @@ Abaixo segue o resultado do projeto concluído:
 
 A Atividade foi desenvolvida utilizando:
 
-[![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=python&logoColor=3776AB)](https://www.python.org/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Google Colab](https://img.shields.io/badge/-Google_Colab-333333?style=flat&logo=google-colab&logoColor=F9AB00)](https://colab.research.google.com/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/ed-radanovis/Engenharia_Software_Repositorio_Central_01-2025_a_10-2028/blob/772cfa927b7993ea3592c099b8e89a9f9f612444/2%C2%BA_semestre/5%C2%BA-Linguagem_de_Programacao/atividades/U1_A4_FUNCOES_EM_PYTHON/images/mini_logo_vscode.png" width="21px" alt="VS Code Icon">[![Visual Studio Code](https://img.shields.io/badge/-Visual_Studio_Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC)](https://code.visualstudio.com/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![TensorFlow](https://img.shields.io/badge/-TensorFlow-333333?style=flat&logo=tensorflow&logoColor=FF6F00)](https://www.tensorflow.org/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Scikit-learn](https://img.shields.io/badge/-Scikit_learn-333333?style=flat&logo=scikit-learn&logoColor=F7931E)](https://scikit-learn.org/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Pandas](https://img.shields.io/badge/-Pandas-333333?style=flat&logo=pandas&logoColor=150458)](https://pandas.pydata.org/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![NumPy](https://img.shields.io/badge/-NumPy-333333?style=flat&logo=numpy&logoColor=013243)](https://numpy.org/)
+[![C Language](https://img.shields.io/badge/-Linguagem_C-333333?style=flat&logo=c&logoColor=A8B9CC)](https://en.cppreference.com/w/c/language)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="https://github.com/ed-radanovis/Engenharia_Software_Repositorio_Central_01-2025_a_10-2028/blob/c7eac2d5a0cf3eefc1a3a4b51594e284a89f6d30/2%C2%BA_semestre/9%C2%BA-Algoritimos_e_Programacao_Estruturada/atividades/U1_A4_OPERADORES_E_EXPRESSOES/images/mini_logo_onlinegdb.png" width="20px" alt="OnlineGDB Icon">![OnlineGDB](https://img.shields.io/badge/-OnlineGDB-333333?style=flat&logo=gnu-debugger&logoColor=FF6B6B)](https://www.onlinegdb.com/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![GCC Compiler](https://img.shields.io/badge/-GCC_Compiler-333333?style=flat&logo=gnu&logoColor=FF6B6B)](https://gcc.gnu.org/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/ed-radanovis/Engenharia_Software_Repositorio_Central_01-2025_a_10-2028/blob/772cfa927b7993ea3592c099b8e89a9f9f612444/2%C2%BA_semestre/5%C2%BA-Linguagem_de_Programacao/atividades/U1_A4_FUNCOES_EM_PYTHON/images/mini_logo_vscode.png" width="21px" alt="VS Code Icon">[![Visual Studio Code](https://img.shields.io/badge/-Visual_Studio_Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC)](https://code.visualstudio.com/)
 
 ---
 
 ### 📂 Estrutura do Projeto
 
 ```bash
-U4_A4_MACHINE_LEARNING_COM_PYTHON/
+U2_A2_ESTRUTURAS_DE_REPETICOES/
 ├── images/
-│   ├── graphic_1.png
-│   ├── graphic_2.png
-│   ├── result_activity_1.png
-│   ├── result_activity_2.png
-│   ├── result_activity_3.png
-│   └── result_activity_4.png
+│   ├── estrutura_while.png
+│   ├── entrada_dados.png
+│   ├── calculo_soma.png
+│   ├── resultado_final.png
+│   └── logo_c.png
 ├── src/
-│   └── unit_four_lesson_four_machine_learning.py      # Código principal da atividade
-├── ATIVIDADE_PRATICA_U4_A4_MACHINE_LEARNING_COM_PYTHON.pdf
-├── README.md                                          # Este arquivo
-└── roteiro_U4_A4_MACHINE_LEARNING_COM_PYTHON.pdf
+│   └── soma_while.c                    # Código principal da atividade
+├── ATIVIDADE_PRATICA_U2_A2_ESTRUTURAS_REPETICAO.pdf
+├── README.md                           # Este arquivo
+└── roteiro_U2_A2_ESTRUTURAS_DE_REPETICOES.pdf
 ```
 
 ---

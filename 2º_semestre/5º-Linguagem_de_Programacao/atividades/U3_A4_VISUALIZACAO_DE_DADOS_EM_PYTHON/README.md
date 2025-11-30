@@ -71,7 +71,8 @@ Abaixo segue o resultado do projeto concluído:
 ### 📚 Pré-requisitos
 
 - [ ] Antes de iniciar este projeto, você deve ter conhecimento básico nas seguintes áreas:
-      <br>
+
+<br>
 
 - **Python Intermediário:** Sintaxe da linguagem, estruturas de dados e funções.
 - **Pandas Básico:** Manipulação de DataFrames, leitura e filtragem de dados.
