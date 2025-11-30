@@ -78,13 +78,11 @@ A Atividade foi desenvolvida utilizando:
 ```bash
 U2_A2_ESTRUTURAS_DE_REPETICOES/
 ├── images/
-│   ├── estrutura_while.png
-│   ├── entrada_dados.png
-│   ├── calculo_soma.png
-│   ├── resultado_final.png
-│   └── logo_c.png
+│   ├── result_activity_1.png
+│   └── result_activity_2.png
 ├── src/
-│   └── soma_while.c                    # Código principal da atividade
+│   ├── programa.exe
+│   └── unit_two_lesson_two_repetition_structures.c       # Código principal da atividade
 ├── ATIVIDADE_PRATICA_U2_A2_ESTRUTURAS_REPETICAO.pdf
 ├── README.md                           # Este arquivo
 └── roteiro_U2_A2_ESTRUTURAS_DE_REPETICOES.pdf
@@ -96,82 +94,61 @@ U2_A2_ESTRUTURAS_DE_REPETICOES/
 
 - [ ] &nbsp;&nbsp;&nbsp;Pré-requisitos:
 
-✔️ - Python 3.6+ ou Google Colab.
+✔️ - Acesso ao OnlineGDB ou compilador C local.
 
 <br>
 
-- [ ] &nbsp;&nbsp;&nbsp;Acesso à internet para instalação das bibliotecas.
-- Para rodar localmente (opcional):
+- [x] &nbsp;&nbsp;&nbsp;Forma recomendada (conforme roteiro da disciplina) ➡ Acesse o OnlineGDB e siga os passos:
 
-```bash
-cd U4_A4_MACHINE_LEARNING_COM_PYTHON/src
-python unit_four_lesson_four_machine_learning.py
-```
+```c
+// Passo 1: Acesse https://www.onlinegdb.com/
+// Passo 2: Selecione "C" como linguagem
+// Passo 3: Implemente o código de soma com while:
 
-<br>
+#include <stdio.h>
 
-- [x] &nbsp;&nbsp;&nbsp;Forma recomendada (conforme roteiro da disciplina) ➡ Abra o Google Colab, crie um novo notebook e implemente o sistema seguindo os passos:
+int main() {
+    int numero, soma = 0;
 
-```python
-# Passo 1: Importar Bibliotecas e Carregar Dados
-import tensorflow as tf
-import pandas as pd
-import numpy as np
-from sklearn.datasets import load_iris
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
+    printf("=== CALCULADORA DE SOMA ===\n");
+    printf("Digite números inteiros para somar (0 para encerrar):\n");
 
-# Carregar conjunto de dados Iris
-iris = load_iris()
-X = iris.data  # Características: comprimento/largura sépalas e pétalas
-y = iris.target  # Espécies: 0=Setosa, 1=Versicolor, 2=Virginica
+    // Passo 4: Solicitar primeiro número
+    printf("Digite um número: ");
+    scanf("%d", &numero);
 
-# Passo 2: Pré-processamento dos Dados
-# Dividir em conjuntos de treino e teste
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+    // Passo 5: Implementar estrutura while
+    while(numero != 0) {
+        // Somar o número digitado
+        soma += numero;
 
-# Normalizar os dados
-scaler = StandardScaler()
-X_train = scaler.fit_transform(X_train)
-X_test = scaler.transform(X_test)
+        // Solicitar próximo número
+        printf("Digite outro número (0 para finalizar): ");
+        scanf("%d", &numero);
+    }
 
-# Passo 3: Construir o Modelo de Rede Neural
-model = tf.keras.Sequential([
-    tf.keras.layers.Dense(10, activation='relu', input_shape=(4,)),
-    tf.keras.layers.Dense(10, activation='relu'),
-    tf.keras.layers.Dense(3, activation='softmax')  # 3 classes de saída
-])
+    // Passo 6: Exibir resultado final
+    printf("\n=== RESULTADO ===\n");
+    printf("A soma total dos números é: %d\n", soma);
+    printf("Programa encerrado.\n");
 
-# Compilar o modelo
-model.compile(optimizer='adam',
-              loss='sparse_categorical_crossentropy',
-              metrics=['accuracy'])
-
-# Passo 4: Treinar o Modelo
-history = model.fit(X_train, y_train, epochs=100, validation_split=0.2, verbose=1)
-
-# Passo 5: Avaliar o Modelo
-test_loss, test_accuracy = model.evaluate(X_test, y_test, verbose=0)
-print(f"Acurácia no conjunto de teste: {test_accuracy:.2f}")
-
-# Passo 6: Fazer Previsões
-predictions = model.predict(X_test)
-predicted_classes = np.argmax(predictions, axis=1)
+    return 0;
+}
 ```
 
 ---
 
 ### 🔬 Testes Realizados
 
-✔️ - Testes manuais :
+✔️ - Validações do programa :
 
-- [x] &nbsp;&nbsp;&nbsp;Carregamento correto do dataset Iris do Scikit-learn.
-- [x] &nbsp;&nbsp;&nbsp;Divisão adequada dos dados em treino e teste (80/20).
-- [x] &nbsp;&nbsp;&nbsp;Normalização eficaz com StandardScaler.
-- [x] &nbsp;&nbsp;&nbsp;Construção da arquitetura da rede neural com camadas densas.
-- [x] &nbsp;&nbsp;&nbsp;Treinamento do modelo com 100 épocas e validação.
-- [x] &nbsp;&nbsp;&nbsp;Avaliação da acurácia no conjunto de teste (>90%).
-- [x] &nbsp;&nbsp;&nbsp;Previsões consistentes para novas amostras.
+- [x] &nbsp;&nbsp;&nbsp;Leitura correta de números inteiros via scanf em loop.
+- [x] &nbsp;&nbsp;&nbsp;Estrutura while funcionando com condição número != 0.
+- [x] &nbsp;&nbsp;&nbsp;Cálculo acumulativo preciso da variável soma.
+- [x] &nbsp;&nbsp;&nbsp;Encerramento correto ao digitar zero.
+- [x] &nbsp;&nbsp;&nbsp;Exibição do resultado final formatado.
+- [x] &nbsp;&nbsp;&nbsp;Teste com múltiplos conjuntos de números.
+- [x] &nbsp;&nbsp;&nbsp;Verificação de soma com números positivos e negativos.
 
 ---
 
@@ -179,20 +156,20 @@ predicted_classes = np.argmax(predictions, axis=1)
 
 ✔️ - Ao concluir esta atividade, você terá adquirido as seguintes habilidades e sub-habilidades :
 
-- Compreensão dos fundamentos de Machine Learning e redes neurais.
-- Manipulação de datasets clássicos para problemas de classificação.
-- Implementação de pré-processamento com Scikit-learn.
-- Construção de arquiteturas de redes neurais com TensorFlow/Keras.
-- Treinamento e avaliação de modelos de deep learning.
-- Interpretação de métricas de performance (acurácia, loss).
-- Realização de previsões com modelos treinados.
-- Habilidade em otimização de hiperparâmetros e arquiteturas..
+- Implementação de estruturas de repetição while em C.
+- Controle de loops baseados em condições de parada.
+- Utilização de valores sentinela para encerramento de programas.
+- Cálculos acumulativos com variáveis contadoras.
+- Desenvolvimento de programas interativos com entrada contínua.
+- Manipulação de variáveis para armazenamento de resultados.
+- Habilidade em debug de loops infinitos e condições de parada.
+- Capacidade de criar ferramentas de cálculo simples e eficientes.
 
 ---
 
 ### 📜 Licença
 
-Por se tratar de um projeto de caráter exclusivamente acadêmico, desenvolvido como atividade prática da disciplina de Linguagem de Programação, ainda não foi atribuída uma licença formal de software (como MIT, GPL ou outra).
+Por se tratar de um projeto de caráter exclusivamente acadêmico, desenvolvido como atividade prática da disciplina de Algoritmos e Programação Estruturada, ainda não foi atribuída uma licença formal.
 
 O código tem finalidade educativa e de portfólio estudantil, sendo destinado apenas ao aprendizado e à avaliação no âmbito da faculdade. Caso deseje reutilizar ou adaptar o material para fins didáticos, sinta-se à vontade — apenas mantenha a referência ao autor original e ao contexto acadêmico.
 
@@ -225,4 +202,4 @@ O código tem finalidade educativa e de portfólio estudantil, sendo destinado a
 <br>
 <br>
 
-[⬆ Voltar ao topo](#projeto---atividade-prática-machine-learning-com-python)
+[⬆ Voltar ao topo](#projeto---atividade-prática-estruturas-de-repetição-while-em-c)

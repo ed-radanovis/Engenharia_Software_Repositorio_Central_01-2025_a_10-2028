@@ -92,7 +92,8 @@ A Atividade foi desenvolvida utilizando:
 ### ⚙️ Configuração e Execução
 
 - [ ] &nbsp;&nbsp;&nbsp;Pré-requisitos:
-      ✔️ - Acesso a software de lógica proposicional ou planilhas eletrônicas.
+
+✔️ - Acesso a software de lógica proposicional ou planilhas eletrônicas.
 
 ---
 

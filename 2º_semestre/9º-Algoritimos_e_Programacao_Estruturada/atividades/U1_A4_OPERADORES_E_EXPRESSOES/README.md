@@ -89,7 +89,7 @@ U1_A4_OPERADORES_E_EXPRESSOES/
 
 - [ ] &nbsp;&nbsp;&nbsp;Pré-requisitos:
 
-✔️ - Acesso ao OnlineGDB ou compilador C local
+✔️ - Acesso ao OnlineGDB ou compilador C local.
 
 <br>
 
