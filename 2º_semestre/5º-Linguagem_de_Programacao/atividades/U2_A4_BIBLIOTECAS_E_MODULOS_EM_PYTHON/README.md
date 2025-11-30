@@ -92,7 +92,8 @@ U2_A4_BIBLIOTECAS_E_MODULOS_EM_PYTHON/
 ### ⚙️ Configuração e Execução
 
 - [ ] &nbsp;&nbsp;&nbsp;Pré-requisitos:
-      ✔️ - Python 3.6+ ou Google Colab.
+
+✔️ - Python 3.6+ ou Google Colab.
 
 <br>
 
