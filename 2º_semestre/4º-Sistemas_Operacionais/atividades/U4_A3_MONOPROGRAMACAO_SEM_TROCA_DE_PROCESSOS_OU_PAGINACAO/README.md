@@ -104,7 +104,9 @@ A Atividade foi desenvolvida utilizando:
 - [x] &nbsp;&nbsp;&nbsp;Pré-requisitos:
 
 ✔️ - Download do SOsim em: http://www.training.com.br/sosim/
+
 ✔️ - Sistema Windows para execução do simulador.
+
 ✔️ - Conhecimento prévio de conceitos de paginação.
 
 - [x] &nbsp;&nbsp;&nbsp;Atividade 1 - Configuração Inicial do SOsim:

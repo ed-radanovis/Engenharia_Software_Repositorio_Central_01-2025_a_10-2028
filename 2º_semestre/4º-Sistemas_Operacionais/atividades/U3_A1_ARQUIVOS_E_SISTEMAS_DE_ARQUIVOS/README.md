@@ -94,7 +94,9 @@ A Atividade foi desenvolvida utilizando:
 - [x] &nbsp;&nbsp;&nbsp;Pré-requisitos:
 
 ✔️ - Sistema Linux (Ubuntu, Fedora, etc.) e Windows 10 / 11.
+
 ✔️ - Acesso ao terminal Linux e PowerShell do Windows.
+
 ✔️ - Editor de texto para criação de scripts.
 
 - [x] &nbsp;&nbsp;&nbsp;Atividade 1 - Identificação de Atributos:
