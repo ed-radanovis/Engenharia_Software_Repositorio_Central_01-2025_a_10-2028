@@ -95,7 +95,7 @@ A Atvidade foi desenvolvida utilizando:
 
 ```bash
 
-📝 Nota => Método recomendado - para clonar apenas este diretório e não todo o repositório :
+📝 Nota ➡ Método recomendado - para clonar apenas este diretório e não todo o repositório :
 
 git clone --depth 1 --filter=blob:none --sparse https://github.com/ed-radanovis/Engenharia_Software_Repositorio_Central_01-2025_a_10-2028.git
 cd Engenharia_Software_Repositorio_Central_01-2025_a_10-2028
