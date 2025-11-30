@@ -23,12 +23,12 @@ Abaixo segue o resultado do projeto concluído:
 
 ### 🧩 Features
 
-- Criar um menu de navegação responsivo que se adapte a smartphones, tablets (retrato e paisagem), telas Full HD (1920px+) e 4K (3840px+)
-- Implementar um botão de alternância (tipo hambúrguer) para dispositivos móveis
-- Exibir submenus suspensos com animações suaves
-- Destacar o item de menu selecionado
-- Garantir o fechamento automático de outros submenus ao abrir um novo
-- Fornecer uma interface acessível e amigável com HTML semântico
+- Criar um menu de navegação responsivo que se adapte a smartphones, tablets (retrato e paisagem), telas Full HD (1920px+) e 4K (3840px+).
+- Implementar um botão de alternância (tipo hambúrguer) para dispositivos móveis.
+- Exibir submenus suspensos com animações suaves.
+- Destacar o item de menu selecionado.
+- Garantir o fechamento automático de outros submenus ao abrir um novo.
+- Fornecer uma interface acessível e amigável com HTML semântico.
 
 ---
 

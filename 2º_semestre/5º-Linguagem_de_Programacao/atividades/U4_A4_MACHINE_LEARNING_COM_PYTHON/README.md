@@ -28,13 +28,13 @@ Abaixo segue o resultado do projeto concluído:
 
 ### 🧩 Features
 
-- Carregamento e exploração do **conjunto de dados Iris** do **Scikit-learn**
-- Pré-processamento avançado com normalização e divisão treino / teste
-- Construção de modelo de rede neural com **TensorFlow / Keras**
-- Treinamento e avaliação do modelo com métricas de precisão
-- Classificação multi-classe para 3 espécies de flores Iris
-- Visualização de resultados e performance do modelo
-- Previsões em tempo real com o modelo treinado
+- Carregamento e exploração do **conjunto de dados Iris** do **Scikit-learn**.
+- Pré-processamento avançado com normalização e divisão treino / teste.
+- Construção de modelo de rede neural com **TensorFlow / Keras**.
+- Treinamento e avaliação do modelo com métricas de precisão.
+- Classificação multi-classe para 3 espécies de flores Iris.
+- Visualização de resultados e performance do modelo.
+- Previsões em tempo real com o modelo treinado.
 
 ---
 

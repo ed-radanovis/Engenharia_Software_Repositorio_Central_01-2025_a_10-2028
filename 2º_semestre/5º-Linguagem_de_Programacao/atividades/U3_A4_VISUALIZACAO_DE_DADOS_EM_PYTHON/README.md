@@ -26,13 +26,13 @@ Abaixo segue o resultado do projeto concluído:
 
 ### 🧩 Features
 
-- Conexão e manipulação de banco de dados **SQLite** com Python
-- Criação de tabelas e inserção de dados de vendas fictícias
-- Exploração e preparação de dados utilizando **Pandas DataFrame**
-- Análise de vendas por categoria, período e produtos
-- Geração de **visualizações profissionais** com Matplotlib e Seaborn
-- Extração de **insights estratégicos** para tomada de decisão
-- Relatório completo de análise de desempenho de vendas
+- Conexão e manipulação de banco de dados **SQLite** com Python.
+- Criação de tabelas e inserção de dados de vendas fictícias.
+- Exploração e preparação de dados utilizando **Pandas DataFrame**.
+- Análise de vendas por categoria, período e produtos.
+- Geração de **visualizações profissionais** com Matplotlib e Seaborn.
+- Extração de **insights estratégicos** para tomada de decisão.
+- Relatório completo de análise de desempenho de vendas.
 
 ---
 

@@ -27,11 +27,11 @@ Abaixo segue o resultado do projeto concluído:
 
 ### 🧩 Features
 
-- Construção de tabelas verdade para conectivos lógicos básicos
-- Aplicação prática das leis de De Morgan
-- Identificação e análise de tautologias, contradições e contingências
-- Desenvolvimento do raciocínio lógico-matemático
-- Análise comparativa entre diferentes proposições lógicas
+- Construção de tabelas verdade para conectivos lógicos básicos.
+- Aplicação prática das leis de De Morgan.
+- Identificação e análise de tautologias, contradições e contingências.
+- Desenvolvimento do raciocínio lógico-matemático.
+- Análise comparativa entre diferentes proposições lógicas.
 
 ---
 

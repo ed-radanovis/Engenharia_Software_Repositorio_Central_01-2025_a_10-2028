@@ -1,14 +1,14 @@
   <p align="center">
-    <img src="../U1_A4_FUNCOES_EM_PYTHON/images/logo_python2.png" min-width="100px" width="150" min-height="100px" height="150px" alt="logo Python">
+    <img src="./images/logo_linguagem_C_redondo.png" min-width="100px" width="150" min-height="100px" height="150px" alt="logo Python">
   </p>
 
-# Projeto - Atividade Prática: Machine Learning com Python
+# Projeto - Atividade Prática: Operadores e Expressões em C
 
-## Disciplina : Linguagem de Programação
+## Disciplina: Algoritmos e Programação Estruturada
 
-### Unidade 4 – Aula 4
+### Unidade 1 – Aula 4
 
-Ministrado por _Profº Anderson I. S. Abreu_.
+Ministrado por _Dr. Gilberto Fernandes Junior_.
 
 <br>
 
@@ -18,23 +18,21 @@ Abaixo segue o resultado do projeto concluído:
 
 > 🎯 Objetivo da Atividade:
 >
-> - Compreender os conceitos fundamentais de **_[Machine Learning](https://pt.wikipedia.org/wiki/Aprendizado_de_m%C3%A1quina)_** e suas aplicações práticas.
-> - Implementar técnicas de `aprendizado supervisionado` para classificação de dados.
-> - Desenvolver um modelo de `rede neural` com **_[TensorFlow](https://www.tensorflow.org/?hl=pt-br)_** para classificação de espécies.
-> - Aplicar pré-processamento e validação de dados com **_[Scikit-learn](https://scikit-learn.org/stable/)_**.
-> - Manipulação eficiente de arrays numéricos e operações matemáticas com **_[NumPy](https://numpy.org/)_** .
+> - Compreender o funcionamento de `operadores aritméticos` , `relacionais` e `lógicos` na linguagem de programação **_[C](https://en.cppreference.com/)_** .
+> - Aplicar **operadores** em `expressões condicionais ` e `matemáticas` em programas simples.
+> - Desenvolver habilidades na **combinação de operadores** para criar expressões complexas.
+> - Implementar `validações lógicas` baseadas em múltiplas condições.
 
 <br>
 
 ### 🧩 Features
 
-- Carregamento e exploração do **conjunto de dados Iris** do **Scikit-learn**
-- Pré-processamento avançado com normalização e divisão treino / teste
-- Construção de modelo de rede neural com **TensorFlow / Keras**
-- Treinamento e avaliação do modelo com métricas de precisão
-- Classificação multi-classe para 3 espécies de flores Iris
-- Visualização de resultados e performance do modelo
-- Previsões em tempo real com o modelo treinado
+- Leitura e processamento de três números inteiros do usuário.
+- Cálculos matemáticos completos (soma, subtração, multiplicação, divisão).
+- Verificações relacionais (maior que, menor que).
+- Validações lógicas combinadas (positivo E par).
+- Sistema de mensagens condicionais baseado nas verificações.
+- Interface simples e funcional via terminal.
 
 ---
 
@@ -42,35 +40,9 @@ Abaixo segue o resultado do projeto concluído:
   <tr>
     <td align="center">
       <a href="./images/result_activity_1.png">
-        <img src="./images/result_activity_1.png" width="500px" height="950px" alt="Importação e Carregamento de Dados"/>
+        <img src="./images/result_activity_1.png" width="500px" height="800px" alt="print da atividade"/>
       </a>
     </td>
-    <td align="center">
-      <a href="./images/result_activity_2.png">
-        <img src="./images/result_activity_2.png" width="500px" height="950px" alt="Pré-processamento e Modelagem"/>
-      </a>
-    </td>
-    <td align="center">
-      <a href="./images/result_activity_3.png">
-        <img src="./images/result_activity_3.png" width="500px" height="700px" alt="Treinamento e Avaliação"/>
-      </a>
-      <br>
-      <br>
-      <a href="./images/graphic_1.png">
-        <img src="./images/graphic_1.png" width="500px" height="200px" alt="Visualização dos Dados Iris"/>
-      </a>
-    </td>
-    <td align="center">
-      <a href="./images/result_activity_4.png">
-        <img src="./images/result_activity_4.png" width="500px" height="700px" alt="Treinamento e Avaliação"/>
-      </a>
-       <br>
-      <br>
-      <a href="./images/graphic_2.png">
-        <img src="./images/graphic_2.png" width="500px" height="200px" alt="Arquitetura da Rede Neural"/>
-      </a>
-    </td>
-  </tr>
 </table>
 
 ---
@@ -78,13 +50,14 @@ Abaixo segue o resultado do projeto concluído:
 ### 📚 Pré-requisitos
 
 - [ ] Antes de iniciar este projeto, você deve ter conhecimento básico nas seguintes áreas:
-      <br>
 
-- **Python Intermediário:** Sintaxe da linguagem, estruturas de dados e funções.
-- **Matemática Básica:** Conceitos de álgebra linear e estatística.
-- **Machine Learning:** Noções de treinamento, teste e validação de modelos.
-- **Pandas / NumPy:** Manipulação básica de arrays e dataframes.
-- **Google Colab:** Ambiente de desenvolvimento em nuvem para execução de código.
+<br>
+
+- **Linguagem C Básica:** Sintaxe, estrutura main, variáveis e tipos de dados
+- **Entrada/Saída:** Comandos printf e scanf para interação com usuário
+- **Operadores Matemáticos:** Conceitos básicos de aritmética
+- **Lógica Booleana:** Noções de condições verdadeiro/falso
+- **OnlineGDB:** Familiaridade com a plataforma online (opcional)
 
 ---
 
@@ -92,26 +65,23 @@ Abaixo segue o resultado do projeto concluído:
 
 A Atividade foi desenvolvida utilizando:
 
-[![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=python&logoColor=3776AB)](https://www.python.org/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Google Colab](https://img.shields.io/badge/-Google_Colab-333333?style=flat&logo=google-colab&logoColor=F9AB00)](https://colab.research.google.com/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/ed-radanovis/Engenharia_Software_Repositorio_Central_01-2025_a_10-2028/blob/772cfa927b7993ea3592c099b8e89a9f9f612444/2%C2%BA_semestre/5%C2%BA-Linguagem_de_Programacao/atividades/U1_A4_FUNCOES_EM_PYTHON/images/mini_logo_vscode.png" width="21px" alt="VS Code Icon">[![Visual Studio Code](https://img.shields.io/badge/-Visual_Studio_Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC)](https://code.visualstudio.com/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![TensorFlow](https://img.shields.io/badge/-TensorFlow-333333?style=flat&logo=tensorflow&logoColor=FF6F00)](https://www.tensorflow.org/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Scikit-learn](https://img.shields.io/badge/-Scikit_learn-333333?style=flat&logo=scikit-learn&logoColor=F7931E)](https://scikit-learn.org/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Pandas](https://img.shields.io/badge/-Pandas-333333?style=flat&logo=pandas&logoColor=150458)](https://pandas.pydata.org/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![NumPy](https://img.shields.io/badge/-NumPy-333333?style=flat&logo=numpy&logoColor=013243)](https://numpy.org/)
+[![C Language](https://img.shields.io/badge/-Linguagem_C-333333?style=flat&logo=c&logoColor=A8B9CC)](https://en.cppreference.com/w/c/language)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="./images/mini_logo_onlinegdb.png" width="20px" alt="OnlineGDB Icon">![OnlineGDB](https://img.shields.io/badge/-OnlineGDB-333333?style=flat&logo=gnu-debugger&logoColor=FF6B6B)](https://www.onlinegdb.com/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![GCC Compiler](https://img.shields.io/badge/-GCC_Compiler-333333?style=flat&logo=gnu&logoColor=FF6B6B)](https://gcc.gnu.org/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/ed-radanovis/Engenharia_Software_Repositorio_Central_01-2025_a_10-2028/blob/772cfa927b7993ea3592c099b8e89a9f9f612444/2%C2%BA_semestre/5%C2%BA-Linguagem_de_Programacao/atividades/U1_A4_FUNCOES_EM_PYTHON/images/mini_logo_vscode.png" width="21px" alt="VS Code Icon">[![Visual Studio Code](https://img.shields.io/badge/-Visual_Studio_Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC)](https://code.visualstudio.com/)
 
 ---
 
 ### 📂 Estrutura do Projeto
 
 ```bash
-U4_A4_MACHINE_LEARNING_COM_PYTHON/
+U1_A4_OPERADORES_E_EXPRESSOES/
 ├── images/
-│   ├── graphic_1.png
-│   ├── graphic_2.png
-│   ├── result_activity_1.png
-│   ├── result_activity_2.png
-│   ├── result_activity_3.png
-│   └── result_activity_4.png
+│   ├── logo_linguagem_C_redondo.png
+│   └── result_activity_1.png
 ├── src/
-│   └── unit_four_lesson_four_machine_learning.py      # Código principal da atividade
-├── ATIVIDADE_PRATICA_U4_A4_MACHINE_LEARNING_COM_PYTHON.pdf
-├── README.md                                          # Este arquivo
-└── roteiro_U4_A4_MACHINE_LEARNING_COM_PYTHON.pdf
+│   ├── programa.exe
+│   └── unit_one_lesson_four_operators_and_expressions.c  # Código principal da atividade
+├── ATIVIDADE_PRATICA_U1_A4_FUNDAMENTOS_DE_ALGORITMOS_E_PROGRAMACAO.pdf
+├── README.md                                             # Este arquivo
+└── roteiro_U1_A4_FUNDAMENTOS_DE_ALGORITMOS_E_PROGRAMACAO.pdf
 ```
 
 ---
@@ -119,82 +89,69 @@ U4_A4_MACHINE_LEARNING_COM_PYTHON/
 ### ⚙️ Configuração e Execução
 
 - [ ] &nbsp;&nbsp;&nbsp;Pré-requisitos:
-      ✔️ - Python 3.6+ ou Google Colab.
+      ✔️ - Acesso ao OnlineGDB ou compilador C local
 
 <br>
 
-- [ ] &nbsp;&nbsp;&nbsp;Acesso à internet para instalação das bibliotecas.
-- Para rodar localmente (opcional):
+- [x] &nbsp;&nbsp;&nbsp;Forma recomendada (conforme roteiro da disciplina) ➡ Acesse o OnlineGDB e siga os passos:
 
-```bash
-cd U4_A4_MACHINE_LEARNING_COM_PYTHON/src
-python unit_four_lesson_four_machine_learning.py
-```
+```c
+// Passo 1: Acesse https://www.onlinegdb.com/
+// Passo 2: Selecione "C" como linguagem
+// Passo 3: Implemente o código base:
 
-<br>
+#include <stdio.h>
 
-- [x] &nbsp;&nbsp;&nbsp;Forma recomendada (conforme roteiro da disciplina) ➡ Abra o Google Colab, crie um novo notebook e implemente o sistema seguindo os passos:
+int main() {
+    int num1, num2, num3;
 
-```python
-# Passo 1: Importar Bibliotecas e Carregar Dados
-import tensorflow as tf
-import pandas as pd
-import numpy as np
-from sklearn.datasets import load_iris
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
+    // Solicitar três números inteiros
+    printf("Digite três números inteiros: ");
+    scanf("%d %d %d", &num1, &num2, &num3);
 
-# Carregar conjunto de dados Iris
-iris = load_iris()
-X = iris.data  # Características: comprimento/largura sépalas e pétalas
-y = iris.target  # Espécies: 0=Setosa, 1=Versicolor, 2=Virginica
+    // Passo 4: Implementar operações aritméticas
+    printf("\n=== OPERAÇÕES ARITMÉTICAS ===\n");
+    printf("Soma: %d + %d + %d = %d\n", num1, num2, num3, num1 + num2 + num3);
+    printf("Subtração: %d - %d - %d = %d\n", num1, num2, num3, num1 - num2 - num3);
+    printf("Multiplicação: %d * %d * %d = %d\n", num1, num2, num3, num1 * num2 * num3);
 
-# Passo 2: Pré-processamento dos Dados
-# Dividir em conjuntos de treino e teste
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+    // Verificar divisão por zero
+    if(num2 != 0 && num3 != 0) {
+        printf("Divisão: %d / %d / %d = %.2f\n", num1, num2, num3, (float)num1 / num2 / num3);
+    } else {
+        printf("Divisão: Não é possível dividir por zero!\n");
+    }
 
-# Normalizar os dados
-scaler = StandardScaler()
-X_train = scaler.fit_transform(X_train)
-X_test = scaler.transform(X_test)
+    // Passo 5: Implementar verificações relacionais
+    printf("\n=== VERIFICAÇÕES RELACIONAIS ===\n");
+    printf("%d > %d: %s\n", num1, num2, num1 > num2 ? "Verdadeiro" : "Falso");
+    printf("%d < %d: %s\n", num2, num3, num2 < num3 ? "Verdadeiro" : "Falso");
 
-# Passo 3: Construir o Modelo de Rede Neural
-model = tf.keras.Sequential([
-    tf.keras.layers.Dense(10, activation='relu', input_shape=(4,)),
-    tf.keras.layers.Dense(10, activation='relu'),
-    tf.keras.layers.Dense(3, activation='softmax')  # 3 classes de saída
-])
+    // Passo 6: Implementar verificações lógicas
+    printf("\n=== VERIFICAÇÕES LÓGICAS ===\n");
+    if(num1 > 0 && num2 % 2 == 0) {
+        printf("✓ Condição atendida: Primeiro número é positivo E segundo é par!\n");
+    } else {
+        printf("✗ Condição não atendida\n");
+    }
 
-# Compilar o modelo
-model.compile(optimizer='adam',
-              loss='sparse_categorical_crossentropy',
-              metrics=['accuracy'])
-
-# Passo 4: Treinar o Modelo
-history = model.fit(X_train, y_train, epochs=100, validation_split=0.2, verbose=1)
-
-# Passo 5: Avaliar o Modelo
-test_loss, test_accuracy = model.evaluate(X_test, y_test, verbose=0)
-print(f"Acurácia no conjunto de teste: {test_accuracy:.2f}")
-
-# Passo 6: Fazer Previsões
-predictions = model.predict(X_test)
-predicted_classes = np.argmax(predictions, axis=1)
+    return 0;
+}
 ```
 
 ---
 
 ### 🔬 Testes Realizados
 
-✔️ - Testes manuais :
+✔️ - Validações do programa :
 
-- [x] &nbsp;&nbsp;&nbsp;Carregamento correto do dataset Iris do Scikit-learn.
-- [x] &nbsp;&nbsp;&nbsp;Divisão adequada dos dados em treino e teste (80/20).
-- [x] &nbsp;&nbsp;&nbsp;Normalização eficaz com StandardScaler.
-- [x] &nbsp;&nbsp;&nbsp;Construção da arquitetura da rede neural com camadas densas.
-- [x] &nbsp;&nbsp;&nbsp;Treinamento do modelo com 100 épocas e validação.
-- [x] &nbsp;&nbsp;&nbsp;Avaliação da acurácia no conjunto de teste (>90%).
-- [x] &nbsp;&nbsp;&nbsp;Previsões consistentes para novas amostras.
+- [x] &nbsp;&nbsp;&nbsp;Leitura correta de três números inteiros via scanf.
+- [x] &nbsp;&nbsp;&nbsp;Cálculos aritméticos precisos (soma, subtração, multiplicação).
+- [x] &nbsp;&nbsp;&nbsp;Tratamento de divisão por zero.
+- [x] &nbsp;&nbsp;&nbsp;Verificações relacionais retornando valores booleanos corretos.
+- [x] &nbsp;&nbsp;&nbsp;Operadores lógicos (  ) funcionando adequadamente.
+- [x] &nbsp;&nbsp;&nbsp;Mensagens condicionais exibidas conforme as validações.
+- [x] &nbsp;&nbsp;&nbsp;Teste com múltiplos conjuntos de dados.
 
 ---
 
@@ -202,20 +159,20 @@ predicted_classes = np.argmax(predictions, axis=1)
 
 ✔️ Ao concluir esta atividade, você terá adquirido as seguintes habilidades e sub-habilidades :
 
-- Compreensão dos fundamentos de Machine Learning e redes neurais.
-- Manipulação de datasets clássicos para problemas de classificação.
-- Implementação de pré-processamento com Scikit-learn.
-- Construção de arquiteturas de redes neurais com TensorFlow/Keras.
-- Treinamento e avaliação de modelos de deep learning.
-- Interpretação de métricas de performance (acurácia, loss).
-- Realização de previsões com modelos treinados.
-- Habilidade em otimização de hiperparâmetros e arquiteturas..
+- Manipulação de operadores aritméticos em expressões matemáticas complexas.
+- Aplicação de operadores relacionais para comparações entre valores.
+- Combinação de operadores lógicos para validações de múltiplas condições.
+- Desenvolvimento de lógica condicional com estruturas if-else.
+- Tratamento de entradas do usuário e validação de dados.
+- Implementação de cálculos matemáticos com diferentes operadores.
+- Habilidade em debug e teste de programas em C.
+- Capacidade de criar programas interativos com saída formatada.
 
 ---
 
 ### 📜 License
 
-Por se tratar de um projeto de caráter exclusivamente acadêmico, desenvolvido como atividade prática da disciplina de Linguagem de Programação, ainda não foi atribuída uma licença formal de software (como MIT, GPL ou outra).
+Por se tratar de um projeto de caráter exclusivamente acadêmico, desenvolvido como atividade prática da disciplina de Algoritmos e Programação Estruturada, ainda não foi atribuída uma licença formal.
 
 O código tem finalidade educativa e de portfólio estudantil, sendo destinado apenas ao aprendizado e à avaliação no âmbito da faculdade. Caso deseje reutilizar ou adaptar o material para fins didáticos, sinta-se à vontade — apenas mantenha a referência ao autor original e ao contexto acadêmico.
 
@@ -248,4 +205,4 @@ O código tem finalidade educativa e de portfólio estudantil, sendo destinado a
 <br>
 <br>
 
-[⬆ Voltar ao topo](#projeto---atividade-prática-machine-learning-com-python)
+[⬆ Voltar ao topo](#projeto---atividade-prática-operadores-e-expressões-em-c)

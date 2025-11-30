@@ -27,13 +27,13 @@ Abaixo segue o resultado do projeto concluído:
 
 ### 🧩 Features
 
-- Definição de classe **Livro** com atributos: título, autor, gênero e quantidade
-- Cadastro de novos livros no sistema da biblioteca
-- Listagem completa de todos os livros disponíveis
-- Busca inteligente de livros por título
-- Geração de gráfico de quantidade de livros por gênero
-- Interface intuitiva no Google Colab para execução interativa
-- Validação de dados e tratamento de entradas
+- Definição de classe **Livro** com atributos: título, autor, gênero e quantidade.
+- Cadastro de novos livros no sistema da biblioteca.
+- Listagem completa de todos os livros disponíveis.
+- Busca inteligente de livros por título.
+- Geração de gráfico de quantidade de livros por gênero.
+- Interface intuitiva no Google Colab para execução interativa.
+- Validação de dados e tratamento de entradas.
 
 ---
 
