@@ -1,0 +1,266 @@
+File Tree: grade_materias_por_semestre
+Generated on: 11/30/2025, 7:06:36 PM
+Root path: c:\Users\edrad\OneDrive\Área de Trabalho\ed\Anhanguera_Eng_Software\grade_materias_por_semestre
+
+────────────────────────────────────────────────────────────────────────────────
+
+├── 📁 .github/
+├── 📁 1º_semestre/
+│   ├── 📁 1º-Desenvolvimento_Responsivo_disciplina_isolada/
+│   │   ├── 📁 atividades/
+│   │   │   └── 📁 Frontend_com_Framework_HTML_CSS_JS/
+│   │   │       ├── 📁 src/
+│   │   │       │   ├── 📁 css/
+│   │   │       │   │   ├── 🎨 styles_0_global.css
+│   │   │       │   │   ├── 🎨 styles_1_header.css
+│   │   │       │   │   ├── 🎨 styles_2_home.css
+│   │   │       │   │   ├── 🎨 styles_3_about.css
+│   │   │       │   │   ├── 🎨 styles_4_services.css
+│   │   │       │   │   ├── 🎨 styles_5_portfolio.css
+│   │   │       │   │   ├── 🎨 styles_6_testimonial.css
+│   │   │       │   │   └── 🎨 styles_7_contact.css
+│   │   │       │   ├── 📁 images/
+│   │   │       │   │   ├── 🖼️ Logo_EWD_APEX.png
+│   │   │       │   │   ├── 🖼️ Model2.png
+│   │   │       │   │   ├── 📕 PDF_codigo_atividade-U3_A2.pdf
+│   │   │       │   │   ├── 🖼️ background_home.png
+│   │   │       │   │   ├── 🖼️ escritorio1.jpeg
+│   │   │       │   │   ├── 🖼️ escritorio2.jpeg
+│   │   │       │   │   ├── 🖼️ escritorio3.jpeg
+│   │   │       │   │   ├── 🖼️ icon_whatsapp.png
+│   │   │       │   │   ├── 🖼️ imagem-1.png
+│   │   │       │   │   ├── 🖼️ imagem-2.png
+│   │   │       │   │   ├── 🖼️ logo-er.png
+│   │   │       │   │   ├── 🖼️ logo.png
+│   │   │       │   │   ├── 🖼️ logo_eng_software-red.jpg
+│   │   │       │   │   ├── 🖼️ mascote.png
+│   │   │       │   │   └── 🖼️ readme_gif.gif
+│   │   │       │   ├── 📁 js/
+│   │   │       │   │   └── 📄 script.js
+│   │   │       │   └── 📁 videos/
+│   │   │       │       ├── 🎬 readme_gif.mp4
+│   │   │       │       └── 🎬 video_em_breve_nova_pagina.mp4
+│   │   │       ├── 📄 LICENSE
+│   │   │       ├── 📝 README.md
+│   │   │       ├── 🌐 index.html
+│   │   │       └── 📕 roteiro_U3_A2_CRIACAO_DE_COMPONENTES_RESPONSIVOS.pdf
+│   │   ├── 🖼️ _aprovacao_da_materia.png
+│   │   └── 📕 _material_unidades_1-2-3-e-4.pdf
+│   └── 📁 2º-Empreendedorismo_e_Inovacao/
+│       ├── 🖼️ _aprovacao_da_materia.png
+│       └── 📕 _material_unidades_1-2-3-e-4.pdf
+├── 📁 2º_semestre/
+│   ├── 📁 10º-Analise_e_Modelagem_de_Sistemas/
+│   │   ├── 📁 atividades/
+│   │   │   ├── 📁 U2_A4_PROCESSOS_DE_NEGOCIO_PARA_ANALISE_DE_SISTEMAS/
+│   │   │   │   ├── 📁 images/
+│   │   │   │   │   ├── 🖼️ diagram.svg
+│   │   │   │   │   ├── 📕 diagrama_finalizado.pdf
+│   │   │   │   │   ├── 🖼️ image_title.png
+│   │   │   │   │   ├── 🖼️ logo_BPMNio.png
+│   │   │   │   │   ├── 🖼️ mini_logo_BPMNio.png
+│   │   │   │   │   ├── 🖼️ result_activity_1.png
+│   │   │   │   │   └── 🖼️ result_activity_2.png
+│   │   │   │   ├── 📕 ATIVIDADE_PRATICA_U2_A4_PROCESSOS_NEGOCIO_ANALISE_SISTEMAS.pdf
+│   │   │   │   ├── 📝 README.md
+│   │   │   │   ├── 📄 processo_compras.bpmn
+│   │   │   │   └── 📕 roteiro_U2_A4_PROCESSOS_NEGOCIO_ANALISE_SISTEMAS.pdf
+│   │   │   └── 📁 U4_A2_MODELAGEM_DE_SISTEMAS/
+│   │   │       ├── 📁 images/
+│   │   │       │   ├── 📕 diagrama_finalizado.pdf
+│   │   │       │   ├── 🖼️ diagrama_sistema_bancario_UML.png
+│   │   │       │   ├── 🖼️ logo_VP.png
+│   │   │       │   ├── 🖼️ mini_logo_VP.png
+│   │   │       │   ├── 🖼️ result_activity_1.png
+│   │   │       │   └── 🖼️ result_activity_2.png
+│   │   │       ├── 📕 ATIVIDADE_PRATICA_U4_A2_MODELAGEM_DE_SISTEMAS.pdf
+│   │   │       ├── 📝 README.md
+│   │   │       ├── ⚙️ diagrama_sistema_bancario_UML.xml
+│   │   │       └── 📕 roteiro_U4_A2_MODELAGEM_DE_SISTEMAS.pdf
+│   │   ├── 🖼️ _aprovacao_da_materia.png
+│   │   └── 📕 _material_unidades_1-2-3-e-4.pdf
+│   ├── 📁 3º-Fundamentos_Calculo_Aplicado/
+│   │   ├── 🖼️ _aprovacao_da_materia.png
+│   │   └── 📕 _material_unidades_1-2-3-e-4.pdf
+│   ├── 📁 4º-Sistemas_Operacionais/
+│   │   ├── 📁 atividades/
+│   │   │   ├── 📁 U1_A3_CARACTERISTICAS_DOS_SISTEMAS_OPERACIONAIS/
+│   │   │   │   ├── 📁 images/
+│   │   │   │   │   ├── 🖼️ linux_1.png
+│   │   │   │   │   ├── 🖼️ linux_2.png
+│   │   │   │   │   ├── 🖼️ linux_3.png
+│   │   │   │   │   ├── 🖼️ logo_linux.png
+│   │   │   │   │   ├── 🖼️ logo_linux_sem_fundo.png
+│   │   │   │   │   ├── 🖼️ logo_windows.png
+│   │   │   │   │   ├── 🖼️ logo_windows_sem_fundo.png
+│   │   │   │   │   ├── 🖼️ mini_logo_windows.png
+│   │   │   │   │   ├── 🖼️ windows_1.0.png
+│   │   │   │   │   ├── 🖼️ windows_1.1.png
+│   │   │   │   │   ├── 🖼️ windows_2.0.png
+│   │   │   │   │   ├── 🖼️ windows_2.1.png
+│   │   │   │   │   └── 🖼️ windows_3.png
+│   │   │   │   ├── 📕 ATIVIDADE_PRATICA_U1_A3_CARACTERISTICAS_DOS_SISTEMAS_OPERACIONAIS.pdf
+│   │   │   │   ├── 📝 README.md
+│   │   │   │   └── 📕 roteiro_U1_A3_CARACTERISTICAS_DOS_SISTEMAS_OPERACIONAIS.pdf
+│   │   │   ├── 📁 U2_A1_PROCESSOS_CONCEITO_E_GERENCIAMENTO/
+│   │   │   │   ├── 📁 images/
+│   │   │   │   │   ├── 🖼️ 1_criacao_processos.png
+│   │   │   │   │   ├── 🖼️ 2.0_processos_com_mesma_prioridade.png
+│   │   │   │   │   ├── 🖼️ 2.1_processos_com_mesma_prioridade.png
+│   │   │   │   │   ├── 🖼️ 2.2_processos_com_mesma_prioridade.png
+│   │   │   │   │   ├── 🖼️ 2.3_processos_com_mesma_prioridade.png
+│   │   │   │   │   ├── 🖼️ _instalacao_SOsim_1.png
+│   │   │   │   │   ├── 🖼️ _instalacao_SOsim_2.png
+│   │   │   │   │   ├── 🖼️ _instalacao_SOsim_3.png
+│   │   │   │   │   └── 🖼️ mini_logo_sosim.png
+│   │   │   │   ├── 📕 ATIVIDADE_PRATICA_U2_A1_PROCESSOS_CONCEITO_E_GERENCIAMENTO.pdf
+│   │   │   │   ├── 📝 README.md
+│   │   │   │   └── 📕 roteiro_U2_A1_PROCESSOS_CONCEITO_E_GERENCIAMENTO.pdf
+│   │   │   ├── 📁 U3_A1_ARQUIVOS_E_SISTEMAS_DE_ARQUIVOS/
+│   │   │   │   ├── 📁 images/
+│   │   │   │   │   ├── 🖼️ 1_listar_atributos_arquivos.png
+│   │   │   │   │   ├── 🖼️ 2_desenvolvimento_execução_arquivo_dados.png
+│   │   │   │   │   ├── 🖼️ 3_script_acesso_sequencial.png
+│   │   │   │   │   └── 🖼️ 4_script_acesso_direto.png
+│   │   │   │   ├── 📕 ATIVIDADE_PRATICA_U3_A1_ARQUIVOS_E_SISTEMAS_DE_ARQUIVOS.pdf
+│   │   │   │   ├── 📝 README.md
+│   │   │   │   └── 📕 roteiro_U3_A1_ARQUIVOS_E_SISTEMAS_DE_ARQUIVOS.pdf
+│   │   │   └── 📁 U4_A3_MONOPROGRAMACAO_SEM_TROCA_DE_PROCESSOS_OU_PAGINACAO/
+│   │   │       ├── 📁 images/
+│   │   │       │   ├── 🖼️ 1_escalonamento_circular.png
+│   │   │       │   ├── 🖼️ 2_busca_paginas_antecipada.png
+│   │   │       │   ├── 🖼️ 3.1_contexto_do_processo_PCB.png
+│   │   │       │   ├── 🖼️ 3.2_contexto_do_processo_tabpag.png
+│   │   │       │   └── 🖼️ 4_contexto_geral.png
+│   │   │       ├── 📕 ATIVIDADE_PRATICA_U4_A3_MONOPROGRAM_SEM_TROCA_PROCESSOS_OU_PAGINACAO.pdf
+│   │   │       ├── 📝 README.md
+│   │   │       └── 📕 roteiro_U4_A3_MONOPROGRAMACAO_SEM_TROCA_DE_PROCESSOS_OU_PAGINACAO.pdf
+│   │   ├── 🖼️ _aprovacao_da_materia.png
+│   │   └── 📕 _material_unidades_1-2-3-e-4.pdf
+│   ├── 📁 5º-Linguagem_de_Programacao/
+│   │   ├── 📁 atividades/
+│   │   │   ├── 📁 U1_A4_FUNCOES_EM_PYTHON/
+│   │   │   │   ├── 📁 images/
+│   │   │   │   │   ├── 🖼️ logo_python.jpg
+│   │   │   │   │   ├── 🖼️ logo_python2.png
+│   │   │   │   │   ├── 🖼️ mini_logo_vscode.png
+│   │   │   │   │   ├── 🖼️ result_activity_1.png
+│   │   │   │   │   ├── 🖼️ result_activity_2.png
+│   │   │   │   │   └── 🖼️ result_activity_3.png
+│   │   │   │   ├── 📁 src/
+│   │   │   │   │   └── 🐍 unit_one_lesson_four_functions.py
+│   │   │   │   ├── 📕 ATIVIDADE_PRATICA_U1_A4_FUNCOES_EM_PYTHON.pdf
+│   │   │   │   ├── 📝 README.md
+│   │   │   │   └── 📕 roteiro_U1_A4_FUNCOES_EM_PYTHON.pdf
+│   │   │   ├── 📁 U2_A4_BIBLIOTECAS_E_MODULOS_EM_PYTHON/
+│   │   │   │   ├── 📁 images/
+│   │   │   │   │   ├── 🖼️ result_activity_1.png
+│   │   │   │   │   └── 🖼️ result_activity_2.png
+│   │   │   │   ├── 📁 src/
+│   │   │   │   │   └── 🐍 unit_two_lesson_four_libraries_and_modules.py
+│   │   │   │   ├── 📕 ATIVIDADE_PRATICA_U2_A4_BIBLIOTECAS_E_MODULOS_EM_PYTHON.pdf
+│   │   │   │   ├── 📝 README.md
+│   │   │   │   └── 📕 roteiro_U2_A4_BIBLIOTECAS_E_MODULOS_EM_PYTHON.pdf
+│   │   │   ├── 📁 U3_A4_VISUALIZACAO_DE_DADOS_EM_PYTHON/
+│   │   │   │   ├── 📁 images/
+│   │   │   │   │   ├── 🖼️ graphic_1.png
+│   │   │   │   │   ├── 🖼️ graphic_2.png
+│   │   │   │   │   ├── 🖼️ mini_logo_seaborn.png
+│   │   │   │   │   ├── 🖼️ result_activity_1.png
+│   │   │   │   │   ├── 🖼️ result_activity_2.png
+│   │   │   │   │   └── 🖼️ result_activity_3.png
+│   │   │   │   ├── 📁 src/
+│   │   │   │   │   ├── 📄 data_base_sales.db
+│   │   │   │   │   └── 🐍 unit_three_lesson_four_data_visualization.py
+│   │   │   │   ├── 📕 ATIVIDADE_PRATICA_U3_A4_VISUALIZACAO_DE_DADOS_COM_PYTHON.pdf
+│   │   │   │   ├── 📝 README.md
+│   │   │   │   └── 📕 roteiro_U3_A4_VISUALIZACAO_DE_DADOS_EM_PYTHON.pdf
+│   │   │   └── 📁 U4_A4_MACHINE_LEARNING_COM_PYTHON/
+│   │   │       ├── 📁 images/
+│   │   │       │   ├── 🖼️ graphic_1.png
+│   │   │       │   ├── 🖼️ graphic_2.png
+│   │   │       │   ├── 🖼️ result_activity_1.png
+│   │   │       │   ├── 🖼️ result_activity_2.png
+│   │   │       │   ├── 🖼️ result_activity_3.png
+│   │   │       │   └── 🖼️ result_activity_4.png
+│   │   │       ├── 📁 src/
+│   │   │       │   └── 🐍 unit_four_lesson_four_machine_learning.py
+│   │   │       ├── 📕 ATIVIDADE_PRATICA_U4_A4_MACHINE_LEARNING_COM_PYTHON.pdf
+│   │   │       ├── 📝 README.md
+│   │   │       └── 📕 roteiro_U4_A4_MACHINE_LEARNING_COM_PYTHON.pdf
+│   │   ├── 🖼️ _aprovacao_da_materia.png
+│   │   └── 📕 _material_unidades_1-2-3-e-4.pdf
+│   ├── 📁 6º-Logica_e_Matematica_Computacional/
+│   │   ├── 📁 atividades/
+│   │   │   └── 📁 U4_A3_APLICACOES_DA_TABELA_VERDADE/
+│   │   │       ├── 📁 images/
+│   │   │       │   ├── 🖼️ image_title.png
+│   │   │       │   ├── 🖼️ result_activity_1.png
+│   │   │       │   ├── 🖼️ result_activity_2.png
+│   │   │       │   ├── 🖼️ result_activity_3.png
+│   │   │       │   ├── 🖼️ result_activity_4.png
+│   │   │       │   └── 🖼️ result_activity_5.png
+│   │   │       ├── 📕 ATIVIDADE_PRATICA_U4_A4_APLICACOES_DA_TABELA_VERDADE.pdf
+│   │   │       ├── 📝 README.md
+│   │   │       └── 📕 roteiro_U4_A4_APLICACOES_DA_TABELA_VERDADE.pdf
+│   │   ├── 🖼️ _aprovacao_da_materia.png
+│   │   └── 📕 _material_unidades_1-2-3-e-4.pdf
+│   ├── 📁 7º-Arquitetura_e_Organizacao_de_Computadores/
+│   │   ├── 🖼️ _aprovacao_da_materia.png
+│   │   └── 📕 _material_unidades_1-2-3-e-4.pdf
+│   ├── 📁 8º-Engenharia_Ciencia_e_Tecnologia/
+│   │   ├── 🖼️ _aprovacao_da_materia.png
+│   │   └── 📕 _material_unidades_1-2-3-e-4.pdf
+│   └── 📁 9º-Algoritimos_e_Programacao_Estruturada/
+│       ├── 📁 atividades/
+│       │   ├── 📁 U1_A4_OPERADORES_E_EXPRESSOES/
+│       │   │   ├── 📁 images/
+│       │   │   │   ├── 🖼️ logo_linguagem_C_redondo.png
+│       │   │   │   ├── 🖼️ mini_logo_onlinegdb.png
+│       │   │   │   └── 🖼️ result_activity_1.png
+│       │   │   ├── 📁 src/
+│       │   │   │   └── 📄 unit_one_lesson_four_operators_and_expressions.c
+│       │   │   ├── 📕 ATIVIDADE_PRATICA_U1_A4_FUNDAMENTOS_DE_ALGORITMOS_E_PROGRAMACAO.pdf
+│       │   │   ├── 📝 README.md
+│       │   │   └── 📕 roteiro_U1_A4_FUNDAMENTOS_DE_ALGORITMOS_E_PROGRAMACAO.pdf
+│       │   ├── 📁 U2_A2_ESTRUTURAS_DE_REPETICOES/
+│       │   │   ├── 📁 images/
+│       │   │   │   ├── 🖼️ result_activity_1.png
+│       │   │   │   └── 🖼️ result_activity_2.png
+│       │   │   ├── 📁 src/
+│       │   │   │   └── 📄 unit_two_lesson_two_repetition_structures.c
+│       │   │   ├── 📕 ATIVIDADE_PRATICA_U2_A2_ESTRUTURAS_DE_REPETICOES.pdf
+│       │   │   ├── 📝 README.md
+│       │   │   └── 📕 roteiro_U2_A2_ESTRUTURAS_DE_REPETICOES.pdf
+│       │   ├── 📁 U3_A1_VETORES_MATRIZES_STRUCTS_PONTEIROS/
+│       │   │   ├── 📁 images/
+│       │   │   │   └── 🖼️ result_activity_1.png
+│       │   │   ├── 📁 src/
+│       │   │   │   └── 📄 unit_three_lesson_one_vectors_matrices_structs_pointers.c
+│       │   │   ├── 📕 ATIVIDADE_PRATICA_U3_A1_VETORES_MATRIZES_STRUCTS_PONTEIROS.pdf
+│       │   │   ├── 📝 README.md
+│       │   │   └── 📕 roteiro_U3_A1_VETORES_MATRIZES_STRUCTS_PONTEIROS.pdf
+│       │   └── 📁 U4_A1_FUNCOES_E_PASSAGEM_DE_PARAMETROS/
+│       │       ├── 📁 images/
+│       │       │   └── 🖼️ result_activity_1.png
+│       │       ├── 📁 src/
+│       │       │   └── 📄 unit_four_lesson_one_functions_and_parameter_transfer.c
+│       │       ├── 📕 ATIVIDADE_PRATICA_U4_A1_FUNCOES_E_PASSAGEM_DE_PARAMETROS.pdf
+│       │       ├── 📝 README.md
+│       │       └── 📕 roteiro_U4_A1_FUNCOES_E_PASSAGEM_DE_PARAMETROS.pdf
+│       ├── 🖼️ _aprovacao_da_materia.png
+│       └── 📕 _material_unidades_1-2-3-e-4.pdf
+├── 📁 github/
+│   ├── 🖼️ Logo_EWD_APEX_rounded-sem_fundo.png
+│   ├── 🖼️ foto perfil (4).jpeg
+│   ├── 🖼️ fundo_linkedin_atual_4_11-25.png
+│   ├── 🖼️ logo_finalizado-red.jpg
+│   ├── 🖼️ mini_logo_aws.png
+│   ├── 🖼️ mini_logo_css.png
+│   └── 🖼️ mini_logo_java.png
+├── ⚙️ .gitignore
+├── 📝 README.md
+└── 📄 file_tree.txt
+
+────────────────────────────────────────────────────────────────────────────────
+Generated by FileTree Pro Extension
