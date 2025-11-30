@@ -1,14 +1,16 @@
   <p align="center">
-    <img src="../U1_A4_FUNCOES_EM_PYTHON/images/logo_python2.png" min-width="100px" width="150" min-height="100px" height="150px" alt="logo Python">
+    <a href="./images/image_title.png">
+      <img src="./images/image_title.png" min-width="100px" width="230" min-height="100px" height="230px" alt="image title">
+    </a>  
   </p>
 
-# Projeto - Atividade Prática: Machine Learning com Python
+# Atividade Prática: Modelagem BPMN para Processo de Compras
 
-## Disciplina : Linguagem de Programação
+## Disciplina: Análise e Modelagem de Sistemas
 
-### Unidade 4 – Aula 4
+### Unidade 2 – Aula 4
 
-Ministrado por _Profº Anderson I. S. Abreu_.
+Ministrado por _Profª. Ma. Vanessa Matias Leite_.
 
 <br>
 
@@ -18,23 +20,22 @@ Abaixo segue o resultado do projeto concluído:
 
 > 🎯 Objetivo da Atividade:
 >
-> - Compreender os conceitos fundamentais de **_[Machine Learning](https://pt.wikipedia.org/wiki/Aprendizado_de_m%C3%A1quina)_** e suas aplicações práticas.
-> - Implementar técnicas de `aprendizado supervisionado` para classificação de dados.
-> - Desenvolver um modelo de `rede neural` com **_[TensorFlow](https://www.tensorflow.org/?hl=pt-br)_** para classificação de espécies.
-> - Aplicar pré-processamento e validação de dados com **_[Scikit-learn](https://scikit-learn.org/stable/)_**.
-> - Manipulação eficiente de arrays numéricos e operações matemáticas com **_[NumPy](https://numpy.org/)_** .
+> - Identificar e aplicar corretamente os `símbolos padrões` do **_[BPMN](https://www.bpmn.org/)_** em um diagrama.
+> - Criar um diagrama **_[BPMN](https://www.bpmn.org/)_** para um `processo de negócio` de compras empresarial.
+> - Demonstrar compreensão das `interações` e `fluxos de trabalho` entre diferentes setores.
+> - Utilizar `rails (pools / lanes)` para separação visual dos setores organizacionais.
 
 <br>
 
 ### 🧩 Features
 
-- Carregamento e exploração do **conjunto de dados Iris** do **Scikit-learn**
-- Pré-processamento avançado com normalização e divisão treino / teste
-- Construção de modelo de rede neural com **TensorFlow / Keras**
-- Treinamento e avaliação do modelo com métricas de precisão
-- Classificação multi-classe para 3 espécies de flores Iris
-- Visualização de resultados e performance do modelo
-- Previsões em tempo real com o modelo treinado
+- Modelagem completa do processo de Solicitação Interna de Compra (SIC).
+- Representação de fluxo com múltiplos fornecedores e cotações.
+- Diagramação das interações entre setores (Compras, Recepção, Financeiro).
+- Implementação de gateways para decisões e condições.
+- Utilização de eventos de início, fim e intermediários.
+- Aplicação de tarefas, subprocessos e mensagens.
+- Modelagem de tratamento de exceções e erros.
 
 ---
 
@@ -42,35 +43,19 @@ Abaixo segue o resultado do projeto concluído:
   <tr>
     <td align="center">
       <a href="./images/result_activity_1.png">
-        <img src="./images/result_activity_1.png" width="500px" height="950px" alt="Importação e Carregamento de Dados"/>
+        <img src="./images/result_activity_1.png" width="700px" height="500px" alt="Diagrama BPMN completo"/>
+      </a>
+      <br>
+      <a href="./images/diagram.svg">
+        <img src="./images/diagram.svg" width="700px" height="500px" alt="Detalhe do processo"/>
       </a>
     </td>
     <td align="center">
       <a href="./images/result_activity_2.png">
-        <img src="./images/result_activity_2.png" width="500px" height="950px" alt="Pré-processamento e Modelagem"/>
+        <img src="./images/result_activity_2.png" width="700px" height="1000px" alt="Detalhe do processo"/>
       </a>
     </td>
-    <td align="center">
-      <a href="./images/result_activity_3.png">
-        <img src="./images/result_activity_3.png" width="500px" height="700px" alt="Treinamento e Avaliação"/>
-      </a>
-      <br>
-      <br>
-      <a href="./images/graphic_1.png">
-        <img src="./images/graphic_1.png" width="500px" height="200px" alt="Visualização dos Dados Iris"/>
-      </a>
-    </td>
-    <td align="center">
-      <a href="./images/result_activity_4.png">
-        <img src="./images/result_activity_4.png" width="500px" height="700px" alt="Treinamento e Avaliação"/>
-      </a>
-       <br>
-      <br>
-      <a href="./images/graphic_2.png">
-        <img src="./images/graphic_2.png" width="500px" height="200px" alt="Arquitetura da Rede Neural"/>
-      </a>
-    </td>
-  </tr>
+  </tr>  
 </table>
 
 ---
@@ -78,13 +63,12 @@ Abaixo segue o resultado do projeto concluído:
 ### 📚 Pré-requisitos
 
 - [ ] Antes de iniciar este projeto, você deve ter conhecimento básico nas seguintes áreas:
-      <br>
 
-- **Python Intermediário:** Sintaxe da linguagem, estruturas de dados e funções.
-- **Matemática Básica:** Conceitos de álgebra linear e estatística.
-- **Machine Learning:** Noções de treinamento, teste e validação de modelos.
-- **Pandas / NumPy:** Manipulação básica de arrays e dataframes.
-- **Google Colab:** Ambiente de desenvolvimento em nuvem para execução de código.
+- **Conceitos de BPMN:** Notação básica e elementos principais do diagrama.
+- **Processos de Negócio:** Noções de fluxos de trabalho empresariais.
+- **Setores Organizacionais:** Compreensão de departamentos como Compras, Financeiro, Recepção.
+- **Ferramentas de Modelagem:** Familiaridade com ferramentas de diagramação.
+- **Navegação Web:** Habilidade para usar ferramentas online.
 
 ---
 
@@ -92,26 +76,26 @@ Abaixo segue o resultado do projeto concluído:
 
 A Atividade foi desenvolvida utilizando:
 
-[![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=python&logoColor=3776AB)](https://www.python.org/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Google Colab](https://img.shields.io/badge/-Google_Colab-333333?style=flat&logo=google-colab&logoColor=F9AB00)](https://colab.research.google.com/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/ed-radanovis/Engenharia_Software_Repositorio_Central_01-2025_a_10-2028/blob/772cfa927b7993ea3592c099b8e89a9f9f612444/2%C2%BA_semestre/5%C2%BA-Linguagem_de_Programacao/atividades/U1_A4_FUNCOES_EM_PYTHON/images/mini_logo_vscode.png" width="21px" alt="VS Code Icon">[![Visual Studio Code](https://img.shields.io/badge/-Visual_Studio_Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC)](https://code.visualstudio.com/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![TensorFlow](https://img.shields.io/badge/-TensorFlow-333333?style=flat&logo=tensorflow&logoColor=FF6F00)](https://www.tensorflow.org/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Scikit-learn](https://img.shields.io/badge/-Scikit_learn-333333?style=flat&logo=scikit-learn&logoColor=F7931E)](https://scikit-learn.org/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Pandas](https://img.shields.io/badge/-Pandas-333333?style=flat&logo=pandas&logoColor=150458)](https://pandas.pydata.org/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![NumPy](https://img.shields.io/badge/-NumPy-333333?style=flat&logo=numpy&logoColor=013243)](https://numpy.org/)
+<img src="https://github.com/ed-radanovis/Engenharia_Software_Repositorio_Central_01-2025_a_10-2028/blob/772cfa927b7993ea3592c099b8e89a9f9f612444/2%C2%BA_semestre/5%C2%BA-Linguagem_de_Programacao/atividades/U1_A4_FUNCOES_EM_PYTHON/images/mini_logo_vscode.png" width="21px" alt="VS Code Icon">[![Visual Studio Code](https://img.shields.io/badge/-Visual_Studio_Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC)](https://code.visualstudio.com/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![BPMN](https://img.shields.io/badge/-BPMN_2.0-333333?style=flat&logo=diagrams.net&logoColor=F08705)](https://www.omg.org/bpmn/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="./images/mini_logo_bpmnio.png" width="20px" alt="bpmn.io Icon">![bpmn.io](https://img.shields.io/badge/-BPMN.io-333333?style=flat&logo=windowsterminal&logoColor=4D4D4D)](https://bpmn.io/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Business Process](https://img.shields.io/badge/-Business_Process-333333?style=flat&logo=trello&logoColor=0052CC)](https://en.wikipedia.org/wiki/Business_process)
 
 ---
 
 ### 📂 Estrutura do Projeto
 
 ```bash
-U4_A4_MACHINE_LEARNING_COM_PYTHON/
+U2_A4_PROCESSOS_NEGOCIO_ANALISE_SISTEMAS/
 ├── images/
-│   ├── graphic_1.png
-│   ├── graphic_2.png
+│   ├── diagram.svg
+│   ├── diagrama_finalizado.pdf
+│   ├── image_title.png
+│   ├── logo_BPMNio.png
+│   ├── mini_logo_BPMNio.png
 │   ├── result_activity_1.png
-│   ├── result_activity_2.png
-│   ├── result_activity_3.png
-│   └── result_activity_4.png
-├── src/
-│   └── unit_four_lesson_four_machine_learning.py      # Código principal da atividade
-├── ATIVIDADE_PRATICA_U4_A4_MACHINE_LEARNING_COM_PYTHON.pdf
-├── README.md                                          # Este arquivo
-└── roteiro_U4_A4_MACHINE_LEARNING_COM_PYTHON.pdf
+│   └── result_activity_2.png
+├── ATIVIDADE_PRATICA_U2_A4_PROCESSOS_NEGOCIO_ANALISE_SISTEMAS.pdf
+├── README.md              # Este arquivo
+├── processo_compras.bpmn  # Arquivo do diagrama BPMN
+└── roteiro_U2_A4_PROCESSOS_NEGOCIO_ANALISE_SISTEMAS.pdf
 ```
 
 ---
@@ -119,82 +103,63 @@ U4_A4_MACHINE_LEARNING_COM_PYTHON/
 ### ⚙️ Configuração e Execução
 
 - [ ] &nbsp;&nbsp;&nbsp;Pré-requisitos:
-      ✔️ - Python 3.6+ ou Google Colab.
+      ✔️ - Acesso à internet e navegador web.
 
 <br>
 
-- [ ] &nbsp;&nbsp;&nbsp;Acesso à internet para instalação das bibliotecas.
-- Para rodar localmente (opcional):
+- [x] &nbsp;&nbsp;&nbsp;Forma recomendada (conforme roteiro da disciplina) ➡ Acesse o bpmn.io e siga os passos:
 
-```bash
-cd U4_A4_MACHINE_LEARNING_COM_PYTHON/src
-python unit_four_lesson_four_machine_learning.py
-```
+```markdown
+Passo 1: Acesse https://bpmn.io
+Passo 2: Clique em "Try Online"
+Passo 3: Clique em "Create" para iniciar novo diagrama
 
-<br>
+Passo 4: Estruturar o diagrama com pools/lanes:
 
-- [x] &nbsp;&nbsp;&nbsp;Forma recomendada (conforme roteiro da disciplina) ➡ Abra o Google Colab, crie um novo notebook e implemente o sistema seguindo os passos:
+- Pool: Processo de Compras
+- Lanes:
+  - Solicitante
+  - Setor de Compras
+  - Fornecedores
+  - Setor de Recepção
+  - Setor Financeiro
 
-```python
-# Passo 1: Importar Bibliotecas e Carregar Dados
-import tensorflow as tf
-import pandas as pd
-import numpy as np
-from sklearn.datasets import load_iris
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
+Passo 5: Modelar fluxo principal:
 
-# Carregar conjunto de dados Iris
-iris = load_iris()
-X = iris.data  # Características: comprimento/largura sépalas e pétalas
-y = iris.target  # Espécies: 0=Setosa, 1=Versicolor, 2=Virginica
+- Evento Início: Solicitação Interna de Compra (SIC)
+- Tarefa: Realizar orçamentos (mínimo 3 fornecedores)
+- Tarefa: Fazer cotações
+- Gateway: Selecionar melhor condição comercial
+- Tarefa: Elaborar Ordem de Compra (OC)
+- Tarefa: Enviar OC ao fornecedor selecionado
 
-# Passo 2: Pré-processamento dos Dados
-# Dividir em conjuntos de treino e teste
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+Passo 6: Modelar fluxo de recebimento:
 
-# Normalizar os dados
-scaler = StandardScaler()
-X_train = scaler.fit_transform(X_train)
-X_test = scaler.transform(X_test)
+- Tarefa: Recepção da mercadoria e fatura
+- Tarefa: Conferência da mercadoria
+- Gateway: Material está correto?
+  - Sim: Encaminhar material e fatura
+  - Não: Rejeitar entrega
 
-# Passo 3: Construir o Modelo de Rede Neural
-model = tf.keras.Sequential([
-    tf.keras.layers.Dense(10, activation='relu', input_shape=(4,)),
-    tf.keras.layers.Dense(10, activation='relu'),
-    tf.keras.layers.Dense(3, activation='softmax')  # 3 classes de saída
-])
+Passo 7: Finalizar processo:
 
-# Compilar o modelo
-model.compile(optimizer='adam',
-              loss='sparse_categorical_crossentropy',
-              metrics=['accuracy'])
-
-# Passo 4: Treinar o Modelo
-history = model.fit(X_train, y_train, epochs=100, validation_split=0.2, verbose=1)
-
-# Passo 5: Avaliar o Modelo
-test_loss, test_accuracy = model.evaluate(X_test, y_test, verbose=0)
-print(f"Acurácia no conjunto de teste: {test_accuracy:.2f}")
-
-# Passo 6: Fazer Previsões
-predictions = model.predict(X_test)
-predicted_classes = np.argmax(predictions, axis=1)
+- Tarefa: Programação do pagamento
+- Evento Fim: Processo concluído
 ```
 
 ---
 
 ### 🔬 Testes Realizados
 
-✔️ - Testes manuais :
+✔️ - Verificações do diagrama :
 
-- [x] &nbsp;&nbsp;&nbsp;Carregamento correto do dataset Iris do Scikit-learn.
-- [x] &nbsp;&nbsp;&nbsp;Divisão adequada dos dados em treino e teste (80/20).
-- [x] &nbsp;&nbsp;&nbsp;Normalização eficaz com StandardScaler.
-- [x] &nbsp;&nbsp;&nbsp;Construção da arquitetura da rede neural com camadas densas.
-- [x] &nbsp;&nbsp;&nbsp;Treinamento do modelo com 100 épocas e validação.
-- [x] &nbsp;&nbsp;&nbsp;Avaliação da acurácia no conjunto de teste (>90%).
-- [x] &nbsp;&nbsp;&nbsp;Previsões consistentes para novas amostras.
+- [x] &nbsp;&nbsp;&nbsp;Utilização correta dos símbolos padrões BPMN.
+- [x] &nbsp;&nbsp;&nbsp;Separação adequada em rails por setores organizacionais.
+- [x] &nbsp;&nbsp;&nbsp;Representação completa do fluxo de Solicitação Interna de Compra.
+- [x] &nbsp;&nbsp;&nbsp;Inclusão de pelo menos três fornecedores no processo de cotação.
+- [x] &nbsp;&nbsp;&nbsp;Implementação de gateways para decisões (material correto/incorreto).
+- [x] &nbsp;&nbsp;&nbsp;Fluxo alternativo para tratamento de erros na entrega.
+- [x] &nbsp;&nbsp;&nbsp;Eventos de início e fim claramente definidos.
 
 ---
 
@@ -202,22 +167,22 @@ predicted_classes = np.argmax(predictions, axis=1)
 
 ✔️ Ao concluir esta atividade, você terá adquirido as seguintes habilidades e sub-habilidades :
 
-- Compreensão dos fundamentos de Machine Learning e redes neurais.
-- Manipulação de datasets clássicos para problemas de classificação.
-- Implementação de pré-processamento com Scikit-learn.
-- Construção de arquiteturas de redes neurais com TensorFlow/Keras.
-- Treinamento e avaliação de modelos de deep learning.
-- Interpretação de métricas de performance (acurácia, loss).
-- Realização de previsões com modelos treinados.
-- Habilidade em otimização de hiperparâmetros e arquiteturas..
+- Criação de diagramas BPMN seguindo o padrão 2.0.
+- Aplicação correta de elementos BPMN (tarefas, eventos, gateways, fluxos).
+- Modelagem de processos de negócio com múltiplos participantes.
+- Utilização de pools e lanes para organização departamental.
+- Representação de fluxos alternativos e tratamento de exceções.
+- Análise e documentação de processos empresariais complexos.
+- Habilidade em ferramentas de modelagem de processos (bpmn.io).
+- Capacidade de comunicar fluxos de trabalho visualmente.
 
 ---
 
-### 📜 License
+### 📜 Licença
 
-Por se tratar de um projeto de caráter exclusivamente acadêmico, desenvolvido como atividade prática da disciplina de Linguagem de Programação, ainda não foi atribuída uma licença formal de software (como MIT, GPL ou outra).
+Por se tratar de um projeto de caráter exclusivamente acadêmico, desenvolvido como atividade prática da disciplina de Análise e Modelagem de Sistemas, ainda não foi atribuída uma licença formal.
 
-O código tem finalidade educativa e de portfólio estudantil, sendo destinado apenas ao aprendizado e à avaliação no âmbito da faculdade. Caso deseje reutilizar ou adaptar o material para fins didáticos, sinta-se à vontade — apenas mantenha a referência ao autor original e ao contexto acadêmico.
+O diagrama tem finalidade educativa e de portfólio estudantil, sendo destinado apenas ao aprendizado e à avaliação no âmbito da faculdade. Caso deseje reutilizar ou adaptar o material para fins didáticos, sinta-se à vontade — apenas mantenha a referência ao autor original e ao contexto acadêmico.
 
 ---
 
@@ -248,4 +213,4 @@ O código tem finalidade educativa e de portfólio estudantil, sendo destinado a
 <br>
 <br>
 
-[⬆ Voltar ao topo](#projeto---atividade-prática-machine-learning-com-python)
+[⬆ Voltar ao topo](#atividade-prática-modelagem-bpmn-para-processo-de-compras)
