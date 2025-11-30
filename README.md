@@ -7,7 +7,9 @@
 ---
 
 <p align="center">
+<a href="https://blog.anhanguera.com/engenharia-de-software-faculdade/">
 <img src="/github/logo_finalizado-red.jpg" min-width="100px" width="150 min-height="100px" height=150x" alt="logo Anhaguera">
+</a>
 </p>
 
 ---
