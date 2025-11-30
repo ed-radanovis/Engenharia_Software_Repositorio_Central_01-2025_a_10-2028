@@ -58,7 +58,7 @@ Abaixo segue o resultado do projeto concluído:
 - [ ] Antes de iniciar este projeto, você deve ter conhecimento básico nas seguintes áreas:
 
 - **Linguagem C Básica:** Sintaxe, estrutura main, variáveis e tipos de dados.
-- **Entrada/Saída:** Comandos printf e scanf para interação com usuário.
+- **Entrada / Saída:** Comandos printf e scanf para interação com usuário.
 - **Estruturas Condicionais:** Compreensão de if-else para lógica básica.
 - **Operadores Relacionais:** Uso de operadores como != (diferente).
 - **OnlineGDB:** Familiaridade com a plataforma online.

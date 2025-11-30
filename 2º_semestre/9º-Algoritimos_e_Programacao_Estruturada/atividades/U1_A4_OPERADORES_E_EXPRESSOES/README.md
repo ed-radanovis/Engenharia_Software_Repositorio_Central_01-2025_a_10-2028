@@ -53,7 +53,7 @@ Abaixo segue o resultado do projeto concluído:
 - [ ] Antes de iniciar este projeto, você deve ter conhecimento básico nas seguintes áreas:
 
 - **Linguagem C Básica:** Sintaxe, estrutura main, variáveis e tipos de dados
-- **Entrada/Saída:** Comandos printf e scanf para interação com usuário
+- **Entrada / Saída:** Comandos printf e scanf para interação com usuário
 - **Operadores Matemáticos:** Conceitos básicos de aritmética
 - **Lógica Booleana:** Noções de condições verdadeiro/falso
 - **OnlineGDB:** Familiaridade com a plataforma online (opcional)
