@@ -35,17 +35,25 @@ Abaixo segue o resultado do projeto concluído:
 <p align="center">
 <img src="./src/images/readme_gif.gif" alt="page-gif" width="800px" >
 </p>
-
-<div align="center">
-<p></p>
-Clique aqui para testar... obrigado pelo seu interesse!
-
-( 🖱️ Ctrl + clique para abrir em uma nova aba ou visite [www.??????](https://www.??????) ).
-
-</div>
-
+<br>
  <p align="center">
 <img src="./src/images/Model2.png" alt="print-screen-image" width="800px" >
+</p>
+
+<br>
+
+### 🚀 Demonstração Online
+
+[![Live Demo](https://img.shields.io/badge/-🌐_Live_Demo-333333?style=for-the-badge&logo=github&logoColor=white)](https://ed-radanovis.github.io/Engenharia_Software_Repositorio_Central_01-2025_a_10-2028/)
+
+🔗 **Link direto:** https://ed-radanovis.github.io/Engenharia_Software_Repositorio_Central_01-2025_a_10-2028/
+
+📱 **Compatível com:** Desktop, Tablet e Mobile.
+
+<br>
+
+<p align="center">
+🤝🏻 Desde já agradeço pelo seu interesse!
 </p>
 
 ---
@@ -187,3 +195,4 @@ Este projeto está licenciado sob a [MIT License](LICENSE).
 <br>
 
 [⬆ Voltar ao topo](#projeto---atividade-prática-construção-de-front-end-baseado-em-framework)
+
