@@ -59,15 +59,15 @@
 A grade é aprovada pelo MEC e inclui disciplinas teóricas, práticas e optativas, com cargas horárias variando por semestre. Inclui estágios (obrigatórios), Enade e TCC.
 
 | Semestre | Carga Horária | Disciplinas Principais                                                                                                                                                                                          |
-| -------- | ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **1º**   | 360h          | Arquitetura e Organização de Computadores • Direito Cibernético • Empreendedorismo e Inovação • Engenharia, Ciência e Tecnologia • Gestão do Conhecimento e da Tecnologia da Informação • Sistemas Operacionais |
-| **2º**   | 360h          | Algoritmos e Programação Estruturada • Análise e Modelagem de Sistemas • Fundamentos de Cálculo Aplicado • Linguagem de Programação • Lógica e Matemática Computacional • Sociedade Brasileira e Cidadania      |
-| **3º**   | 520h          | Análise Orientada a Objetos • Engenharia de Requisitos • Engenharia de Software • Modelagem de Dados • Projeto de Extensão I • Sistemas de Informação e Computação                                              |
-| **4º**   | 360h          | Computação em Nuvem • Fundamentos da Inteligência Artificial • Linguagem Orientada a Objetos • Métodos Matemáticos • Programação e Desenvolvimento de Banco de Dados • Redes e Sistemas Distribuídos            |
-| **5º**   | 520h          | Arquitetura de Software • Gerenciamento e Qualidade de Software • Governança de Tecnologia da Informação • Interface e Usabilidade • Programação Web • Projeto de Extensão II                                   |
-| **6º**   | 360h          | Bancos de Dados Não Relacionais • Frameworks para Desenvolvimento de Software • Implementação de Projeto Web • Infraestrutura Ágil • Projeto de Software • Segurança e Auditoria de Sistemas                    |
-| **7º**   | 520h          | Desenvolvimento de E-Commerce com CMS • Desenvolvimento Mobile • Green IT • Projeto de Extensão III • Segurança em Engenharia de Software • Testes e Manutenção de Software                                     |
-| **8º**   | Variável      | Estágio Supervisionado (obrigatório) • Trabalho de Conclusão de Curso (TCC) I e II • Atividades Complementares (200h)                                                                                           |
+| :------: | :-----------: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|  **1º**  |     360h      | Arquitetura e Organização de Computadores • Direito Cibernético • Empreendedorismo e Inovação • Engenharia, Ciência e Tecnologia • Gestão do Conhecimento e da Tecnologia da Informação • Sistemas Operacionais |
+|  **2º**  |     360h      | Algoritmos e Programação Estruturada • Análise e Modelagem de Sistemas • Fundamentos de Cálculo Aplicado • Linguagem de Programação • Lógica e Matemática Computacional • Sociedade Brasileira e Cidadania      |
+|  **3º**  |     520h      | Análise Orientada a Objetos • Engenharia de Requisitos • Engenharia de Software • Modelagem de Dados • Projeto de Extensão I • Sistemas de Informação e Computação                                              |
+|  **4º**  |     360h      | Computação em Nuvem • Fundamentos da Inteligência Artificial • Linguagem Orientada a Objetos • Métodos Matemáticos • Programação e Desenvolvimento de Banco de Dados • Redes e Sistemas Distribuídos            |
+|  **5º**  |     520h      | Arquitetura de Software • Gerenciamento e Qualidade de Software • Governança de Tecnologia da Informação • Interface e Usabilidade • Programação Web • Projeto de Extensão II                                   |
+|  **6º**  |     360h      | Bancos de Dados Não Relacionais • Frameworks para Desenvolvimento de Software • Implementação de Projeto Web • Infraestrutura Ágil • Projeto de Software • Segurança e Auditoria de Sistemas                    |
+|  **7º**  |     520h      | Desenvolvimento de E-Commerce com CMS • Desenvolvimento Mobile • Green IT • Projeto de Extensão III • Segurança em Engenharia de Software • Testes e Manutenção de Software                                     |
+|  **8º**  |   Variável    | Estágio Supervisionado (obrigatório) • Trabalho de Conclusão de Curso (TCC) I e II • Atividades Complementares (200h)                                                                                           |
 
 ---
 
