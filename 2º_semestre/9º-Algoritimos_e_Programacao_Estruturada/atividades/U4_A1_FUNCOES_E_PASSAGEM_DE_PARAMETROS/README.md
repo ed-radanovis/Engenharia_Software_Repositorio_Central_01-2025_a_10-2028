@@ -205,7 +205,7 @@ O código tem finalidade educativa e de portfólio estudantil, sendo destinado a
     </td>
     <td align="center">
       <a href="https://edwebdev.vercel.app/">
-        <img src="/github/Logo_EWD_APEX_rounded-sem_fundo.png" width="200px" height="200px" alt="Logo EWD Apex"/><br>
+        <img src="/github/Logo_EWD.png" width="200px" height="200px" alt="Logo EWD Apex"/><br>
         <sub><b>Ed Web Dev</b></sub><br>
       </a>
     </td>

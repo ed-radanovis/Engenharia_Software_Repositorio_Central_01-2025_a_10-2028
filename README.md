@@ -284,7 +284,7 @@ O conteúdo tem finalidade educativa e de construção de portfólio. Fique à v
   <tr>
     <td align="center">
       <a href="https://edwebdev.vercel.app/">
-        <img src="/github/fundo_linkedin_atual_4_11-25.png" width="1000px" height="200px" alt="Logo EWD Apex"/><br>
+        <img src="/github/banner_EWD.png" width="1000px" height="200px" alt="Logo EWD Apex"/><br>
         <sub><b>Ed Web Dev</b></sub><br>
       </a>
     </td>
