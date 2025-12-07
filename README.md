@@ -26,7 +26,7 @@
 
  <div align="center">
 
-![Linguagens](https://github-readme-stats.vercel.app/api/top-langs/?username=ed-radanovis&repo=Engenharia_Software_Repositorio_Central_01-2025_a_10-2028&theme=dark&layout=compact&border_color=fdec02&title_color=0026ff&text_color=b3b3b3&card_width=700&bg_color=000000&exclude_repo=ed-radanovis,Samsung-Ocean-Fullstack-Journey-09-2023,coxaeventosteste,Financial_Management_SaaS_Finance-Control-EWD_Monolithic-Structure-Project-06-2025,Bootcamp-Mobile-Developer_Project-Challenges_06-2025,Soft-App_Memes-Machine_DIO-11-2022,Institutional_Website_Conti_HT_01-2024,Chat-With-Node-React-OpenAI--frontend,Chat-With-Node-React-OpenAI--backend,Inverted-World,Desafio-de-projeto-ANGULAR-2-DIO,Desafio-de-projeto-ANGULAR-1-DIO,Desafio-de-projeto-JS-1-DIO,Desafio-de-projeto-CSS-1-DIO,Desafio-de-projeto-HTML-1-DIO,Database-Conceptual-Project-Service-order-management-mechanic-shop-refined,Database-Conceptual-Project-E-COMMERCE-refined,First-React-project--back-end,First-React-project--front-end,Currency-Converter,Second-Node-project,First-Node-project,First-HTML-form,Desafio-de-projeto-HTML-2-DIO,portfolio-Edmar-Radanovis,Burgershop_fullstack_project-frontend,Burgershop_fullstack_project-backend,First-landing-page-from-YouTube)
+![Linguagens](https://clone-github-readme-stats-six.vercel.app/api/top-langs/?username=ed-radanovis&repo=Engenharia_Software_Repositorio_Central_01-2025_a_10-2028&theme=dark&layout=compact&border_color=fdec02&title_color=0026ff&text_color=b3b3b3&card_width=700&bg_color=000000&exclude_repo=ed-radanovis,Samsung-Ocean-Fullstack-Journey-09-2023,coxaeventosteste,Financial_Management_SaaS_Finance-Control-EWD_Monolithic-Structure-Project-06-2025,Bootcamp-Mobile-Developer_Project-Challenges_06-2025,Soft-App_Memes-Machine_DIO-11-2022,Institutional_Website_Conti_HT_01-2024,Chat-With-Node-React-OpenAI--frontend,Chat-With-Node-React-OpenAI--backend,Inverted-World,Desafio-de-projeto-ANGULAR-2-DIO,Desafio-de-projeto-ANGULAR-1-DIO,Desafio-de-projeto-JS-1-DIO,Desafio-de-projeto-CSS-1-DIO,Desafio-de-projeto-HTML-1-DIO,Database-Conceptual-Project-Service-order-management-mechanic-shop-refined,Database-Conceptual-Project-E-COMMERCE-refined,First-React-project--back-end,First-React-project--front-end,Currency-Converter,Second-Node-project,First-Node-project,First-HTML-form,Desafio-de-projeto-HTML-2-DIO,portfolio-Edmar-Radanovis,Burgershop_fullstack_project-frontend,Burgershop_fullstack_project-backend,First-landing-page-from-YouTube)
 
 </div>
 
@@ -296,4 +296,5 @@ O conteúdo tem finalidade educativa e de construção de portfólio. Fique à v
 
 [⬆ Voltar ao topo](#repositório-central)
 </DOCUMENT>
+
 
